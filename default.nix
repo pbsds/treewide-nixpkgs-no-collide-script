@@ -67,6 +67,24 @@ let
       cd $out
       xargs -P "$NIX_BUILD_CORES" -a ${filesToFormatFile} nixfmt
     '';
+
+  message = ''
+    treewide: format all inactive Nix files
+
+    Inactive means that there are no open PRs with activity in the
+    last month that touch those files.
+    A bunch later, we can do another pass to get the rest.
+
+    Doing it this way makes ensures that we don't cause any conflicts for
+    recently active PRs that would be ready to merge.
+    Only once those PRs get updated, CI will kick in and require the files
+    to be formatted.
+
+    Furthermore, this makes sure that we can merge this PR without having
+    to constantly rebase it!
+
+    This can be reproduced with this gist: https://gist.github.com/infinisil/4b7a1a1e5db681d04446e73e39048aec/archive/$Format:%H$.tar.gz
+  '';
 in
 pkgs.writeShellApplication {
   name = "check-formatting";
@@ -85,9 +103,12 @@ pkgs.writeShellApplication {
     git -C "$nixpkgs" worktree add "$tmp/formatted" "${baseRev}"
 
     rsync -r ${formatted}/ "$tmp/formatted"
-    git -C "$tmp/formatted" add -A
-    git -C "$tmp/formatted" commit -a -m "Autoformat"
+    git -C "$tmp/formatted" commit -a -m ${pkgs.lib.escapeShellArg message}
     formattedRev=$(git -C "$tmp/formatted" rev-parse HEAD)
+    echo -e "\n# treewide: Nix format pass 1\n$formattedRev" > "$tmp/formatted/.git-blame-ignore-revs"
+    git -C "$tmp/formatted" commit -a -m ".git-blame-ignore-revs: Add treewide Nix format"
+    finalRev=$(git -C "$tmp/formatted" rev-parse HEAD)
+    echo "Final revision: $finalRev"
     git -C "$nixpkgs" diff "$formattedRev"
   '';
 }
