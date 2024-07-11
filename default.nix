@@ -1,11 +1,12 @@
 {
   system ? builtins.currentSystem,
-  from ? "2024-06-27",
 }:
 let
+  baseRev = "6bf4ef3fafa1746608e08a21709e3f77f0790e8c";
+
   nixpkgs = fetchTarball {
-    url = "https://github.com/NixOS/nixpkgs/archive/383744754ed3bf2cfb6cf6ab108bb12b804f8737.tar.gz";
-    sha256 = "1bl56im8n0pyn81l89srf7xd03gkq57blwszdgrgsx9srx7ggrm8";
+    url = "https://github.com/tweag/nixpkgs/archive/${baseRev}.tar.gz";
+    sha256 = "0xkvwfrdnszq43jqyfp0njr32kx3vnnb2pcbqwva3i9wzgljz155";
   };
   pkgs = import nixpkgs {
     inherit system;
@@ -13,43 +14,80 @@ let
     overlays = [];
   };
   filesToFormatFile = ./files-to-format;
-in
-pkgs.runCommand "nixpkgs-formatted"
-  {
-    outputHash = "sha256-ZwR/McRzXGRiNxJhitd9fHEy1YiYf8uhUSu6ApDKiLo=";
-    outputHashAlgo = "sha256";
-    outputHashMode = "recursive";
 
-    nativeBuildInputs = with pkgs; [
-      nixfmt-rfc-style
-    ];
+  nixfmtSrc = fetchTarball {
+    url = "https://github.com/NixOS/nixfmt/archive/99829a0b149eab4d82764fb0b5d4b6f3ea9a480d.tar.gz";
+    sha256 = "0lnl9vlbyrfplmq3hpmpjlmhjdwwbgk900wgi25ib27v0mlgpnxp";
+  };
+  nixfmt = (import nixfmtSrc { inherit system; }).packages.nixfmt;
 
-    passthru.updateFiles = pkgs.writeShellApplication {
-      name = "update-files-to-format";
-      runtimeInputs = with pkgs; [
-        github-cli
-        jq
-        fd
+  formatted = pkgs.runCommand "nixpkgs-formatted"
+    {
+      outputHash = "YUEl4LCz5CDqRevJQaCplWpTLpoxhaxX8YonAAnIE10=";
+      outputHashAlgo = "sha256";
+      outputHashMode = "recursive";
+
+      nativeBuildInputs = [
+        nixfmt
       ];
-      text = ''
-        tmp=$(mktemp -d)
-        trap 'rm -rf "$tmp"' exit
 
-        gh pr list -R NixOS/nixpkgs --limit 10000 --search "updated:>$(date --date="${from}" -I)" --json files \
-          | jq -r '.[].files[].path' \
-          | sort -u > "$tmp"/pr-files
+      passthru.updateFiles = pkgs.writeShellApplication {
+        name = "update-files-to-format";
+        runtimeInputs = with pkgs; [
+          github-cli
+          jq
+          fd
+        ];
+        text = ''
+          tmp=$(mktemp -d)
+          trap 'rm -rf "$tmp"' exit
 
-        cd ${nixpkgs}
-        fd -t f -e nix \
-          | sort > "$tmp"/all-files
+          set -x
 
-        comm -23 "$tmp"/all-files "$tmp"/pr-files > ${toString filesToFormatFile}
-      '';
-    };
+          {
+            for day in $(seq 0 30); do
+              gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$(date --date="$day days ago" -I -u)" --json files |
+                jq '.[]' -c 
+            done
+          } |
+            jq -r '.files[].path' |
+            sort -u > "$tmp"/pr-files
 
-  }
-  ''
-    cp -r --no-preserve=mode ${nixpkgs} $out
-    cd $out
-    xargs -P "$NIX_BUILD_CORES" -a ${filesToFormatFile} nixfmt
-  ''
+          cd ${nixpkgs}
+          fd -t f -e nix \
+            | sort > "$tmp"/all-files
+
+          comm -23 "$tmp"/all-files "$tmp"/pr-files > ${toString filesToFormatFile}
+        '';
+      };
+
+    }
+    ''
+      cp -r --no-preserve=mode ${nixpkgs} $out
+      cd $out
+      xargs -P "$NIX_BUILD_CORES" -a ${filesToFormatFile} nixfmt
+    '';
+in
+pkgs.writeShellApplication {
+  name = "check-formatting";
+  text = ''
+    nixpkgs=$1
+
+    tmp=$(mktemp -d)
+    cleanup() {
+      # Don't exit early if anything fails to cleanup
+      set +o errexit
+      [[ -e "$tmp/formatted" ]] && git -C "$nixpkgs" worktree remove --force "$tmp/formatted"
+      rm -rf "$tmp"
+    }
+    trap cleanup exit
+
+    git -C "$nixpkgs" worktree add "$tmp/formatted" "${baseRev}"
+
+    rsync -r ${formatted}/ "$tmp/formatted"
+    git -C "$tmp/formatted" add -A
+    git -C "$tmp/formatted" commit -a -m "Autoformat"
+    formattedRev=$(git -C "$tmp/formatted" rev-parse HEAD)
+    git -C "$nixpkgs" diff "$formattedRev"
+  '';
+}
