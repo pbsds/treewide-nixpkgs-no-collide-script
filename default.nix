@@ -2,11 +2,11 @@
   system ? builtins.currentSystem,
 }:
 let
-  baseRev = "7b1f65302ec40b8c8cdb5ab2ba76fdb1eda2c622";
+  baseRev = "4f74d5e6d413b9599f90f91771fb58bb757d3663";
 
   nixpkgs = fetchTarball {
     url = "https://github.com/tweag/nixpkgs/archive/${baseRev}.tar.gz";
-    sha256 = "0r29x1gvq5q4r1li1z1jxk1ylgb5warbvi5jrxw0b4ig9vy0lii8";
+    sha256 = "1m2l36gj100v347xvsc61688p1s8fic8wndb642w7ggfj5kyykip";
   };
   pkgs = import nixpkgs {
     inherit system;
