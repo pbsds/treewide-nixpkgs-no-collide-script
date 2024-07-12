@@ -83,11 +83,15 @@ let
     Furthermore, this makes sure that we can merge this PR without having
     to constantly rebase it!
 
-    This can be reproduced with this gist: https://gist.github.com/infinisil/4b7a1a1e5db681d04446e73e39048aec/archive/$Format:%H$.tar.gz
+    This can be verified using
+
+        nix-build https://gist.github.com/infinisil/4b7a1a1e5db681d04446e73e39048aec/archive/$Format:%H$.tar.gz
+        result/bin/check-formatting $NIXPKGS_PATH
   '';
 in
 pkgs.writeShellApplication {
   name = "check-formatting";
+  excludeShellChecks = [ "SC2016" ];
   text = ''
     nixpkgs=$1
 
@@ -108,7 +112,7 @@ pkgs.writeShellApplication {
     echo -e "\n# treewide: Nix format pass 1\n$formattedRev" >> "$tmp/formatted/.git-blame-ignore-revs"
     git -C "$tmp/formatted" commit -a -m ".git-blame-ignore-revs: Add treewide Nix format"
     finalRev=$(git -C "$tmp/formatted" rev-parse HEAD)
-    echo "Final revision: $finalRev"
+    echo "Final revision: $finalRev (you can use this in e.g. \`git reset --hard\`)"
     git -C "$nixpkgs" diff "$finalRev"
   '';
 }
