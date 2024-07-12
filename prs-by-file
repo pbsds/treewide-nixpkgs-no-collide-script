@@ -155,105 +155,6 @@ pkgs/by-name/li/lianad/Cargo.lock 323696
 pkgs/by-name/li/lianad/package.nix 323696
 nixos/tests/keycloak.nix 323480
 pkgs/servers/keycloak/default.nix 323480
-.git-blame-ignore-revs 322537
-default.nix 322537
-doc/doc-support/python-interpreter-table.nix 322537
-lib/ascii-table.nix 322537
-lib/asserts.nix 322537
-lib/cli.nix 322537
-lib/debug.nix 322537
-lib/deprecated/misc.nix 322537
-lib/derivations.nix 322537
-lib/fileset/default.nix 322537
-lib/fileset/mock-splitRoot.nix 322537
-lib/filesystem.nix 322537
-lib/flake-version-info.nix 322537
-lib/flake.nix 322537
-lib/generators.nix 322537
-lib/gvariant.nix 322537
-lib/kernel.nix 322537
-lib/path/tests/default.nix 322537
-lib/path/tests/prop.nix 322537
-lib/path/tests/unit.nix 322537
-lib/source-types.nix 322537
-lib/tests/check-eval.nix 322537
-lib/tests/modules/adhoc-freeformType-survives-type-merge.nix 322537
-lib/tests/modules/alias-with-priority-can-override.nix 322537
-lib/tests/modules/alias-with-priority.nix 322537
-lib/tests/modules/attrsOf-conditional-check.nix 322537
-lib/tests/modules/attrsOf-lazy-check.nix 322537
-lib/tests/modules/boolByOr.nix 322537
-lib/tests/modules/class-check.nix 322537
-lib/tests/modules/declaration-positions.nix 322537
-lib/tests/modules/declare-attrsOf.nix 322537
-lib/tests/modules/declare-attrsOfSub-any-enable.nix 322537
-lib/tests/modules/declare-bare-submodule.nix 322537
-lib/tests/modules/declare-either.nix 322537
-lib/tests/modules/declare-int-between-value.nix 322537
-lib/tests/modules/declare-int-positive-value-nested.nix 322537
-lib/tests/modules/declare-int-positive-value.nix 322537
-lib/tests/modules/declare-int-unsigned-value.nix 322537
-lib/tests/modules/declare-lazyAttrsOf.nix 322537
-lib/tests/modules/declare-mkPackageOption.nix 322537
-lib/tests/modules/declare-oneOf.nix 322537
-lib/tests/modules/declare-set.nix 322537
-lib/tests/modules/declare-submodule-via-evalModules.nix 322537
-lib/tests/modules/declare-submoduleWith-modules.nix 322537
-lib/tests/modules/declare-submoduleWith-noshorthand.nix 322537
-lib/tests/modules/declare-submoduleWith-path.nix 322537
-lib/tests/modules/declare-submoduleWith-shorthand.nix 322537
-lib/tests/modules/declare-submoduleWith-special.nix 322537
-lib/tests/modules/declare-variants.nix 322537
-lib/tests/modules/default.nix 322537
-lib/tests/modules/deferred-module-error.nix 322537
-lib/tests/modules/deferred-module.nix 322537
-lib/tests/modules/define-attrsOfSub-bar-enable.nix 322537
-lib/tests/modules/define-attrsOfSub-bar.nix 322537
-lib/tests/modules/define-attrsOfSub-foo-enable.nix 322537
-lib/tests/modules/define-attrsOfSub-foo-force-enable.nix 322537
-lib/tests/modules/define-attrsOfSub-foo-if-enable.nix 322537
-lib/tests/modules/define-attrsOfSub-foo.nix 322537
-lib/tests/modules/define-attrsOfSub-force-foo-enable.nix 322537
-lib/tests/modules/define-attrsOfSub-if-foo-enable.nix 322537
-lib/tests/modules/define-enable-abort.nix 322537
-lib/tests/modules/define-enable-throw.nix 322537
-lib/tests/modules/define-enable.nix 322537
-lib/tests/modules/define-force-attrsOfSub-foo-enable.nix 322537
-lib/tests/modules/define-force-enable.nix 322537
-lib/tests/modules/define-freeform-keywords-shorthand.nix 322537
-lib/tests/modules/define-if-attrsOfSub-foo-enable.nix 322537
-lib/tests/modules/define-module-check.nix 322537
-lib/tests/modules/define-option-dependently-nested.nix 322537
-lib/tests/modules/define-option-dependently.nix 322537
-nixos/lib/eval-config-minimal.nix 322537
-nixos/lib/eval-config.nix 322537
-nixos/lib/from-env.nix 322537
-nixos/lib/make-btrfs-fs.nix 322537
-nixos/lib/make-channel.nix 322537
-nixos/lib/make-ext4-fs.nix 322537
-nixos/lib/make-iso9660-image.nix 322537
-nixos/lib/make-multi-disk-zfs-image.nix 322537
-nixos/lib/make-options-doc/default.nix 322537
-nixos/lib/make-single-disk-zfs-image.nix 322537
-nixos/lib/make-squashfs.nix 322537
-nixos/lib/make-system-tarball.nix 322537
-nixos/lib/qemu-common.nix 322537
-nixos/lib/systemd-network-units.nix 322537
-nixos/lib/test-driver/nixos-test-driver-docstrings.nix 322537
-nixos/lib/test-driver/shell.nix 322537
-nixos/lib/testing-python.nix 322537
-nixos/lib/testing/default.nix 322537
-nixos/lib/testing/driver.nix 322537
-nixos/lib/testing/interactive.nix 322537
-nixos/lib/testing/meta.nix 322537
-nixos/lib/testing/pkgs.nix 322537
-nixos/lib/testing/testScript.nix 322537
-nixos/lib/utils.nix 322537
-nixos/maintainers/option-usages.nix 322537
-nixos/maintainers/scripts/azure-new/examples/basic/image.nix 322537
-nixos/maintainers/scripts/azure-new/examples/basic/system.nix 322537
-nixos/maintainers/scripts/azure-new/shell.nix 322537
-nixos/maintainers/scripts/cloudstack/cloudstack-image.nix 322537
 pkgs/data/misc/hackage/pin.json 321948
 pkgs/development/compilers/ghc/9.6.6.nix 321948
 pkgs/development/haskell-modules/configuration-ghc-9.2.x.nix 321948
@@ -5288,8 +5189,8 @@ pkgs/servers/sql/postgresql/generic.nix 294504 325926 322025 314920 318383
 nixos/modules/system/boot/loader/systemd-boot/systemd-boot.nix 324911 323962 325347 201202 319422
 nixos/modules/services/backup/restic.nix 296691 307962 319807 314668 319824
 pkgs/by-name/si/siyuan/package.nix 317802 313442 323617 317312 313638
+lib/tests/modules.sh 324917 324798 256353 254212 230588
 pkgs/build-support/fetchgit/default.nix 303307 294329 300286 316668 49862
-lib/tests/modules.sh 322537 324917 324798 256353 254212 230588
 pkgs/development/node-packages/main-programs.nix 325110 323278 323705 323493 309100 317333
 pkgs/applications/editors/vim/plugins/overrides.nix 312311 311427 302442 318892 322969 278871
 nixos/modules/services/monitoring/prometheus/exporters.nix 290452 316880 301253 318540 313651 314291
