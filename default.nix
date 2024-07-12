@@ -89,7 +89,7 @@ pkgs.writeShellApplication {
     echo -e "\n# treewide: Nix format pass 1\n$formattedRev" >> "$tmp/formatted/.git-blame-ignore-revs"
     git -C "$tmp/formatted" commit -a -m ".git-blame-ignore-revs: Add treewide Nix format"
     finalRev=$(git -C "$tmp/formatted" rev-parse HEAD)
-    git -C "$nixpkgs" diff HEAD.."$finalRev"
+    git -C "$nixpkgs" diff HEAD.."$finalRev" || true
     echo "Final revision: $finalRev (you can use this in e.g. \`git reset --hard\`)"
   '';
 } // {
