@@ -30,37 +30,6 @@ let
       nativeBuildInputs = [
         nixfmt
       ];
-
-      passthru.updateFiles = pkgs.writeShellApplication {
-        name = "update-files-to-format";
-        runtimeInputs = with pkgs; [
-          github-cli
-          jq
-          fd
-        ];
-        text = ''
-          tmp=$(mktemp -d)
-          trap 'rm -rf "$tmp"' exit
-
-          set -x
-
-          {
-            for day in $(seq 0 30); do
-              gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$(date --date="$day days ago" -I -u)" --json files |
-                jq '.[]' -c 
-            done
-          } |
-            jq -r '.files[].path' |
-            sort -u > "$tmp"/pr-files
-
-          cd ${nixpkgs}
-          fd -t f -e nix \
-            | sort > "$tmp"/all-files
-
-          comm -23 "$tmp"/all-files "$tmp"/pr-files > ${toString filesToFormatFile}
-        '';
-      };
-
     }
     ''
       cp -r --no-preserve=mode ${nixpkgs} $out
@@ -115,4 +84,37 @@ pkgs.writeShellApplication {
     echo "Final revision: $finalRev (you can use this in e.g. \`git reset --hard\`)"
     git -C "$nixpkgs" diff "$finalRev"
   '';
+} // {
+  updateFiles = pkgs.writeShellApplication {
+    name = "update-files-to-format";
+    runtimeInputs = with pkgs; [
+      github-cli
+      jq
+      fd
+    ];
+    text = ''
+      tmp=$(mktemp -d)
+      trap 'rm -rf "$tmp"' exit
+
+      {
+        for day in $(seq 0 30); do
+          date=$(date --date="$day days ago" -I -u)
+          echo "Fetching PRs from $date" >&2
+          result=$(gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$date" --json files |
+            jq '.[]' -c )
+          count=$(jq -s 'length' <<< "$result")
+          echo "Got $count PRs" >&2
+          echo -n "$result"
+        done
+      } |
+        jq -r '.files[].path' |
+        sort -u > "$tmp"/pr-files
+
+      cd ${nixpkgs}
+      fd -t f -e nix \
+        | sort > "$tmp"/all-files
+
+      comm -23 "$tmp"/all-files "$tmp"/pr-files > ${toString filesToFormatFile}
+    '';
+  };
 }
