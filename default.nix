@@ -13,7 +13,7 @@ let
     config = {};
     overlays = [];
   };
-  filesToFormatFile = ./files-to-format;
+  prsByFilePath = ./prs-by-file;
 
   nixfmtSrc = fetchTarball {
     url = "https://github.com/NixOS/nixfmt/archive/99829a0b149eab4d82764fb0b5d4b6f3ea9a480d.tar.gz";
@@ -25,12 +25,24 @@ let
     {
       nativeBuildInputs = [
         nixfmt
+        pkgs.fd
       ];
     }
     ''
+      tmp=$(mktemp -d)
+
       cp -r --no-preserve=mode ${nixpkgs} $out
       cd $out
-      xargs -P "$NIX_BUILD_CORES" -a ${filesToFormatFile} nixfmt
+
+      fd -t f -e nix \
+        | sort > "$tmp"/all-files
+
+      cut -d' ' -f1 "${prsByFilePath}" |
+        sort -u > "$tmp/pr-files"
+
+      comm -23 "$tmp"/all-files "$tmp"/pr-files > "$tmp/files-to-format"
+
+      xargs -P "$NIX_BUILD_CORES" -a "$tmp/files-to-format" nixfmt
     '';
 
   message = ''
@@ -96,21 +108,26 @@ pkgs.writeShellApplication {
         for day in $(seq 0 60); do
           date=$(date --date="$day days ago" -I -u)
           echo "Fetching PRs from $date" >&2
-          result=$(gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$date" --json files |
-            jq '.[]' -c )
+          result=$(gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$date -label:\"2.status: merge conflict\"" --json files,number |
+            jq '.[]' -c)
           count=$(jq -s 'length' <<< "$result")
           echo "Got $count PRs" >&2
           echo -n "$result"
         done
       } |
-        jq -r '.files[].path' |
-        sort -u > "$tmp"/pr-files
-
-      cd ${nixpkgs}
-      fd -t f -e nix \
-        | sort > "$tmp"/all-files
-
-      comm -23 "$tmp"/all-files "$tmp"/pr-files > ${toString filesToFormatFile}
+        jq -s 'map(
+          .number as $number |
+            .files[] |
+            { number: $number, path: .path }
+          ) |
+          reduce .[] as $item ({};
+            . "\($item.path)" += [ $item.number ]
+          ) |
+          to_entries |
+          sort_by(.value | length) |
+          .[] |
+          "\(.key) \(.value | join(" "))"
+        ' -r > "${toString prsByFilePath}"
     '';
   };
 }
