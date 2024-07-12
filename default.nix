@@ -2,11 +2,11 @@
   system ? builtins.currentSystem,
 }:
 let
-  baseRev = "6bf4ef3fafa1746608e08a21709e3f77f0790e8c";
+  baseRev = "7b1f65302ec40b8c8cdb5ab2ba76fdb1eda2c622";
 
   nixpkgs = fetchTarball {
     url = "https://github.com/tweag/nixpkgs/archive/${baseRev}.tar.gz";
-    sha256 = "0xkvwfrdnszq43jqyfp0njr32kx3vnnb2pcbqwva3i9wzgljz155";
+    sha256 = "0r29x1gvq5q4r1li1z1jxk1ylgb5warbvi5jrxw0b4ig9vy0lii8";
   };
   pkgs = import nixpkgs {
     inherit system;
@@ -23,10 +23,6 @@ let
 
   formatted = pkgs.runCommand "nixpkgs-formatted"
     {
-      outputHash = "YUEl4LCz5CDqRevJQaCplWpTLpoxhaxX8YonAAnIE10=";
-      outputHashAlgo = "sha256";
-      outputHashMode = "recursive";
-
       nativeBuildInputs = [
         nixfmt
       ];
@@ -97,7 +93,7 @@ pkgs.writeShellApplication {
       trap 'rm -rf "$tmp"' exit
 
       {
-        for day in $(seq 0 30); do
+        for day in $(seq 0 60); do
           date=$(date --date="$day days ago" -I -u)
           echo "Fetching PRs from $date" >&2
           result=$(gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$date" --json files |
