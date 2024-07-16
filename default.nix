@@ -2,12 +2,10 @@
   system ? builtins.currentSystem,
 }:
 let
-  baseRev = "4f74d5e6d413b9599f90f91771fb58bb757d3663";
+  baseRev = "7ffbecde9aa26364ac79010154bf78bb77529fd2";
 
-  nixpkgs = fetchTarball {
-    url = "https://github.com/tweag/nixpkgs/archive/${baseRev}.tar.gz";
-    sha256 = "1m2l36gj100v347xvsc61688p1s8fic8wndb642w7ggfj5kyykip";
-  };
+  nixpkgs = fetchTarball "https://github.com/tweag/nixpkgs/archive/${baseRev}.tar.gz";
+
   pkgs = import nixpkgs {
     inherit system;
     config = {};
@@ -26,6 +24,7 @@ let
       nativeBuildInputs = [
         nixfmt
         pkgs.fd
+        pkgs.nix
       ];
     }
     ''
@@ -43,6 +42,14 @@ let
       comm -23 "$tmp"/all-files "$tmp"/pr-files > "$tmp/files-to-format"
 
       xargs -P "$NIX_BUILD_CORES" -a "$tmp/files-to-format" nixfmt
+
+      export NIX_STATE_DIR=$(mktemp -d)
+
+      while IFS= read -r file; do
+        if [[ "$(nix-instantiate --parse "''${nixpkgs}/$file")" != "$(nix-instantiate --parse ./"$file")" ]]; then
+          echo "$file parses differently after formatting"
+        fi
+      done < "$tmp/files-to-format"
     '';
 
   message = ''
