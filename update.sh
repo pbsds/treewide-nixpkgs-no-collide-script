@@ -8,7 +8,7 @@ trap 'rm -rf "$tmp"' exit
     date=$(date --date="$day days ago" -I -u)
     echo "Fetching PRs from $date" >&2
     result=$(gh pr list -R NixOS/nixpkgs --limit 500 --search "updated:$date -label:\"2.status: merge conflict\"" --json files,number |
-      jq '.[] | select(.number != 322537)' -c)
+      jq '.[] | select(.number != 322537 and .number != 327796)' -c)
     count=$(jq -s 'length' <<< "$result")
     echo "Got $count PRs" >&2
     echo -n "$result"
