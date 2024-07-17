@@ -119,7 +119,7 @@ let
 
     This can be verified using
 
-        nix-build https://gist.github.com/infinisil/4b7a1a1e5db681d04446e73e39048aec/archive/$Format:%H$.tar.gz \
+        nix-build https://github.com/infinisil/treewide-nixpkgs-reformat-script/archive/$Format:%H$.tar.gz \
           --argstr baseRev ${baseRev}
         result/bin/apply-formatting $NIXPKGS_PATH
   '';
