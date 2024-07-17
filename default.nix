@@ -2,7 +2,7 @@
   system ? builtins.currentSystem,
   baseRev ? "72e7fd797e15eaf3f13d3c1d4e80a1e3dfb0ecdf",
 }:
-rec {
+let
   nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/${baseRev}.tar.gz";
 
   pkgs = import nixpkgs {
@@ -177,4 +177,7 @@ rec {
         ' -r > "${toString prsByFilePath}"
     '';
   };
+in
+{
+  inherit updateFiles applyFormatting;
 }
