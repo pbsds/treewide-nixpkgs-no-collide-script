@@ -12,11 +12,6 @@ rec {
   };
   prsByFilePath = ./prs-by-file;
 
-  nixSrc = fetchTarball {
-    url = "https://github.com/NixOS/nix/archive/8f22245fdfee1516614b0eb09538ea7e4448f5bb.tar.gz";
-    sha256 = "1bb4fpb6kdi7vrhwqghl2880rx3pzzxij42izfn4br93ymbi6vgk";
-  };
-
   nixfmtSrc = fetchTarball {
     url = "https://github.com/NixOS/nixfmt/archive/99829a0b149eab4d82764fb0b5d4b6f3ea9a480d.tar.gz";
     sha256 = "0lnl9vlbyrfplmq3hpmpjlmhjdwwbgk900wgi25ib27v0mlgpnxp";
@@ -64,7 +59,6 @@ rec {
     {
       nativeBuildInputs = [
         (pkgs.nixVersions.latest.overrideAttrs (old: {
-          src = nixSrc;
           patches = old.patches or [] ++ [
             # https://github.com/NixOS/nix/pull/11120
             (pkgs.fetchpatch {
