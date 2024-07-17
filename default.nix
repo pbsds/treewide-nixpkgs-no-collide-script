@@ -1,6 +1,7 @@
 {
   system ? builtins.currentSystem,
-  baseRev
+  baseRev,
+  check ? false,
 }:
 let
   baseNixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/${baseRev}.tar.gz";
@@ -67,7 +68,7 @@ let
     wc -l < $out/files-to-format > $out/count
   '';
 
-  processFile = pkgs.writeShellScript "process" ''
+  checkedNixfmt = pkgs.writeShellScript "checked-nixfmt" ''
     set -euo pipefail
 
     before=$(nix-instantiate --parse "$1")
@@ -98,7 +99,7 @@ let
       export NIX_STATE_DIR=$(mktemp -d)
       nix-store --init
 
-      parallel --bar -P "$NIX_BUILD_CORES" -a "${files}/files-to-format" ${processFile} {}
+      parallel --bar -P "$NIX_BUILD_CORES" -a "${files}/files-to-format" ${if check then checkedNixfmt else "nixfmt"} {}
     '';
 
   message = ''
