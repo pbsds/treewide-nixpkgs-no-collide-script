@@ -1,14 +1,126 @@
+pkgs/by-name/du/dust/package.nix 327777
+pkgs/by-name/kl/klog-time-tracker/package.nix 327776
+pkgs/development/tools/delve/default.nix 327775
+pkgs/applications/science/astronomy/gnuastro/default.nix 327773
+pkgs/servers/http/apache-modules/mod_auth_mellon/default.nix 327772
+pkgs/tools/security/aflplusplus/default.nix 327771
+pkgs/tools/security/aflplusplus/qemu.nix 327771
+pkgs/development/libraries/libsvm/default.nix 327770
+pkgs/development/compilers/chicken/5/chicken.nix 327769
+pkgs/tools/misc/aichat/default.nix 327768
+pkgs/by-name/le/lexido/package.nix 327767
+pkgs/by-name/ev/evil-helix/package.nix 327766
+nixos/modules/services/networking/scion/scion-control.nix 327765
+nixos/modules/services/networking/scion/scion-daemon.nix 327765
+nixos/modules/services/networking/scion/scion-dispatcher.nix 327765
+nixos/modules/services/networking/scion/scion-router.nix 327765
+nixos/modules/services/networking/scion/scion.nix 327765
+pkgs/development/compilers/go/1.23.nix 327764
+nixos/modules/config/swap.nix 327763
+pkgs/development/python-modules/mdformat-admon/default.nix 327761
+pkgs/applications/graphics/ImageMagick/default.nix 327720
+pkgs/development/web/nodejs/bypass-darwin-xcrun-node16.patch 327653
+pkgs/development/web/nodejs/configure-emulator-node18.patch 327653
+pkgs/development/web/nodejs/configure-emulator.patch 327653
+pkgs/applications/office/gnucash/default.nix 327459
+pkgs/development/python-modules/guidata/default.nix 327446
+pkgs/development/python-modules/qwt/default.nix 327446
+pkgs/development/python-modules/scipy/default.nix 327437
+pkgs/data/misc/hackage/pin.json 327219
+pkgs/top-level/haskell-packages.nix 327219
+pkgs/by-name/op/openscap/package.nix 326745
+pkgs/by-name/po/poptracker/package.nix 326697
+pkgs/tools/system/tree/default.nix 326651
+lib/tests/modules/declaration-positions.nix 326430
+pkgs/applications/editors/vim/plugins/get-plugins.nix 326430
+pkgs/build-support/trivial-builders/test/references/apath.txt 326430
+pkgs/build-support/trivial-builders/test/references/samples.nix 326430
+pkgs/test/haskell/cabalSdist/default.nix 326430
+pkgs/tools/nix/info/multiuser.nix 326430
+pkgs/tools/nix/info/relaxedsandbox.nix 326430
+pkgs/tools/nix/info/sandbox.nix 326430
+nixos/modules/services/misc/gotenberg.nix 326372
+nixos/tests/gotenberg.nix 326372
+pkgs/applications/editors/emacs/sources.nix 326357
+pkgs/by-name/li/libiconv-darwin/0001-Support-static-module-loading.patch 326357
+pkgs/by-name/li/libiconv-darwin/0002-Fix-ISO-2022-out-of-bounds-write-with-encoded-charac.patch 326357
+pkgs/by-name/li/libiconv-darwin/meson.build 326357
+pkgs/by-name/li/libiconv-darwin/nixpkgs_test.c 326357
+pkgs/by-name/li/libiconv-darwin/package.nix 326357
+pkgs/by-name/li/libiconv-darwin/static-modules.gperf 326357
+pkgs/by-name/li/libiconv-darwin/static-setup-hook.sh 326357
+pkgs/by-name/me/meson/005-boost-Do-not-add-system-paths-on-nix.patch 326357
+pkgs/development/compilers/go/1.22.nix 326357
+pkgs/development/compilers/llvm/18/default.nix 326357
+pkgs/development/libraries/audio/libopenmpt/default.nix 326357
+pkgs/development/libraries/openssl/3.3/CVE-2024-5535.patch 326357
+pkgs/development/libraries/polkit/default.nix 326357
+pkgs/development/python-modules/curio/default.nix 326357
+pkgs/development/python-modules/django-storages/default.nix 326357
+pkgs/development/python-modules/django/4.nix 326357
+pkgs/development/python-modules/pyasn1-modules/default.nix 326357
+pkgs/development/python-modules/pymysql/default.nix 326357
+pkgs/development/web/nodejs/bin-sh-node-run-v22.patch 326357
+pkgs/development/web/nodejs/bypass-xcodebuild.diff 326357
+pkgs/development/web/nodejs/gyp-patches-pre-v22-import-sys.patch 326357
+pkgs/development/web/nodejs/gyp-patches-v22-import-sys.patch 326357
+pkgs/development/web/nodejs/gyp-patches.nix 326357
+pkgs/development/web/nodejs/use-correct-env-in-tests.patch 326357
+pkgs/by-name/fi/fichub-cli/package.nix 325173
+pkgs/development/python-modules/joblib/default.nix 322374
+pkgs/development/python-modules/joblib/nix_build_env.patch 322374
+pkgs/by-name/cr/creality-print/package.nix 308854
+pkgs/applications/audio/mympd/default.nix 327760
+pkgs/development/python-modules/trackpy/default.nix 327759
+pkgs/applications/networking/instant-messengers/signalbackup-tools/default.nix 327756
+pkgs/development/python-modules/ansible-pylibssh/default.nix 327755
+pkgs/applications/misc/ulauncher/default.nix 327753
+pkgs/by-name/ph/phpunit/package.nix 327751
+pkgs/applications/version-management/git-repo/default.nix 327749
+nixos/modules/programs/tsm-client.nix 327748
+pkgs/development/python-modules/xsdata/default.nix 327745
+pkgs/development/python-modules/xsdata/paths.patch 327745
+pkgs/development/python-modules/openai/default.nix 327744
+nixos/modules/services/web-apps/dokuwiki.nix 327743
+nixos/tests/dokuwiki.nix 327743
+lib/flake-version-info.nix 327740
+lib/version-info-fixup.nix 327740
+nixos/modules/installer/tools/config-templates/by-attr.alias 327740
+nixos/modules/installer/tools/config-templates/by-attribute-stable/default.nix 327740
+nixos/modules/installer/tools/config-templates/by-attribute-this-nixpkgs/default.nix 327740
+nixos/modules/installer/tools/config-templates/by-attribute-unstable/default.nix 327740
+nixos/modules/installer/tools/config-templates/by-attribute-with-channels/default.nix 327740
+nixos/modules/installer/tools/config-templates/by-attribute.alias 327740
+nixos/modules/installer/tools/config-templates/flake-stable/flake.nix 327740
+nixos/modules/installer/tools/config-templates/flake-unstable/flake.nix 327740
+nixos/modules/installer/tools/config-templates/flake.alias 327740
+nixos/modules/installer/tools/manpages/nixos-generate-config.8 327740
+pkgs/development/coq-modules/vscoq-language-server/default.nix 327737
+pkgs/os-specific/linux/kernel/zen-kernels.nix 327732
+pkgs/applications/misc/gramps/default.nix 327731
+pkgs/tools/misc/graylog/5.1.nix 327730
+pkgs/tools/misc/graylog/5.2.nix 327730
+pkgs/tools/misc/graylog/6.0.nix 327730
+pkgs/tools/misc/graylog/graylog.nix 327730
+nixos/modules/services/finance/odoo.nix 327729
+pkgs/by-name/od/odoo/package.nix 327729
+pkgs/development/libraries/spglib/default.nix 327727
+pkgs/development/python-modules/incomfort-client/default.nix 327725
+pkgs/development/python-modules/qdldl/default.nix 327724
+pkgs/by-name/ja/jasp-desktop/modules.nix 327718
+pkgs/by-name/ja/jasp-desktop/package.nix 327718
+pkgs/stdenv/linux/make-bootstrap-tools-cross.nix 327715
+pkgs/servers/clickhouse/default.nix 327714
+pkgs/applications/version-management/git-credential-oauth/default.nix 327710
+nixos/modules/config/xdg/icons.nix 327703
+pkgs/development/tools/java/visualvm/default.nix 327699
 pkgs/os-specific/linux/kernel/xanmod-kernels.nix 327698
-pkgs/applications/science/chemistry/gwyddion/default.nix 327697
-pkgs/by-name/sa/saunafs/package.nix 327696
-pkgs/tools/text/scraper/default.nix 327695
 pkgs/by-name/go/goread/package.nix 327694
 pkgs/by-name/ni/nixfmt-rfc-style/date.txt 327693
 pkgs/by-name/ni/nixfmt-rfc-style/generated-package.nix 327693
 pkgs/by-name/ni/nixfmt-rfc-style/package.nix 327693
 pkgs/by-name/ni/nixfmt-rfc-style/update.sh 327693
 pkgs/applications/networking/pyload-ng/default.nix 327691
-pkgs/development/python-modules/cohere/default.nix 327690
 pkgs/by-name/ni/nixtract/package.nix 327689
 pkgs/applications/version-management/gitlab/data.json 327688
 pkgs/applications/version-management/gitlab/gitaly/default.nix 327688
@@ -22,16 +134,9 @@ pkgs/applications/version-management/gitlab/update.py 327688
 pkgs/development/python-modules/nethsm/default.nix 327687
 pkgs/servers/osrm-backend/darwin.patch 327686
 pkgs/servers/osrm-backend/default.nix 327686
-pkgs/development/python-modules/nebula3-python/default.nix 327685
 pkgs/servers/mail/mailman/postorius.nix 327684
-pkgs/by-name/ma/mautrix-meta/package.nix 327682
-pkgs/tools/networking/cfspeedtest/default.nix 327681
-pkgs/by-name/nn/nn/package.nix 327680
-pkgs/by-name/hy/hypre/package.nix 327679
-pkgs/by-name/po/posy-cursors/package.nix 327678
 pkgs/tools/misc/svtplay-dl/default.nix 327677
 pkgs/applications/editors/emacs/elisp-packages/manual-packages/llvm-mode/default.nix 327676
-pkgs/by-name/za/zapret/package.nix 327675
 pkgs/development/python-modules/meraki/default.nix 327674
 pkgs/applications/office/libreoffice/src-fresh/deps.nix 327673
 pkgs/applications/office/libreoffice/src-fresh/help.nix 327673
@@ -45,13 +150,8 @@ pkgs/applications/misc/themechanger/default.nix 327666
 nixos/modules/system/boot/binfmt.nix 327665
 pkgs/applications/networking/instant-messengers/gomuks/default.nix 327663
 pkgs/applications/misc/far2l/default.nix 327662
-pkgs/development/tools/language-servers/nixd/default.nix 327661
-pkgs/tools/inputmethods/keymapper/default.nix 327660
-pkgs/development/python-modules/prometrix/default.nix 327659
 pkgs/by-name/op/open-fprintd/package.nix 327656
-pkgs/development/python-modules/srp/default.nix 327655
-pkgs/development/web/nodejs/configure-emulator-node18.patch 327653
-pkgs/development/web/nodejs/configure-emulator.patch 327653
+pkgs/build-support/dotnet/build-dotnet-module/default.nix 327651
 pkgs/build-support/dotnet/build-dotnet-module/fetch-deps.sh 327651
 pkgs/build-support/dotnet/build-dotnet-module/hooks/default.nix 327651
 pkgs/by-name/to/torrentstream/package.nix 327651
@@ -71,7 +171,6 @@ pkgs/development/tools/godot/3/mono/default.nix 327651
 pkgs/development/tools/godot/3/mono/make-deps.nix 327651
 pkgs/servers/nosql/eventstore/default.nix 327651
 pkgs/test/dotnet/project-references/application/Application.csproj 327651
-pkgs/applications/graphics/ImageMagick/default.nix 327650
 pkgs/shells/zsh/oh-my-zsh/default.nix 327649
 pkgs/development/perl-modules/Percona-Toolkit/default.nix 327647
 pkgs/tools/misc/percona-toolkit/default.nix 327647
@@ -81,39 +180,19 @@ pkgs/by-name/gi/git-backup-go/package.nix 327646
 pkgs/development/tools/altair-graphql-client/default.nix 327644
 pkgs/development/python-modules/devito/default.nix 327643
 pkgs/applications/video/bino3d/default.nix 327642
-pkgs/tools/graphics/wkhtmltopdf-bin/default.nix 327641
-pkgs/tools/graphics/wkhtmltopdf/default.nix 327641
-pkgs/tools/system/supercronic/default.nix 327640
-pkgs/by-name/lo/localsend/package.nix 327639
-pkgs/by-name/lo/localsend/pubspec.lock.json 327639
-pkgs/by-name/lo/localsend/update.sh 327639
 pkgs/by-name/re/realm-studio/package.nix 327633
 pkgs/development/python-modules/inquirer/default.nix 327632
-pkgs/development/interpreters/erlang/25.nix 327631
-pkgs/development/interpreters/erlang/27.nix 327631
-pkgs/development/interpreters/erlang/generic-builder.nix 327631
 pkgs/applications/misc/safeeyes/default.nix 327628
-pkgs/applications/office/libreoffice/default.nix 327627
-pkgs/tools/text/unoconv/default.nix 327627
-pkgs/development/python-modules/av/test-samples.toml 327626
-pkgs/development/python-modules/av/update-test-samples.bash 327626
 nixos/modules/programs/ydotool.nix 327625
 pkgs/applications/audio/roomeqwizard/default.nix 327624
 pkgs/development/interpreters/wamr/default.nix 327622
 pkgs/tools/security/rnp/default.nix 327620
-pkgs/development/tools/misc/hydra-cli/Cargo.lock 327616
-pkgs/development/tools/misc/hydra-cli/default.nix 327616
-pkgs/development/tools/tailwindcss/default.nix 327615
 pkgs/by-name/cr/crates-io-cli/package.nix 327613
-pkgs/by-name/bp/bpftop/package.nix 327611
 pkgs/development/tools/sshs/Cargo.lock 327609
 pkgs/development/tools/sshs/Cargo.toml 327609
 pkgs/development/tools/sshs/default.nix 327609
 pkgs/development/python-modules/ecs-logging/default.nix 327608
-pkgs/development/python-modules/dep-logic/default.nix 327606
-pkgs/development/python-modules/tencentcloud-sdk-python/default.nix 327605
 pkgs/by-name/my/myrescue/package.nix 327604
-pkgs/development/tools/rover/default.nix 327603
 pkgs/applications/misc/cherrytree/default.nix 327600
 pkgs/by-name/xa/xarcan/package.nix 327597
 pkgs/by-name/ui/uiua/package.nix 327595
@@ -123,7 +202,6 @@ pkgs/by-name/sn/snippetexpandergui/package.nix 327593
 pkgs/by-name/at/atlauncher/deps.json 327592
 pkgs/by-name/at/atlauncher/package.nix 327592
 pkgs/by-name/he/hextazy/package.nix 327591
-pkgs/tools/system/automatic-timezoned/default.nix 327588
 pkgs/applications/version-management/git-series/Cargo.lock 327586
 pkgs/applications/version-management/git-series/default.nix 327586
 pkgs/by-name/ae/aerc/package.nix 327585
@@ -135,12 +213,7 @@ pkgs/build-support/docker/stream_layered_image.py 327579
 pkgs/servers/lidarr/default.nix 327578
 pkgs/by-name/st/stackql/package.nix 327576
 pkgs/by-name/do/dopamine/package.nix 327574
-pkgs/by-name/mu/musikcube/package.nix 327573
-pkgs/tools/security/gotrue/supabase.nix 327571
-pkgs/development/tools/database/sqlite-web/default.nix 327567
 pkgs/development/python-modules/aioautomower/default.nix 327565
-pkgs/by-name/gn/gnome-keyring/package.nix 327562
-pkgs/development/libraries/gvfs/default.nix 327562
 pkgs/by-name/au/autorecon/dont-copy-perms.patch 327560
 pkgs/by-name/au/autorecon/package.nix 327560
 pkgs/by-name/di/dirsearch/package.nix 327560
@@ -149,31 +222,23 @@ pkgs/by-name/os/oscanner/package.nix 327560
 pkgs/by-name/tn/tnscmd10g/package.nix 327560
 pkgs/servers/monitoring/net-snmp/default.nix 327560
 pkgs/tools/security/sipvicious/default.nix 327560
-pkgs/by-name/un/unhide/package.nix 327557
 pkgs/development/haskell-modules/configuration-hackage2nix/transitive-broken.yaml 327556
-pkgs/by-name/ch/chezmoi/package.nix 327555
 nixos/lib/test-driver/shell.nix 327553
 nixos/maintainers/scripts/azure-new/shell.nix 327553
 pkgs/development/tools/misc/travis/shell.nix 327553
 pkgs/tools/security/metasploit/shell.nix 327553
-pkgs/applications/networking/cluster/argocd/default.nix 327551
 pkgs/servers/traefik/default.nix 327550
 pkgs/development/python-modules/holidays/default.nix 327549
 pkgs/applications/audio/tidal-hifi/default.nix 327547
-pkgs/servers/spicedb/zed.nix 327545
 pkgs/applications/science/biology/kent/default.nix 327543
 pkgs/development/python-modules/aioairzone/default.nix 327540
-pkgs/applications/networking/cluster/civo/default.nix 327539
-pkgs/tools/filesystems/tar2ext4/default.nix 327538
 pkgs/development/libraries/libjwt/default.nix 327533
 pkgs/development/python-modules/beaker/default.nix 327530
-pkgs/development/tools/yaml2json/default.nix 327529
 pkgs/tools/security/slsa-verifier/default.nix 327527
 pkgs/tools/typesetting/coq2html/default.nix 327523
 pkgs/applications/editors/ox/default.nix 327522
 pkgs/development/python-modules/getmac/default.nix 327521
 pkgs/development/python-modules/python-homeassistant-analytics/default.nix 327519
-pkgs/development/libraries/libnftnl/default.nix 327518
 pkgs/by-name/al/alephone/package.nix 327517
 pkgs/by-name/am/amazon-ssm-agent/package.nix 327517
 pkgs/by-name/an/ansible-cmdb/package.nix 327517
@@ -250,6 +315,7 @@ pkgs/by-name/ht/httpdirfs/package.nix 327517
 pkgs/by-name/ht/httping/package.nix 327517
 pkgs/by-name/hu/hugo/package.nix 327517
 pkgs/by-name/ic/icloudpd/package.nix 327517
+pkgs/by-name/im/immich-go/package.nix 327517
 pkgs/by-name/ja/jankyborders/package.nix 327517
 pkgs/by-name/ja/jazz2/package.nix 327517
 pkgs/by-name/ka/karmor/package.nix 327517
@@ -375,7 +441,6 @@ pkgs/development/python-modules/pybind11-protobuf/default.nix 327509
 pkgs/applications/science/robotics/mujoco/default.nix 327508
 pkgs/development/python-modules/mujoco/default.nix 327508
 pkgs/applications/editors/emacs/elisp-packages/manual-packages/ess-R-object-popup/default.nix 327507
-pkgs/development/libraries/science/chemistry/plumed/default.nix 327503
 pkgs/servers/nzbhydra2/default.nix 327502
 nixos/modules/security/certificates/default.nix 327498
 nixos/modules/security/certificates/local.nix 327498
@@ -383,21 +448,19 @@ nixos/modules/security/certificates/vault/default.nix 327498
 nixos/modules/security/certificates/vault/server.nix 327498
 nixos/tests/certificates/default.nix 327498
 pkgs/by-name/le/lemminx/package.nix 327497
-pkgs/by-name/ma/marwaita/package.nix 327495
 pkgs/by-name/ma/marwaita-mint/package.nix 327492
 pkgs/os-specific/linux/apfs/default.nix 327490
 pkgs/development/python-modules/pyindego/default.nix 327487
 pkgs/servers/home-assistant/build-custom-component/check_manifest.py 327487
 pkgs/servers/home-assistant/custom-components/indego/default.nix 327487
 pkgs/development/perl-modules/WWW-YoutubeViewer/default.nix 327486
-pkgs/by-name/fa/fantomas/package.nix 327485
 pkgs/misc/scrcpy/default.nix 327484
 pkgs/development/python-modules/mautrix/default.nix 327483
 pkgs/servers/mautrix-telegram/default.nix 327483
 pkgs/development/libraries/cracklib/default.nix 327481
 pkgs/build-support/dotnet/nuget-to-nix/default.nix 327475
 pkgs/os-specific/linux/zfs/unstable.nix 327474
-pkgs/applications/office/gnucash/default.nix 327459
+pkgs/by-name/sh/shoutrrr/package.nix 327445
 pkgs/development/python-modules/mpi4py/default.nix 327444
 pkgs/development/python-modules/mpi4py/tests.patch 327444
 pkgs/development/python-modules/pyprecice/default.nix 327444
@@ -406,10 +469,8 @@ pkgs/by-name/nt/ntpd-rs/package.nix 327441
 pkgs/by-name/pr/prrte/package.nix 327438
 pkgs/development/libraries/openmpi/default.nix 327438
 pkgs/development/libraries/pmix/default.nix 327438
-pkgs/development/python-modules/scipy/default.nix 327437
-pkgs/applications/window-managers/i3/pystatus.nix 327430
-pkgs/by-name/i3/i3pystatus/package.nix 327430
 pkgs/by-name/ma/maturin/package.nix 327429
+pkgs/by-name/re/revolver/package.nix 327424
 pkgs/tools/misc/scfbuild/default.nix 327420
 pkgs/development/python-modules/localstack/default.nix 327392
 pkgs/applications/emulators/wine/sources.nix 327371
@@ -419,8 +480,7 @@ pkgs/applications/networking/onionshare/default.nix 327355
 pkgs/development/python-modules/optree/default.nix 327295
 pkgs/development/python-modules/extruct/default.nix 327291
 pkgs/development/python-modules/pastescript/default.nix 327246
-pkgs/data/misc/hackage/pin.json 327219
-pkgs/top-level/haskell-packages.nix 327219
+pkgs/development/python-modules/pypillowfight/default.nix 327214
 pkgs/development/python-modules/klaus/default.nix 327203
 pkgs/development/python-modules/slither-analyzer/default.nix 327193
 pkgs/applications/misc/1password-gui/darwin.nix 327189
@@ -438,13 +498,13 @@ pkgs/by-name/bp/bpftrace/override-system-headers.patch 327053
 pkgs/by-name/bp/bpftrace/runqlat-bt-no-includes.patch 327053
 pkgs/by-name/bp/bpftrace/tcp-bt-no-includes.patch 327053
 pkgs/tools/inputmethods/ibus-engines/ibus-hangul/default.nix 327043
-pkgs/development/libraries/lcrq/default.nix 327042
 pkgs/applications/science/logic/stp/default.nix 327037
 pkgs/by-name/op/ophcrack-cli/package.nix 327030
 pkgs/by-name/op/ophcrack/package.nix 327030
 pkgs/tools/security/vaultwarden/default.nix 327019
 pkgs/by-name/lz/lz4json/package.nix 327009
 pkgs/development/python-modules/jaraco-abode/default.nix 327007
+pkgs/applications/audio/tageditor/default.nix 326921
 pkgs/by-name/py/pysolfc/0000-pysolfc-datadir.patch 326917
 pkgs/by-name/py/pysolfc/package.nix 326917
 pkgs/by-name/py/pysolfc/sources.nix 326917
@@ -454,12 +514,19 @@ nixos/modules/services/video/replay-sorcery.nix 326894
 pkgs/tools/video/replay-sorcery/fix-global-config.patch 326894
 pkgs/tools/video/replay-sorcery/hardcode-libnotify.patch 326894
 pkgs/development/python-modules/galois/default.nix 326856
+pkgs/by-name/cl/clipper2/0001-fix-pc-paths.patch 326844
+pkgs/by-name/cl/clipper2/package.nix 326844
 pkgs/development/libraries/glibc/2.39-revert-cet-default-disable.patch 326819
 pkgs/development/libraries/libxcrypt/default.nix 326819
 pkgs/development/libraries/pcre/default.nix 326819
 pkgs/stdenv/linux/bootstrap-tools-musl/default.nix 326819
+pkgs/development/libraries/clipper2/default.nix 326810
 pkgs/development/python-modules/qtile/default.nix 326731
 pkgs/development/python-modules/qtile-extras/default.nix 326730
+pkgs/applications/science/math/numworks-epsilon/default.nix 326729
+pkgs/development/python-modules/aerosandbox/default.nix 326696
+pkgs/development/python-modules/casadi/default.nix 326696
+pkgs/development/python-modules/neuralfoil/default.nix 326696
 pkgs/development/libraries/science/math/scalapack/default.nix 326684
 pkgs/by-name/fr/freej2me/package.nix 326677
 nixos/modules/programs/openvpn3.nix 326623
@@ -467,45 +534,11 @@ pkgs/by-name/gd/gdbuspp/package.nix 326623
 pkgs/tools/networking/openvpn3/default.nix 326623
 pkgs/tools/networking/openvpn3/patches/0001-customizable-asio-path.patch 326623
 pkgs/tools/networking/openvpn3/patches/0002-customizable-installation-paths.patch 326623
+pkgs/development/tools/language-servers/vscode-langservers-extracted/default.nix 326571
 nixos/modules/services/hardware/tiny-dfr.nix 326553
 pkgs/tools/misc/wootility/default.nix 326516
 pkgs/tools/security/cdxgen/default.nix 326449
 pkgs/development/libraries/libheif/default.nix 326431
-pkgs/applications/editors/vim/plugins/get-plugins.nix 326430
-pkgs/build-support/trivial-builders/test/references/apath.txt 326430
-pkgs/build-support/trivial-builders/test/references/samples.nix 326430
-pkgs/test/haskell/cabalSdist/default.nix 326430
-pkgs/tools/nix/info/multiuser.nix 326430
-pkgs/tools/nix/info/relaxedsandbox.nix 326430
-pkgs/tools/nix/info/sandbox.nix 326430
-nixos/modules/services/misc/etebase-server.nix 326398
-nixos/modules/services/misc/gotenberg.nix 326372
-nixos/tests/gotenberg.nix 326372
-pkgs/applications/editors/emacs/sources.nix 326357
-pkgs/by-name/li/libiconv-darwin/0001-Support-static-module-loading.patch 326357
-pkgs/by-name/li/libiconv-darwin/0002-Fix-ISO-2022-out-of-bounds-write-with-encoded-charac.patch 326357
-pkgs/by-name/li/libiconv-darwin/meson.build 326357
-pkgs/by-name/li/libiconv-darwin/nixpkgs_test.c 326357
-pkgs/by-name/li/libiconv-darwin/package.nix 326357
-pkgs/by-name/li/libiconv-darwin/static-modules.gperf 326357
-pkgs/by-name/li/libiconv-darwin/static-setup-hook.sh 326357
-pkgs/by-name/me/meson/005-boost-Do-not-add-system-paths-on-nix.patch 326357
-pkgs/development/compilers/go/1.22.nix 326357
-pkgs/development/compilers/llvm/18/default.nix 326357
-pkgs/development/libraries/audio/libopenmpt/default.nix 326357
-pkgs/development/libraries/openssl/3.3/CVE-2024-5535.patch 326357
-pkgs/development/libraries/polkit/default.nix 326357
-pkgs/development/python-modules/curio/default.nix 326357
-pkgs/development/python-modules/django-storages/default.nix 326357
-pkgs/development/python-modules/django/4.nix 326357
-pkgs/development/python-modules/pyasn1-modules/default.nix 326357
-pkgs/development/python-modules/pymysql/default.nix 326357
-pkgs/development/web/nodejs/bin-sh-node-run-v22.patch 326357
-pkgs/development/web/nodejs/bypass-xcodebuild.diff 326357
-pkgs/development/web/nodejs/gyp-patches-pre-v22-import-sys.patch 326357
-pkgs/development/web/nodejs/gyp-patches-v22-import-sys.patch 326357
-pkgs/development/web/nodejs/gyp-patches.nix 326357
-pkgs/development/web/nodejs/use-correct-env-in-tests.patch 326357
 pkgs/build-support/setup-hooks/separate-debug-info.sh 326346
 pkgs/tools/security/sudo-rs/default.nix 326342
 pkgs/by-name/cl/cloudlens/package.nix 326310
@@ -520,12 +553,12 @@ pkgs/development/python-modules/pynitrokey/default.nix 326251
 pkgs/by-name/pr/protonmail-desktop/package.nix 326152
 pkgs/by-name/pr/protonmail-desktop/update.sh 326152
 pkgs/development/python-modules/wxpython/4.2.nix 326142
+pkgs/development/python-modules/doorbirdpy/default.nix 326137
 pkgs/by-name/mm/mmg/package.nix 326074
 pkgs/by-name/pa/parmmg/package.nix 326074
 pkgs/applications/emulators/box64/default.nix 326034
 pkgs/by-name/rk/rkboot/package.nix 326034
 pkgs/development/beam-modules/ex_doc/default.nix 326025
-pkgs/development/python-modules/soundcloud-v2/default.nix 326021
 pkgs/applications/science/logic/lean4/default.nix 326019
 pkgs/build-support/deno/buildDenoApplication.nix 326003
 pkgs/build-support/deno/fetchDenoDeps.nix 326003
@@ -535,6 +568,8 @@ pkgs/development/python-modules/humanize/default.nix 325958
 pkgs/applications/networking/pjsip/default.nix 325827
 pkgs/by-name/en/ente-web/package.nix 325824
 pkgs/tools/admin/ansible/lint.nix 325795
+.github/CODEOWNERS 325793
+.gitignore 325793
 pkgs/by-name/li/libcsa/package.nix 325787
 pkgs/development/python-modules/aioquic/default.nix 325763
 pkgs/applications/science/electronics/kicad/default.nix 325726
@@ -547,18 +582,7 @@ pkgs/by-name/mi/miru/darwin.nix 325352
 pkgs/by-name/mi/miru/linux.nix 325352
 pkgs/by-name/mi/miru/package.nix 325352
 pkgs/by-name/mi/miru/update.sh 325352
-pkgs/by-name/ha/hare/001-tzdata.patch 325334
-pkgs/by-name/ha/hare/003-hardcode-qbe-and-harec.patch 325334
-pkgs/by-name/ha/hare/003-use-mailcap-for-mimetypes.patch 325334
-pkgs/by-name/ha/hare/004-use-mailcap-for-mimetypes.patch 325334
-pkgs/by-name/ha/hare/package.nix 325334
-pkgs/by-name/ha/harec/package.nix 325334
-pkgs/by-name/tr/treecat/package.nix 325334
-pkgs/development/hare-third-party/hare-ev/default.nix 325334
-pkgs/development/hare-third-party/hare-json/default.nix 325334
-pkgs/development/hare-third-party/hare-toml/default.nix 325334
-pkgs/tools/security/himitsu/default.nix 325334
-pkgs/by-name/fi/fichub-cli/package.nix 325173
+pkgs/development/libraries/pinocchio/default.nix 325214
 pkgs/tools/misc/diffoscope/default.nix 324888
 pkgs/tools/misc/diffoscope/openssh-no-dsa.patch 324888
 pkgs/servers/irc/inspircd/default.nix 324862
@@ -581,17 +605,15 @@ pkgs/applications/virtualization/xen/xsa-patches.nix 324693
 pkgs/development/libraries/libvmi/default.nix 324693
 pkgs/tools/virtualization/xen-guest-agent/default.nix 324693
 pkgs/by-name/sk/skypilot/package.nix 324602
+pkgs/by-name/br/brainflow/package.nix 324462
+pkgs/development/python-modules/brainflow/default.nix 324462
 pkgs/by-name/ar/arma3-unix-launcher/disable_steam_integration.patch 324452
 pkgs/by-name/ar/arma3-unix-launcher/dont_fetch_dependencies.patch 324452
 pkgs/by-name/ar/arma3-unix-launcher/package.nix 324452
-pkgs/by-name/ni/nicstat/package.nix 324417
-pkgs/development/tools/ocaml/opam/default.nix 324381
-pkgs/development/tools/ocaml/opam/opam.nix.pl 324381
 pkgs/servers/mail/mailpit/default.nix 324302
 pkgs/servers/mail/mailpit/source.nix 324302
 pkgs/servers/mail/mailpit/update.sh 324302
 pkgs/development/interpreters/python/python2/mk-python-derivation.nix 324124
-pkgs/tools/misc/glasgow/default.nix 324124
 pkgs/tools/security/erosmb/default.nix 324124
 pkgs/by-name/ge/gepetto-viewer/package.nix 324018
 pkgs/by-name/qg/qgv/package.nix 324018
@@ -609,6 +631,15 @@ pkgs/by-name/li/liana/package.nix 323696
 pkgs/by-name/li/lianad/Cargo.lock 323696
 pkgs/by-name/li/lianad/package.nix 323696
 pkgs/by-name/pi/pinokio/package.nix 323643
+nixos/modules/config/nix-channel/activation-check.sh 323613
+nixos/modules/config/nix-channel/test.nix 323613
+nixos/modules/system/activation/lib/lib.sh 323613
+nixos/modules/system/activation/lib/test.nix 323613
+nixos/modules/system/activation/lib/test.sh 323613
+nixos/tests/installer.nix 323613
+pkgs/build-support/testers/shellcheck/example.sh 323613
+pkgs/build-support/testers/shellcheck/tester.nix 323613
+pkgs/build-support/testers/shellcheck/tests.nix 323613
 pkgs/by-name/pl/plex-desktop/package.nix 323397
 pkgs/by-name/pl/plex-desktop/update.sh 323397
 nixos/modules/services/matrix/hookshot.nix 323196
@@ -623,20 +654,49 @@ pkgs/by-name/oi/oidc-agent/package.nix 320214
 pkgs/development/python-modules/dmt-core/default.nix 320189
 pkgs/development/python-modules/reprint/default.nix 320189
 pkgs/development/python-modules/verilogae/default.nix 320189
+nixos/modules/services/web-apps/homebox.nix 320060
+nixos/tests/homebox.nix 320060
+pkgs/by-name/ho/homebox/package.nix 320060
 pkgs/by-name/fn/fnott/package.nix 318401
 pkgs/by-name/ly/lyssa/package.nix 317793
 pkgs/development/python-modules/dxpy/default.nix 317131
 pkgs/by-name/lg/lgpio/package.nix 316936
 pkgs/by-name/pi/pigpio/package.nix 316936
 pkgs/by-name/pi/piscope/package.nix 316936
-pkgs/by-name/de/dediprog-sf100/package.nix 316718
 nixos/modules/services/networking/hickory-dns.nix 316466
 pkgs/by-name/hi/hickory-dns/package.nix 316466
 pkgs/by-name/ad/adwaita-icon-theme-legacy/package.nix 316416
 pkgs/by-name/ad/adwaita-icon-theme/package.nix 316416
+pkgs/by-name/fi/file-compose/package.nix 315096
+pkgs/by-name/re/readeck/package.nix 315096
+pkgs/applications/audio/famistudio/build-native-wrapper.nix 314920
+pkgs/applications/science/logic/aiger/default.nix 314920
+pkgs/applications/science/logic/aiger/fix-configure-sed.patch 314920
+pkgs/applications/science/logic/fast-downward/default.nix 314920
+pkgs/build-support/bintools-wrapper/setup-hook.sh 314920
+pkgs/build-support/cc-wrapper/setup-hook.sh 314920
+pkgs/by-name/pu/puppet-bolt/package.nix 314920
+pkgs/development/compilers/gcc/common/builder.nix 314920
+pkgs/development/libraries/gcc/libgcc/default.nix 314920
+pkgs/development/libraries/gmp/4.3.2.nix 314920
+pkgs/development/libraries/gmp/5.1.x.nix 314920
+pkgs/development/libraries/gmp/6.x.nix 314920
+pkgs/development/libraries/gmp/remove-cc-reference.patch 314920
+pkgs/development/libraries/openssl/remove-cflags-references.patch 314920
+pkgs/development/python-modules/clustershell/default.nix 314920
+pkgs/development/tools/abuild/default.nix 314920
+pkgs/shells/bash/5.nix 314920
 nixos/modules/services/networking/suricata/default.nix 313671
 nixos/modules/services/networking/suricata/settings.nix 313671
 nixos/tests/suricata.nix 313671
+nixos/modules/tasks/lvm.nix 312314
+nixos/tests/lvm2/default.nix 312314
+pkgs/os-specific/linux/kvdo/default.nix 312314
+pkgs/os-specific/linux/lvm2/2_03.nix 312314
+pkgs/os-specific/linux/lvm2/common.nix 312314
+pkgs/os-specific/linux/lvm2/fix-static.patch 312314
+pkgs/os-specific/linux/lvm2/fix-stdio-usage.patch 312314
+pkgs/os-specific/linux/vdo/default.nix 312314
 nixos/modules/services/audio/music-assistant.nix 311927
 nixos/tests/music-assistant.nix 311927
 pkgs/by-name/mu/music-assistant/ffmpeg.patch 311927
@@ -727,7 +787,6 @@ pkgs/applications/science/misc/openmvs/default.nix 306172
 pkgs/applications/video/obs-studio/plugins/advanced-scene-switcher/default.nix 306172
 pkgs/applications/video/obs-studio/plugins/obs-backgroundremoval/default.nix 306172
 pkgs/by-name/di/digikam/package.nix 306172
-pkgs/by-name/ll/llama-cpp/package.nix 306172
 pkgs/by-name/ma/maa-assistant-arknights/fastdeploy-ppocr.nix 306172
 pkgs/by-name/ma/maa-assistant-arknights/package.nix 306172
 pkgs/by-name/mo/monado/package.nix 306172
@@ -804,9 +863,16 @@ pkgs/development/cuda-modules/modules/generic/manifests/feature/release.nix 3061
 pkgs/development/cuda-modules/modules/generic/manifests/redistrib/manifest.nix 306172
 pkgs/development/cuda-modules/modules/generic/manifests/redistrib/package.nix 306172
 pkgs/development/cuda-modules/modules/generic/manifests/redistrib/release.nix 306172
+nixos/modules/services/networking/ddns-updater.nix 304624
+nixos/tests/ddns-updater.nix 304624
 pkgs/os-specific/linux/zfs/generic.nix 293135
 nixos/modules/services/monitoring/prometheus/exporters/borgmatic.nix 290452
 pkgs/by-name/pr/prometheus-borgmatic-exporter/package.nix 290452
+nixos/modules/services/video/broadcast-box.nix 288443
+nixos/tests/broadcast-box.nix 288443
+pkgs/by-name/br/broadcast-box/allow-no-env.patch 288443
+pkgs/by-name/br/broadcast-box/package.nix 288443
+pkgs/applications/audio/sayonara/default.nix 285110
 pkgs/by-name/au/audiveris/package.nix 282848
 nixos/modules/services/hardware/display.md 279789
 nixos/modules/services/hardware/display.nix 279789
@@ -826,6 +892,9 @@ logs/atlauncher.log 255937
 pkgs/development/python-modules/python-fluent/fluent-pygments.nix 255937
 pkgs/development/python-modules/python-fluent/fluent-runtime.nix 255937
 pkgs/by-name/du/dungeondraft/package.nix 253034
+pkgs/by-name/ya/yandex-cloud/package.nix 239378
+pkgs/by-name/ya/yandex-cloud/sources.json 239378
+pkgs/by-name/ya/yandex-cloud/update.py 239378
 nixos/modules/services/cluster/druid/default.nix 219942
 nixos/tests/druid/default.nix 219942
 pkgs/by-name/dr/druid/package.nix 219942
@@ -833,9 +902,6 @@ nixos/modules/services/development/vsmartcard-vpcd.nix 194957
 nixos/modules/services/hardware/pcscd.nix 194957
 pkgs/by-name/vs/vsmartcard-pcsc-relay/package.nix 194957
 pkgs/by-name/vs/vsmartcard-vpcd/package.nix 194957
-pkgs/data/misc/v2ray-domain-list-community/default.nix 327478
-pkgs/os-specific/linux/ima-evm-utils/default.nix 327477
-pkgs/applications/networking/discordo/default.nix 327471
 pkgs/development/python-modules/uplc/default.nix 327468
 pkgs/applications/audio/non/default.nix 327467
 pkgs/development/python-modules/pulumi-aws/default.nix 327461
@@ -847,13 +913,9 @@ pkgs/by-name/ha/hadolint-sarif/package.nix 327455
 pkgs/by-name/sh/shellcheck-sarif/package.nix 327454
 pkgs/by-name/cl/clang-tidy-sarif/package.nix 327452
 pkgs/by-name/cl/clippy-sarif/package.nix 327451
-pkgs/development/python-modules/guidata/default.nix 327446
-pkgs/development/python-modules/qwt/default.nix 327446
-pkgs/by-name/sh/shoutrrr/package.nix 327445
 pkgs/by-name/ef/efibootmgr/package.nix 327436
 pkgs/by-name/ra/rav1e/package.nix 327432
 pkgs/by-name/ma/matrix-gtk-theme/package.nix 327431
-pkgs/by-name/re/revolver/package.nix 327424
 pkgs/by-name/bi/binary/package.nix 327423
 pkgs/shells/fish/plugins/hydro.nix 327422
 nixos/modules/services/misc/snapper.nix 327418
@@ -866,12 +928,10 @@ pkgs/development/coq-modules/ssprove/default.nix 327401
 pkgs/servers/icingaweb2/ipl.nix 327400
 pkgs/by-name/fl/fluxcd/package.nix 327393
 pkgs/data/icons/phinger-cursors/default.nix 327391
-pkgs/by-name/xe/xemu/package.nix 327389
 nixos/modules/virtualisation/virtualbox-host.nix 327380
 pkgs/applications/virtualization/virtualbox/default.nix 327380
 pkgs/development/python-modules/pid/default.nix 327372
 pkgs/servers/sql/mysql/8.0.x.nix 327365
-pkgs/by-name/wo/worker/package.nix 327356
 pkgs/development/python-modules/ansible-gendoc/default.nix 327352
 pkgs/development/python-modules/giturlparse/default.nix 327352
 pkgs/development/python-modules/geomet/default.nix 327350
@@ -880,13 +940,9 @@ pkgs/development/python-modules/pyathena/default.nix 327350
 nixos/lib/qemu-common.nix 327349
 pkgs/development/libraries/gstreamer/base/default.nix 327348
 pkgs/development/tools/fq/default.nix 327347
-pkgs/data/fonts/iosevka/bin.nix 327340
-pkgs/data/fonts/iosevka/variants.nix 327340
 pkgs/development/python-modules/testing-postgresql/default.nix 327338
-pkgs/development/tools/goperf/default.nix 327335
 pkgs/development/libraries/gstreamer/core/default.nix 327331
 pkgs/development/python-modules/pylint/default.nix 327330
-pkgs/by-name/ho/home-manager/package.nix 327328
 pkgs/by-name/ss/ssh-tpm-agent/package.nix 327326
 pkgs/development/libraries/gdal/default.nix 327323
 pkgs/tools/graphics/argyllcms/default.nix 327321
@@ -913,7 +969,6 @@ pkgs/applications/networking/cluster/nixops/plugins/nixops-hetznercloud.nix 3272
 pkgs/applications/networking/cluster/nixops/plugins/nixops-libvirtd.nix 327279
 pkgs/applications/networking/mailreaders/thunderbird/no-buildconfig-115.patch 327278
 pkgs/applications/networking/mailreaders/thunderbird/no-buildconfig.patch 327278
-pkgs/applications/networking/mailreaders/thunderbird/packages.nix 327278
 pkgs/applications/networking/mailreaders/thunderbird/update.nix 327278
 pkgs/tools/system/osquery/default.nix 327267
 pkgs/tools/system/osquery/info.json 327267
@@ -942,13 +997,10 @@ pkgs/development/python-modules/sphinxcontrib-confluencebuilder/default.nix 3272
 pkgs/applications/window-managers/dk/default.nix 327226
 pkgs/tools/misc/convimg/default.nix 327225
 pkgs/by-name/op/openvswitch/generic.nix 327218
-pkgs/development/python-modules/pypillowfight/default.nix 327214
-pkgs/development/tools/pyenv/default.nix 327212
 pkgs/by-name/cl/clever-tools/package.nix 327207
 pkgs/development/tools/doctl/default.nix 327192
 nixos/lib/systemd-network-units.nix 327190
 nixos/tests/clatd.nix 327190
-pkgs/by-name/em/empty-epsilon/package.nix 327183
 pkgs/development/python-modules/yarg/default.nix 327170
 pkgs/README.md 327160
 pkgs/by-name/bu/bulky/package.nix 327144
@@ -982,9 +1034,6 @@ pkgs/development/python-modules/pyverilog/default.nix 326966
 pkgs/tools/package-management/fusesoc/default.nix 326966
 pkgs/games/openrct2/default.nix 326950
 pkgs/applications/misc/timew-sync-client/default.nix 326945
-nixos/tests/ollama-cuda.nix 326939
-nixos/tests/ollama-rocm.nix 326939
-nixos/tests/ollama.nix 326939
 pkgs/development/libraries/librsvg/default.nix 326916
 pkgs/development/libraries/libimobiledevice-glue/default.nix 326880
 pkgs/development/libraries/libimobiledevice/default.nix 326880
@@ -999,11 +1048,9 @@ pkgs/by-name/az/azure-cli/python-packages.nix 326840
 pkgs/development/python-modules/azure-monitor-query/default.nix 326840
 shell.nix 326832
 pkgs/applications/graphics/gscreenshot/default.nix 326830
-pkgs/development/libraries/clipper2/default.nix 326810
 pkgs/tools/networking/openssh/default.nix 326807
 pkgs/by-name/tw/tweego/package.nix 326795
 pkgs/tools/security/vault/default.nix 326751
-pkgs/by-name/op/openscap/package.nix 326745
 pkgs/applications/networking/cluster/rke2/latest/versions.nix 326716
 pkgs/applications/networking/cluster/rke2/stable/versions.nix 326716
 pkgs/applications/networking/cluster/rke2/testing/versions.nix 326716
@@ -1016,7 +1063,6 @@ pkgs/applications/editors/nano/default.nix 326658
 pkgs/tools/security/step-ca/default.nix 326657
 pkgs/development/python-modules/pyinfra/default.nix 326585
 pkgs/by-name/ca/calibre-web/package.nix 326583
-pkgs/development/tools/language-servers/vscode-langservers-extracted/default.nix 326571
 pkgs/applications/science/misc/gephi/default.nix 326566
 pkgs/applications/science/misc/openrefine/default.nix 326566
 pkgs/by-name/ma/maven/build-maven-package.nix 326566
@@ -1122,6 +1168,7 @@ pkgs/servers/dante/default.nix 325926
 pkgs/servers/dns/bind/default.nix 325926
 pkgs/servers/openafs/1.8/default.nix 325926
 pkgs/servers/openvscode-server/default.nix 325926
+pkgs/servers/sql/mariadb/default.nix 325926
 pkgs/servers/sql/postgresql/ext/pg_auto_failover.nix 325926
 pkgs/servers/sql/postgresql/ext/pgaudit.nix 325926
 pkgs/servers/sql/postgresql/ext/timescaledb.nix 325926
@@ -1139,7 +1186,6 @@ pkgs/by-name/ra/rana/package.nix 325911
 pkgs/by-name/gi/gitu/package.nix 325850
 pkgs/by-name/xo/xonsh/unwrapped.nix 325813
 pkgs/by-name/xo/xonsh/wrapper.nix 325813
-.github/CODEOWNERS 325793
 pkgs/applications/networking/instant-messengers/skypeforlinux/default.nix 325784
 pkgs/by-name/sk/skypeforlinux/package.nix 325784
 pkgs/by-name/pi/pixi/Cargo.lock 325720
@@ -1166,14 +1212,13 @@ pkgs/applications/editors/emacs/elisp-packages/manual-packages/youtube-dl/defaul
 pkgs/by-name/li/libtas/package.nix 325049
 pkgs/tools/misc/plantuml/default.nix 325031
 pkgs/by-name/al/algia/package.nix 324971
-pkgs/development/python-modules/safety/default.nix 324896
 doc/build-helpers/dev-shell-tools.chapter.md 324789
 nixos/tests/docker-tools-nix-shell.nix 324789
 pkgs/build-support/dev-shell-tools/default.nix 324789
 pkgs/build-support/dev-shell-tools/tests/default.nix 324789
+pkgs/by-name/ol/ollama/package.nix 324659
 pkgs/by-name/gd/gdbm/package.nix 324436
 pkgs/development/libraries/gdbm/default.nix 324436
-pkgs/tools/package-management/nix/default.nix 324408
 nixos/modules/services/web-apps/immich.nix 324127
 nixos/tests/web-apps/immich.nix 324127
 pkgs/by-name/im/immich/package.nix 324127
@@ -1190,8 +1235,6 @@ pkgs/build-support/rust/lib/default.nix 323161
 pkgs/development/libraries/wasilibc/default.nix 323161
 nixos/modules/hardware/printers.nix 322565
 pkgs/development/python-modules/borb/default.nix 322519
-pkgs/development/python-modules/joblib/default.nix 322374
-pkgs/development/python-modules/joblib/ignore_phys_cores_in_build_env.patch 322374
 pkgs/applications/networking/browsers/nyxt/default.nix 321845
 pkgs/by-name/sw/switch-to-configuration-ng/Cargo.lock 321662
 pkgs/by-name/sw/switch-to-configuration-ng/src/main.rs 321662
@@ -1308,10 +1351,6 @@ pkgs/by-name/cl/clevis/package.nix 294314
 pkgs/tools/security/clevis/default.nix 294314
 pkgs/development/libraries/libcef/default.nix 291379
 pkgs/by-name/al/alsa-plugins/package.nix 288916
-nixos/modules/services/video/broadcast-box.nix 288443
-nixos/tests/broadcast-box.nix 288443
-pkgs/by-name/br/broadcast-box/allow-no-env.patch 288443
-pkgs/by-name/br/broadcast-box/package.nix 288443
 pkgs/by-name/pk/pkl/package.nix 286658
 pkgs/by-name/ke/keyspersecond/deps.json 281495
 pkgs/by-name/ke/keyspersecond/package.nix 281495
@@ -1322,7 +1361,6 @@ pkgs/test/cc-wrapper/hardening.nix 253186
 pkgs/development/python-modules/atom/default.nix 327217
 pkgs/development/libraries/lerc/default.nix 327213
 pkgs/development/python-modules/django-import-export/default.nix 327206
-pkgs/applications/networking/cluster/talosctl/default.nix 327205
 pkgs/development/python-modules/fabulous/assert.patch 327200
 pkgs/by-name/ad/adafruit-nrfutil/package.nix 327199
 pkgs/tools/misc/yle-dl/default.nix 327198
@@ -1341,7 +1379,6 @@ nixos/modules/services/backup/btrbk.nix 327154
 pkgs/tools/system/tuptime/default.nix 327150
 pkgs/applications/audio/strawberry/default.nix 327145
 pkgs/development/libraries/imlib2/default.nix 327143
-pkgs/development/tools/analysis/codeql/default.nix 327139
 pkgs/development/compilers/openjdk/17.nix 327135
 pkgs/development/tools/misc/terraform-ls/default.nix 327134
 pkgs/development/python-modules/graph-tool/default.nix 327131
@@ -1355,7 +1392,6 @@ pkgs/development/tools/analysis/checkov/default.nix 327115
 pkgs/development/python-modules/zha/default.nix 327112
 pkgs/applications/office/treesheets/default.nix 327111
 pkgs/servers/http/tomcat/default.nix 327105
-pkgs/development/python-modules/remi/default.nix 327092
 pkgs/development/python-modules/jupysql/default.nix 327089
 pkgs/development/python-modules/dbt-core/default.nix 327075
 pkgs/servers/readarr/default.nix 327073
@@ -1363,114 +1399,13 @@ pkgs/tools/networking/xray/default.nix 327071
 pkgs/development/python-modules/mlflow/default.nix 327065
 pkgs/development/python-modules/python-telegram-bot/default.nix 327061
 pkgs/development/tools/melange/default.nix 327057
-pkgs/applications/audio/flac2all/default.nix 327055
-pkgs/applications/audio/mopidy/local.nix 327055
-pkgs/applications/audio/mopidy/moped.nix 327055
-pkgs/applications/audio/mopidy/scrobbler.nix 327055
-pkgs/applications/audio/mopidy/somafm.nix 327055
-pkgs/applications/audio/mopidy/tunein.nix 327055
-pkgs/applications/blockchains/cryptop/default.nix 327055
-pkgs/applications/graphics/dosage/default.nix 327055
-pkgs/applications/graphics/veusz/default.nix 327055
-pkgs/applications/misc/cum/default.nix 327055
-pkgs/applications/misc/dotfiles/default.nix 327055
-pkgs/applications/misc/pydf/default.nix 327055
-pkgs/applications/networking/instant-messengers/turses/default.nix 327055
-pkgs/applications/networking/mailreaders/afew/default.nix 327055
-pkgs/applications/networking/mailreaders/mlarchive2maildir/default.nix 327055
-pkgs/applications/search/xlsxgrep/default.nix 327055
-pkgs/applications/version-management/bumpver/default.nix 327055
-pkgs/applications/version-management/git-annex-remote-dbx/default.nix 327055
-pkgs/applications/version-management/git-annex-remote-googledrive/default.nix 327055
-pkgs/applications/version-management/git-imerge/default.nix 327055
-pkgs/applications/version-management/git-repo-updater/default.nix 327055
-pkgs/applications/version-management/gomp/default.nix 327055
-pkgs/applications/window-managers/i3/altlayout.nix 327055
-pkgs/by-name/py/pybibget/package.nix 327055
-pkgs/development/python-modules/3to2/default.nix 327055
-pkgs/development/python-modules/aafigure/default.nix 327055
-pkgs/development/python-modules/acme-tiny/default.nix 327055
-pkgs/development/python-modules/addict/default.nix 327055
-pkgs/development/python-modules/agent-py/default.nix 327055
-pkgs/development/python-modules/aioextensions/default.nix 327055
-pkgs/development/python-modules/aiohttp-cors/default.nix 327055
-pkgs/development/python-modules/aiohttp-remotes/default.nix 327055
-pkgs/development/python-modules/aioinflux/default.nix 327055
-pkgs/development/python-modules/ajpy/default.nix 327055
-pkgs/development/python-modules/alectryon/default.nix 327055
-pkgs/development/python-modules/amqplib/default.nix 327055
-pkgs/development/python-modules/ansicolors/default.nix 327055
-pkgs/development/python-modules/appdirs/default.nix 327055
-pkgs/development/python-modules/applicationinsights/default.nix 327055
-pkgs/development/python-modules/area/default.nix 327055
-pkgs/development/python-modules/argon2-cffi-bindings/default.nix 327055
-pkgs/development/python-modules/args/default.nix 327055
-pkgs/development/python-modules/asmog/default.nix 327055
-pkgs/development/python-modules/aspy-yaml/default.nix 327055
-pkgs/development/python-modules/astor/default.nix 327055
-pkgs/development/python-modules/astropy-helpers/default.nix 327055
-pkgs/development/python-modules/astunparse/default.nix 327055
-pkgs/development/python-modules/asyncio-rlock/default.nix 327055
-pkgs/development/python-modules/asynctest/default.nix 327055
-pkgs/development/python-modules/authres/default.nix 327055
-pkgs/development/python-modules/autologging/default.nix 327055
-pkgs/development/python-modules/avro-python3/default.nix 327055
-pkgs/development/python-modules/avro3k/default.nix 327055
-pkgs/development/python-modules/awesome-slugify/default.nix 327055
-pkgs/development/python-modules/azure-cosmosdb-nspkg/default.nix 327055
-pkgs/development/python-modules/azure-cosmosdb-table/default.nix 327055
-pkgs/development/python-modules/azure-graphrbac/default.nix 327055
-pkgs/development/python-modules/azure-keyvault-nspkg/default.nix 327055
-pkgs/development/python-modules/azure-loganalytics/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-advisor/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-batchai/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-billing/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-commerce/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-common/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-datalake-analytics/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-datalake-nspkg/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-datamigration/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-devspaces/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-devtestlabs/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-hanaonazure/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-iotcentral/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-loganalytics/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-machinelearningcompute/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-managementgroups/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-managementpartner/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-marketplaceordering/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-notificationhubs/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-nspkg/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-policyinsights/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-powerbiembedded/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-relay/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-scheduler/default.nix 327055
-pkgs/development/python-modules/azure-mgmt-sql/default.nix 327055
-pkgs/development/python-modules/azure-nspkg/default.nix 327055
-pkgs/development/python-modules/azure-servicefabric/default.nix 327055
-pkgs/development/python-modules/azure-servicemanagement-legacy/default.nix 327055
-pkgs/development/python-modules/azure-storage-common/default.nix 327055
-pkgs/development/python-modules/azure-storage-file/default.nix 327055
-pkgs/development/python-modules/azure-storage-nspkg/default.nix 327055
-pkgs/development/python-modules/babelgladeextractor/default.nix 327055
-pkgs/development/python-modules/backcall/default.nix 327055
-pkgs/development/python-modules/backports-shutil-which/default.nix 327055
-pkgs/development/python-modules/banal/default.nix 327055
-pkgs/development/python-modules/baron/default.nix 327055
-pkgs/development/python-modules/base58/default.nix 327055
-pkgs/development/python-modules/basiciw/default.nix 327055
-pkgs/development/python-modules/bcdoc/default.nix 327055
-pkgs/development/python-modules/beniget/default.nix 327055
-pkgs/development/python-modules/betacode/default.nix 327055
 pkgs/games/openttd/jgrpp.nix 327040
 pkgs/development/python-modules/pytest-ansible/default.nix 327035
 pkgs/by-name/me/media-downloader/package.nix 327029
 pkgs/development/libraries/openldap/default.nix 327028
-pkgs/applications/networking/browsers/microsoft-edge/default.nix 327027
 pkgs/development/python-modules/packageurl-python/default.nix 327024
 pkgs/development/tools/database/vitess/default.nix 327023
 pkgs/development/python-modules/django-ninja/default.nix 327017
-pkgs/applications/video/obs-studio/plugins/obs-source-record.nix 327012
 pkgs/tools/text/paperoni/Cargo.lock 327011
 pkgs/tools/text/paperoni/default.nix 327011
 pkgs/by-name/bs/bsc/package.nix 327006
@@ -1493,6 +1428,7 @@ pkgs/by-name/ls/lspce/package.nix 326981
 pkgs/development/python-modules/bpylist2/default.nix 326978
 pkgs/development/python-modules/bpylist2/pylint-fix.patch 326978
 pkgs/development/python-modules/bpylist2/remove_test_deps.patch 326978
+pkgs/development/python-modules/objexplore/default.nix 326978
 pkgs/development/python-modules/osxphotos/default.nix 326978
 pkgs/development/python-modules/pytest-pycodestyle/default.nix 326978
 pkgs/development/python-modules/rich-theme-manager/default.nix 326978
@@ -1524,7 +1460,6 @@ pkgs/servers/nextcloud/packages/generate.sh 326947
 pkgs/applications/audio/quodlibet/default.nix 326924
 pkgs/applications/audio/quodlibet/fix-gdist-python-3.12.patch 326924
 pkgs/applications/science/electronics/verilator/default.nix 326895
-pkgs/development/python-modules/openai/default.nix 326837
 pkgs/by-name/ar/archipelago/package.nix 326692
 pkgs/development/python-modules/conda/default.nix 326680
 pkgs/development/python-modules/libmambapy/default.nix 326680
@@ -1535,7 +1470,6 @@ doc/packages/build-support.md 326383
 pkgs/applications/editors/jetbrains/bin/versions.json 326375
 pkgs/by-name/mp/mpv-subs-popout/package.nix 326326
 pkgs/development/compilers/llvm/common/bolt/default.nix 326240
-pkgs/development/python-modules/doorbirdpy/default.nix 326137
 nixos/modules/services/security/vaultwarden/default.nix 325861
 nixos/tests/vaultwarden.nix 325861
 pkgs/development/python-modules/cvxpy/default.nix 325493
@@ -1611,18 +1545,13 @@ pkgs/development/python-modules/pytedee-async/default.nix 326936
 pkgs/tools/security/certdump/default.nix 326931
 pkgs/development/python-modules/xml2rfc/default.nix 326929
 nixos/modules/services/web-apps/gotify-server.nix 326923
-pkgs/applications/audio/tageditor/default.nix 326921
 pkgs/by-name/we/werf/package.nix 326907
 pkgs/development/tools/packcc/default.nix 326898
 pkgs/applications/virtualization/arion/default.nix 326888
 pkgs/applications/audio/drumkv1/default.nix 326887
 pkgs/by-name/io/ios-safari-remote-debug/add-permissions-to-the-output-directory.patch 326885
 pkgs/by-name/io/ios-safari-remote-debug/package.nix 326885
-pkgs/by-name/cl/clipse/package.nix 326884
 pkgs/by-name/an/ansel/package.nix 326875
-pkgs/applications/virtualization/docker/buildx.nix 326872
-pkgs/by-name/cl/clipper2/0001-fix-pc-paths.patch 326844
-pkgs/by-name/cl/clipper2/package.nix 326844
 pkgs/by-name/su/suwayomi-server/package.nix 326834
 pkgs/development/python-modules/unicode-rbnf/default.nix 326828
 pkgs/development/python-modules/webrtc-noise-gain/default.nix 326828
@@ -1636,7 +1565,6 @@ pkgs/by-name/xw/xwayland-satellite/package.nix 326800
 pkgs/development/libraries/libserdes/default.nix 326797
 pkgs/by-name/to/tomb/package.nix 326794
 pkgs/development/libraries/level-zero/default.nix 326788
-pkgs/applications/networking/instant-messengers/rocketchat-desktop/default.nix 326786
 pkgs/by-name/ne/newlisp/package.nix 326778
 pkgs/tools/text/xml/basex/default.nix 326775
 pkgs/by-name/s7/s7/package.nix 326772
@@ -1645,7 +1573,6 @@ pkgs/development/python-modules/irc/default.nix 326768
 pkgs/applications/networking/cluster/bosh-cli/default.nix 326760
 pkgs/by-name/nu/nuclei-templates/package.nix 326742
 pkgs/development/python-modules/aioazuredevops/default.nix 326739
-pkgs/applications/science/math/numworks-epsilon/default.nix 326729
 pkgs/applications/video/obs-studio/Enable-file-access-and-universal-access-for-file-URL.patch 326722
 pkgs/applications/video/obs-studio/default.nix 326722
 pkgs/applications/video/obs-studio/fix-nix-plugin-path.patch 326722
@@ -1654,17 +1581,12 @@ pkgs/development/python-modules/typeshed-client/default.nix 326713
 pkgs/development/python-modules/generic/default.nix 326712
 pkgs/development/tools/misc/cproto/default.nix 326710
 pkgs/development/python-modules/turnt/default.nix 326708
-pkgs/development/web/deno/librusty_v8.nix 326705
 pkgs/by-name/sd/sdl3/0001-cmake-use-FULL-install-directory-variants-in-pkg-con.patch 326699
 pkgs/by-name/sd/sdl3/package.nix 326699
 pkgs/applications/networking/feedreaders/newsflash/Cargo.lock 326698
 pkgs/applications/networking/feedreaders/newsflash/default.nix 326698
 pkgs/applications/networking/feedreaders/newsflash/hardcode-version.patch 326698
 pkgs/applications/networking/feedreaders/newsflash/no-post-install.patch 326698
-pkgs/by-name/po/poptracker/package.nix 326697
-pkgs/development/python-modules/aerosandbox/default.nix 326696
-pkgs/development/python-modules/casadi/default.nix 326696
-pkgs/development/python-modules/neuralfoil/default.nix 326696
 pkgs/by-name/fe/fedimint/package.nix 326693
 pkgs/development/python-modules/azure-search-documents/default.nix 326690
 pkgs/development/python-modules/datashaper/default.nix 326690
@@ -1685,7 +1607,6 @@ pkgs/build-support/dotnet/dotnetbuildhelpers/remove-duplicated-dlls.sh 326668
 pkgs/applications/networking/gns3/server.nix 326662
 pkgs/by-name/wh/whisky/package.nix 326659
 pkgs/development/python-modules/pymee/default.nix 326655
-pkgs/tools/system/tree/default.nix 326651
 pkgs/by-name/ph/physac/package.nix 326649
 pkgs/tools/security/step-kms-plugin/default.nix 326647
 pkgs/development/tools/analysis/stylelint/default.nix 326643
@@ -1714,9 +1635,6 @@ pkgs/development/compilers/gnu-cobol/default.nix 325294
 pkgs/by-name/my/mybbscan/package.nix 325187
 pkgs/development/libraries/fontconfig/make-fonts-conf.nix 324516
 pkgs/development/libraries/fontconfig/make-fonts-conf.xsl 324516
-pkgs/by-name/br/brainflow/package.nix 324462
-pkgs/development/python-modules/brainflow/default.nix 324462
-pkgs/by-name/md/mdbook/package.nix 324432
 pkgs/by-name/pa/patch-package/package.nix 323295
 nixos/modules/services/web-apps/stash.nix 323231
 nixos/tests/stash.nix 323231
@@ -1821,7 +1739,6 @@ pkgs/servers/sql/postgresql/patches/specify_pkglibdir_at_runtime.patch 294504
 pkgs/build-support/compress-drv/default.nix 292324
 pkgs/build-support/compress-drv/test.nix 292324
 pkgs/build-support/compress-drv/web.nix 292324
-pkgs/by-name/gi/gitea/package.nix 292324
 nixos/modules/services/web-servers/minio.nix 288183
 nixos/modules/services/web-apps/pingvin-share.md 287565
 nixos/modules/services/web-apps/pingvin-share.nix 287565
@@ -1843,7 +1760,6 @@ pkgs/by-name/xo/xonsh/xontribs/xontrib-jedi/default.nix 241386
 pkgs/by-name/xo/xonsh/xontribs/xontrib-jupyter/default.nix 241386
 pkgs/by-name/xo/xonsh/xontribs/xontrib-vox/default.nix 241386
 pkgs/by-name/xo/xonsh/xontribs/xontrib-whole-word-jumping/default.nix 241386
-pkgs/development/tools/language-servers/metals/default.nix 326634
 pkgs/development/tools/buildkit/default.nix 326619
 pkgs/tools/misc/pricehist/default.nix 326604
 pkgs/development/python-modules/social-auth-app-django/default.nix 326597
@@ -2198,7 +2114,6 @@ pkgs/by-name/mo/mouse_m908/package.nix 326060
 pkgs/development/python-modules/ledgerwallet/default.nix 326022
 pkgs/applications/blockchains/trezor-suite/default.nix 326015
 pkgs/development/php-packages/phalcon/default.nix 325993
-pkgs/development/python-modules/trimesh/default.nix 325939
 pkgs/tools/misc/szyszka/default.nix 325831
 pkgs/build-support/vm/default.nix 325619
 pkgs/development/python-modules/tensorflow/default.nix 325224
@@ -2304,9 +2219,6 @@ pkgs/games/dwarf-fortress/game.nix 323628
 pkgs/tools/security/ossec/server.nix 323628
 pkgs/by-name/fi/fish-lsp/package.json 320463
 pkgs/by-name/fi/fish-lsp/package.nix 320463
-nixos/modules/services/web-apps/homebox.nix 320060
-nixos/tests/homebox.nix 320060
-pkgs/by-name/ho/homebox/package.nix 320060
 pkgs/by-name/st/stack_master/Gemfile 319545
 pkgs/by-name/st/stack_master/Gemfile.lock 319545
 pkgs/by-name/st/stack_master/gemset.nix 319545
@@ -2479,9 +2391,6 @@ pkgs/development/lisp-modules/patches/cl-autowrap-c2ffi-path.patch 278663
 pkgs/tools/graphics/viu/default.nix 269170
 pkgs/by-name/fl/flexbar/package.nix 253525
 pkgs/servers/web-apps/moodle/default.nix 248696
-pkgs/by-name/ya/yandex-cloud/package.nix 239378
-pkgs/by-name/ya/yandex-cloud/sources.json 239378
-pkgs/by-name/ya/yandex-cloud/update.py 239378
 pkgs/tools/networking/meshnamed/default.nix 205657
 pkgs/by-name/na/nanomq/package.nix 325328
 pkgs/development/python-modules/fastapi-cli/default.nix 325314
@@ -2489,7 +2398,6 @@ pkgs/by-name/pr/prettier-plugin-go-template/package.nix 325309
 pkgs/by-name/qd/qdiskinfo/package.nix 325304
 nixos/modules/services/web-apps/mediawiki.nix 325261
 nixos/tests/nixos-rebuild-specialisations-systemd-boot.nix 325238
-pkgs/development/libraries/pinocchio/default.nix 325214
 pkgs/development/libraries/toml11/default.nix 325190
 pkgs/by-name/ar/art/package.nix 325162
 pkgs/applications/misc/mupdf/0001-Use-command-v-in-favor-of-which.patch 325136
@@ -2881,6 +2789,7 @@ pkgs/by-name/we/webtunnel/package.nix 277487
 pkgs/os-specific/darwin/linearmouse/default.nix 277481
 pkgs/applications/networking/dropbox/default.nix 277422
 pkgs/by-name/ne/neolink/package.nix 277421
+pkgs/tools/package-management/nix/common.nix 277195
 pkgs/by-name/ic/iceportal-rich-presence/package.nix 277194
 pkgs/by-name/te/termineter/package.nix 277125
 pkgs/development/python-modules/crcelk/default.nix 277125
@@ -3052,7 +2961,6 @@ pkgs/applications/video/subs2cia/default.nix 263958
 pkgs/os-specific/linux/lkrg/default.nix 263950
 pkgs/os-specific/linux/lkrg/umh-enforce-0-by-default.patch 263950
 nixos/modules/services/web-apps/dex.nix 263900
-pkgs/development/tools/rust/rust-analyzer/default.nix 263871
 pkgs/build-support/substitute-files/substitute-all-files.nix 263834
 nixos/modules/services/audio/plugins.nix 263571
 nixos/tests/audio-plugins.nix 263571
@@ -3199,7 +3107,6 @@ pkgs/applications/misc/lutris-humble-cookies/default.nix 259599
 pkgs/applications/misc/watershot/default.nix 259299
 nixos/modules/system/boot/systemd/hardening.nix 259217
 nixos/modules/services/monitoring/prometheus/alertmanager.nix 259183
-pkgs/development/python-modules/types-aioboto3/default.nix 259150
 pkgs/by-name/pl/plrust/package.nix 259146
 pkgs/development/libraries/qrencode/default.nix 258981
 nixos/modules/programs/nushell.nix 258957
@@ -3362,6 +3269,7 @@ pkgs/os-specific/linux/busybox/default.nix 151035
 .pre-commit-config.yaml 146608
 pkgs/applications/editors/010-editor/default.nix 145896
 pkgs/development/coq-modules/time-invariance-thesis-for-L/default.nix 145000
+pkgs/development/tools/ocaml/opam/opam-shebangs.patch 144229
 pkgs/desktops/gnome/core/gnome-color-manager/default.nix 137424
 nixos/modules/services/system/notify-updates.nix 126987
 pkgs/development/python-modules/keras-tuner/default.nix 125202
@@ -3416,7 +3324,6 @@ nixos/modules/programs/kde-pim.nix 299599
 pkgs/development/python-modules/textual/default.nix 296248
 pkgs/by-name/vi/vita3k/package.nix 195556
 pkgs/by-name/vi/vita3k/patches/external/CMakeLists.txt.patch 195556
-pkgs/by-name/dd/ddns-updater/package.nix 324006
 pkgs/development/tools/gauge/plugins/dotnet/default.nix 323988
 pkgs/development/tools/gauge/plugins/make-gauge-plugin.nix 323988
 pkgs/build-support/cc-wrapper/add-clang-cc-cflags-before.sh 323869
@@ -3563,6 +3470,7 @@ pkgs/by-name/ur/urban-cli/package.nix 323477
 pkgs/development/libraries/libliftoff/default.nix 323407
 pkgs/development/libraries/libliftoff/generic.nix 323407
 pkgs/by-name/em/emmy-lua-code-style/package.nix 323401
+pkgs/applications/graphics/kcc/default.nix 323382
 pkgs/development/python-modules/mozjpeg_lossless_optimization/default.nix 323382
 pkgs/tools/graphics/netpbm/default.nix 323323
 pkgs/by-name/sq/sql-formatter/package.nix 323304
@@ -3598,7 +3506,6 @@ pkgs/by-name/ti/tipitaka-pali-reader/package.nix 309198
 pkgs/by-name/dr/dragmap/cstdint.patch 309006
 pkgs/by-name/dr/dragmap/package.nix 309006
 pkgs/by-name/dr/dragmap/stdio-pclose.patch 309006
-pkgs/by-name/cr/creality-print/package.nix 308854
 pkgs/by-name/mu/multiqc/package.nix 249329
 pkgs/development/python-modules/spectra/default.nix 249329
 nixos/doc/manual/release-notes/rl-2305.section.md 245155
@@ -3701,6 +3608,7 @@ pkgs/shells/fish/plugins/plugin-sudope.nix 318936
 pkgs/by-name/do/doomsday-engine/3.x.nix 318552
 pkgs/by-name/do/doomsday-engine/generic.nix 318552
 pkgs/by-name/do/doomsday-engine/package.nix 318552
+pkgs/servers/etebase/default.nix 318528
 pkgs/applications/radio/chirp/default.nix 317593
 pkgs/by-name/au/auto-editor/package.nix 317557
 pkgs/by-name/au/auto-editor/set-exe-paths.patch 317557
@@ -3918,23 +3826,6 @@ nixos/modules/services/web-apps/keycloak.nix 321835
 pkgs/applications/misc/xpdf/default.nix 321829
 pkgs/by-name/su/sublime-music/package.nix 320074
 pkgs/development/python-modules/uvicorn/default.nix 317304
-pkgs/applications/audio/famistudio/build-native-wrapper.nix 314920
-pkgs/applications/science/logic/aiger/default.nix 314920
-pkgs/applications/science/logic/aiger/fix-configure-sed.patch 314920
-pkgs/applications/science/logic/fast-downward/default.nix 314920
-pkgs/build-support/bintools-wrapper/setup-hook.sh 314920
-pkgs/build-support/cc-wrapper/setup-hook.sh 314920
-pkgs/by-name/pu/puppet-bolt/package.nix 314920
-pkgs/development/compilers/gcc/common/builder.nix 314920
-pkgs/development/libraries/gcc/libgcc/default.nix 314920
-pkgs/development/libraries/gmp/4.3.2.nix 314920
-pkgs/development/libraries/gmp/5.1.x.nix 314920
-pkgs/development/libraries/gmp/6.x.nix 314920
-pkgs/development/libraries/gmp/remove-cc-reference.patch 314920
-pkgs/development/libraries/openssl/remove-cflags-references.patch 314920
-pkgs/development/python-modules/clustershell/default.nix 314920
-pkgs/development/tools/abuild/default.nix 314920
-pkgs/shells/bash/5.nix 314920
 pkgs/by-name/re/readsb/package.nix 314706
 pkgs/by-name/fi/firefox-sync-client/package.nix 312588
 pkgs/by-name/ni/nix-plugin-pijul/package.nix 298698
@@ -4143,7 +4034,6 @@ pkgs/development/python-modules/pwinput/default.nix 310701
 pkgs/by-name/so/solana-cli/Cargo.lock 301571
 nixos/modules/virtualisation/hyperv-guest.nix 300418
 pkgs/tools/networking/linkchecker/default.nix 289833
-pkgs/applications/audio/sayonara/default.nix 285110
 pkgs/applications/misc/minigalaxy/default.nix 282594
 pkgs/development/python-modules/mkdocs-include-markdown-plugin/default.nix 277351
 pkgs/applications/editors/cudatext/default.nix 273518
@@ -4318,7 +4208,6 @@ nixos/modules/services/networking/headscale.nix 313017
 pkgs/development/tools/azure-functions-core-tools/default.nix 310237
 nixos/modules/system/boot/initrd-network.nix 307035
 pkgs/by-name/we/webdriverio/package.nix 290867
-nixos/modules/installer/tools/nixos-generate-config.pl 287105
 nixos/modules/tasks/network-interfaces.nix 287105
 pkgs/games/quakespasm/default.nix 261759
 pkgs/tools/audio/beets/plugins/filetote.nix 257943
@@ -4328,7 +4217,6 @@ pkgs/by-name/al/alice-vision/find-flann.patch 256115
 pkgs/by-name/al/alice-vision/package.nix 256115
 pkgs/by-name/d2/d2vm/package.nix 318861
 pkgs/by-name/sp/sparsecat/package.nix 318861
-pkgs/applications/networking/browsers/librewolf/src.json 318859
 pkgs/development/python-modules/azure-ai-textanalytics/default.nix 318810
 pkgs/development/python-modules/pycycling/default.nix 318763
 pkgs/development/python-modules/tensordict/default.nix 318711
@@ -4700,8 +4588,6 @@ pkgs/development/compilers/opensycl/default.nix 295845
 pkgs/development/ocaml-modules/happy-eyeballs/default.nix 291072
 pkgs/by-name/th/thorium-browser/package.nix 284085
 nixos/modules/services/networking/netns.nix 109643
-pkgs/by-name/fi/file-compose/package.nix 315096
-pkgs/by-name/re/readeck/package.nix 315096
 pkgs/build-support/setup-hooks/make-wrapper.sh 314937
 pkgs/development/compilers/llvm/common/common-let.nix 314347
 pkgs/by-name/mr/mricron/package.nix 301030
@@ -4728,9 +4614,7 @@ pkgs/tools/graphics/sanjuuni/tests/run-on-nixos-artwork.nix 314690
 pkgs/applications/science/biology/mni_autoreg/default.nix 314688
 pkgs/by-name/gc/gcs/package.nix 313945
 pkgs/development/python-modules/absl-py/default.nix 313330
-doc/build-helpers/testers.chapter.md 306307
 pkgs/applications/virtualization/virt-viewer/default.nix 306307
-pkgs/build-support/testers/default.nix 306307
 pkgs/development/python-modules/jc/default.nix 306307
 pkgs/tools/networking/dnscrypt-proxy/default.nix 306307
 pkgs/applications/networking/cluster/nomad-device-nvidia/default.nix 304108
@@ -4860,21 +4744,34 @@ pkgs/tools/misc/lsd/default.nix 312505
 pkgs/tools/misc/sfz/default.nix 312505
 pkgs/tools/text/pomsky/default.nix 312505
 pkgs/tools/text/tidy-viewer/default.nix 312505
-nixos/modules/config/users-groups.nix 310484
 nixos/tests/password-option-override-ordering.nix 310484
 nixos/tests/systemd-sysusers-password-option-override-ordering.nix 310484
 pkgs/development/python-modules/hydrogram/default.nix 299966
-pkgs/by-name/co/commet/no-sqlite-libs.patch 312520
-pkgs/by-name/co/commet/package.nix 312520
-pkgs/by-name/co/commet/pubspec.lock.json 312520
-pkgs/development/python-modules/geomag/default.nix 312367
-pkgs/by-name/qu/quill-cpp/package.nix 306840
-pkgs/servers/mail/mailman/python.nix 327684 321532
-pkgs/applications/office/appflowy/default.nix 327668 327491
 pkgs/development/web/nodejs/v18.nix 327653 326357
 pkgs/development/web/nodejs/v20.nix 327653 326357
 pkgs/development/web/nodejs/v22.nix 327653 326357
-pkgs/build-support/dotnet/build-dotnet-module/default.nix 327651 327590
+nixos/tests/systemd.nix 327552 307068
+pkgs/development/python-modules/h5py/default.nix 327437 327444
+pkgs/development/haskell-modules/configuration-hackage2nix/stackage.yaml 327219 327556
+pkgs/development/haskell-modules/hackage-packages.nix 327219 327556
+pkgs/test/make-binary-wrapper/default.nix 326430 320138
+pkgs/by-name/go/gotenberg/package.nix 326372 267419
+pkgs/development/haskell-modules/configuration-nix.nix 326357 324944
+pkgs/development/libraries/gss/default.nix 326357 327128
+pkgs/development/libraries/kerberos/krb5.nix 326357 325926
+pkgs/os-specific/linux/cryptsetup/default.nix 326357 257420
+pkgs/applications/networking/mailreaders/thunderbird/packages.nix 327758 327278
+nixos/modules/config/users-groups.nix 327757 310484
+pkgs/development/libraries/libnftnl/default.nix 327746 327518
+pkgs/tools/misc/glasgow/default.nix 327741 324124
+nixos/modules/installer/tools/nixos-generate-config.pl 327740 287105
+pkgs/development/tools/rust/rust-analyzer/default.nix 327739 263871
+pkgs/applications/office/wpsoffice/default.nix 327736 318537
+pkgs/by-name/ll/llama-cpp/package.nix 327735 306172
+pkgs/applications/networking/browsers/librewolf/src.json 327723 318859
+pkgs/by-name/gi/gitea/package.nix 327705 292324
+pkgs/by-name/cl/clipse/package.nix 327704 326884
+pkgs/servers/mail/mailman/python.nix 327684 321532
 pkgs/build-support/dotnet/build-dotnet-module/hooks/dotnet-build-hook.sh 327651 326668
 pkgs/build-support/dotnet/build-dotnet-module/hooks/dotnet-check-hook.sh 327651 326668
 pkgs/build-support/dotnet/build-dotnet-module/hooks/dotnet-configure-hook.sh 327651 326668
@@ -4882,12 +4779,10 @@ pkgs/build-support/dotnet/build-dotnet-module/hooks/dotnet-install-hook.sh 32765
 pkgs/build-support/dotnet/make-nuget-deps/default.nix 327651 327475
 pkgs/development/compilers/dotnet/default.nix 327651 326218
 pkgs/development/compilers/dotnet/stage1.nix 327651 326815
+pkgs/applications/editors/vscode/extensions/default.nix 327595 326702
 pkgs/tools/video/replay-sorcery/default.nix 327566 326894
 pkgs/development/haskell-modules/configuration-hackage2nix/main.yaml 327556 324944
-pkgs/development/haskell-modules/configuration-hackage2nix/stackage.yaml 327556 327219
-pkgs/development/haskell-modules/hackage-packages.nix 327556 327219
 maintainers/scripts/convert-to-import-cargo-lock/shell.nix 327553 327018
-nixos/tests/systemd.nix 327552 307068
 pkgs/development/tools/sentry-cli/default.nix 327534 326243
 pkgs/development/python-modules/beancount/default.nix 327531 324813
 pkgs/by-name/ba/basedpyright/package.nix 327517 324592
@@ -4897,13 +4792,20 @@ pkgs/by-name/di/diesel-cli/package.nix 327517 327427
 pkgs/by-name/do/doppler/package.nix 327517 326008
 pkgs/by-name/fl/flatpak/package.nix 327517 322485
 pkgs/by-name/fl/flite/package.nix 327517 327433
-pkgs/by-name/im/immich-go/package.nix 327517 327245
+pkgs/by-name/kr/krr/package.nix 327517 325223
 pkgs/development/ocaml-modules/ocaml-lsp/lsp.nix 327516 326180
 pkgs/by-name/bi/bitwarden-desktop/package.nix 327501 313442
 nixos/modules/security/pam.nix 327499 314791
 pkgs/servers/freeradius/default.nix 327466 265762
 pkgs/development/libraries/audio/ntk/default.nix 327462 327467
-pkgs/development/python-modules/h5py/default.nix 327444 327437
+pkgs/by-name/kc/kcl/package.nix 327390 324842
+pkgs/by-name/kc/kclvm/Cargo.lock 327390 324842
+pkgs/by-name/kc/kclvm/enable_protoc_env.patch 327390 324842
+pkgs/by-name/kc/kclvm/package.nix 327390 324842
+pkgs/by-name/kc/kclvm_cli/Cargo.lock 327390 324842
+pkgs/by-name/kc/kclvm_cli/cargo_lock.patch 327390 324842
+pkgs/development/python-modules/fabulous/default.nix 327214 327200
+pkgs/development/tools/nwjs/default.nix 327195 310809
 pkgs/by-name/bp/bpftrace/package.nix 327053 321496
 nixos/modules/services/misc/sssd.nix 327032 309612
 pkgs/by-name/az/azure-cli/extensions-manual.nix 326954 326386
@@ -4911,24 +4813,23 @@ pkgs/games/pysolfc/default.nix 326917 323445
 nixos/modules/rename.nix 326894 327287
 pkgs/build-support/cc-wrapper/add-hardening.sh 326819 324429
 pkgs/development/compilers/gcc/default.nix 326819 324429
+pkgs/development/compilers/llvm/common/clang/default.nix 326819 324429
 pkgs/development/compilers/llvm/common/llvm/default.nix 326819 324986
 pkgs/development/libraries/glibc/common.nix 326819 248547
 pkgs/stdenv/linux/bootstrap-tools/default.nix 326819 324429
-pkgs/test/make-binary-wrapper/default.nix 326430 320138
-pkgs/applications/office/wpsoffice/default.nix 326429 318537
-pkgs/servers/etebase/default.nix 326398 318528
-pkgs/by-name/go/gotenberg/package.nix 326372 267419
-pkgs/development/haskell-modules/configuration-nix.nix 326357 324944
-pkgs/development/libraries/gss/default.nix 326357 327128
-pkgs/development/libraries/kerberos/krb5.nix 326357 325926
-pkgs/os-specific/linux/cryptsetup/default.nix 326357 257420
+pkgs/development/web/deno/default.nix 326003 326243
 pkgs/top-level/php-packages.nix 324831 325926
-pkgs/development/tools/ocaml/opam/opam-shebangs.patch 324381 144229
+pkgs/by-name/me/mealie/package.nix 324137 324034
 doc/languages-frameworks/python.section.md 324124 322267
 doc/packages/index.md 323866 326383
+doc/build-helpers/testers.chapter.md 323613 306307
+pkgs/build-support/testers/default.nix 323613 306307
 pkgs/applications/misc/bambu-studio/default.nix 321685 326458
-pkgs/servers/sql/mariadb/default.nix 321071 325926
 pkgs/development/octave-modules/statistics/default.nix 319391 282190
+pkgs/development/tools/build-managers/gnumake/default.nix 314920 314716
+pkgs/os-specific/linux/musl/default.nix 314920 229439
+pkgs/test/stdenv/gcc-stageCompare.nix 314920 316011
+pkgs/tools/text/gawk/default.nix 314920 314720
 doc/shell.nix 311459 265259
 pkgs/top-level/release.nix 311459 318034
 pkgs/build-support/bintools-wrapper/ld-wrapper.sh 307880 316743
@@ -4936,32 +4837,26 @@ pkgs/development/compilers/ghc/8.10.7.nix 307880 319398
 pkgs/development/compilers/ghc/common-hadrian.nix 307880 319398
 pkgs/development/compilers/ghc/common-make-native-bignum.nix 307880 319398
 pkgs/stdenv/generic/default.nix 307880 303361
+pkgs/applications/editors/jetbrains/bin/linux.nix 306712 294515
 pkgs/applications/misc/opentrack/default.nix 306172 267171
 pkgs/by-name/ko/koboldcpp/package.nix 306172 327102
 pkgs/by-name/mi/mistral-rs/package.nix 306172 323788
 pkgs/development/cuda-modules/cuda/extension.nix 306172 308667
 pkgs/development/cuda-modules/cuda/overrides.nix 306172 326247
 pkgs/development/cuda-modules/cudatoolkit/default.nix 306172 325926
+pkgs/by-name/dd/ddns-updater/package.nix 304624 324006
 nixos/lib/make-disk-image.nix 295874 327020
 pkgs/os-specific/linux/kernel/common-config.nix 279789 325788
 pkgs/os-specific/linux/kernel/generic.nix 279789 324419
 pkgs/development/python-modules/python-fluent/fluent-syntax.nix 255937 325541
 pkgs/development/haskell-modules/configuration-darwin.nix 327465 327322
 pkgs/servers/web-apps/kavita/nuget-deps.nix 327458 325053
-pkgs/by-name/kc/kcl/package.nix 327390 324842
-pkgs/by-name/kc/kclvm/Cargo.lock 327390 324842
-pkgs/by-name/kc/kclvm/enable_protoc_env.patch 327390 324842
-pkgs/by-name/kc/kclvm/package.nix 327390 324842
-pkgs/by-name/kc/kclvm_cli/Cargo.lock 327390 324842
-pkgs/by-name/kc/kclvm_cli/cargo_lock.patch 327390 324842
 pkgs/applications/terminal-emulators/xterm/default.nix 327357 326656
 lib/systems/doubles.nix 327353 263714
 pkgs/servers/amqp/rabbitmq-server/default.nix 327350 327031
 pkgs/games/heroic/fhsenv.nix 327273 325926
 pkgs/applications/networking/instant-messengers/zoom-us/default.nix 327271 325926
 pkgs/applications/networking/instant-messengers/discord/default.nix 327249 326793
-pkgs/development/python-modules/fabulous/default.nix 327214 327200
-pkgs/development/tools/nwjs/default.nix 327195 310809
 nixos/modules/services/x11/desktop-managers/cinnamon.nix 327144 290014
 pkgs/build-support/rust/build-rust-package/default.nix 327136 318558
 pkgs/by-name/as/ast-grep/package.nix 327101 326243
@@ -4992,7 +4887,6 @@ pkgs/servers/openafs/1.8/module.nix 325926 317045
 pkgs/tools/networking/openssh/common.nix 325926 278079
 nixos/modules/programs/xonsh.nix 325813 241386
 pkgs/by-name/xo/xonsh/package.nix 325813 241386
-.gitignore 325793 326663
 pkgs/applications/audio/spotify/linux.nix 325784 321963
 pkgs/by-name/pi/pixi/package.nix 325720 326243
 nixos/modules/services/web-apps/limesurvey.nix 325665 323551
@@ -5001,7 +4895,6 @@ pkgs/desktops/gnome/extensions/extensionOverridesPatches/tophat_at_fflewddur.git
 pkgs/desktops/gnome/extensions/extensionRenames.nix 325257 317201
 pkgs/build-support/setup-hooks/auto-patchelf.py 325126 307068
 nixos/tests/docker-tools.nix 324789 308822
-pkgs/tools/package-management/nix/common.nix 324408 277195
 pkgs/development/mobile/xcodeenv/compose-xcodewrapper.nix 324248 322641
 lib/systems/examples.nix 323161 313539
 pkgs/development/compilers/rust/rustc.nix 323161 320432
@@ -5024,15 +4917,14 @@ pkgs/development/libraries/gtk/3.x.nix 277807 271037
 pkgs/servers/shishi/default.nix 327118 311458
 lib/attrsets.nix 327114 270127
 nixos/modules/services/desktop-managers/plasma6.nix 327070 299599
-pkgs/applications/graphics/kcc/default.nix 327055 323382
-pkgs/development/python-modules/objexplore/default.nix 326978 326839
 pkgs/development/python-modules/shiny/default.nix 326910 316678
 pkgs/applications/networking/gns3/default.nix 326646 326662
 pkgs/applications/networking/gns3/gui.nix 326646 326662
 pkgs/os-specific/linux/nixos-rebuild/nixos-rebuild.sh 326636 323720
+pkgs/development/compilers/llvm/common/default.nix 326240 297144
 nixos/modules/services/networking/cgit.nix 324923 317293
+nixos/modules/services/web-servers/fcgiwrap.nix 324923 326315
 pkgs/development/libraries/folly/default.nix 302140 289608
-pkgs/os-specific/linux/musl/default.nix 229439 314920
 pkgs/development/python-modules/pyaml-env/default.nix 326690 249329
 pkgs/by-name/ni/nightfox-gtk-theme/package.nix 326681 325864
 pkgs/development/libraries/lib2geom/default.nix 326652 275868
@@ -5117,7 +5009,6 @@ nixos/modules/system/activation/switch-to-configuration.pl 216025 317623
 pkgs/by-name/pr/prismlauncher/package.nix 324874 324562
 pkgs/by-name/ld/ldc/package.nix 324690 324400
 pkgs/development/libraries/qt-5/5.15/default.nix 324622 220518
-pkgs/by-name/me/mealie/package.nix 324034 324137
 pkgs/by-name/op/opensta/package.nix 323156 298013
 nixos/modules/programs/clash-verge.nix 318525 309868
 pkgs/development/tools/bpf-linker/default.nix 292566 324671
@@ -5133,11 +5024,9 @@ pkgs/build-support/go/package.nix 277609 317559
 nixos/modules/services/backup/mysql-backup.nix 275594 300201
 nixos/modules/system/activation/top-level.nix 274765 257234
 pkgs/desktops/deepin/apps/deepin-draw/default.nix 271224 249237
-nixos/modules/installer/tools/tools.nix 270703 316999
 pkgs/test/overriding.nix 267296 295973
 nixos/modules/installer/cd-dvd/iso-image.nix 266474 156754
 pkgs/applications/version-management/p4v/linux.nix 266303 322464
-nixos/modules/system/activation/activation-script.nix 264523 311394
 nixos/release.nix 262497 233236
 nixos/modules/security/acme/default.nix 259846 311394
 doc/languages-frameworks/rust.section.md 247035 312505
@@ -5153,7 +5042,6 @@ pkgs/applications/science/electronics/kicad/versions.nix 285247 280181
 nixos/modules/virtualisation/ec2-data.nix 322282 311394
 nixos/modules/system/boot/loader/generic-extlinux-compatible/extlinux-conf-builder.sh 319400 318778
 pkgs/development/libraries/tpm2-tss/default.nix 317786 317651
-pkgs/test/stdenv/gcc-stageCompare.nix 316011 314920
 nixos/tests/nextcloud/with-declarative-redis-and-secrets.nix 278704 245155
 nixos/modules/services/web-apps/nextcloud-notify_push.nix 317397 245155
 nixos/modules/virtualisation/brightbox-image.nix 311394 315576
@@ -5162,6 +5050,7 @@ pkgs/development/rocm-modules/6/hip-common/default.nix 305920 306031
 pkgs/development/rocm-modules/6/llvm/base.nix 305920 304743
 pkgs/development/rocm-modules/6/rocm-smi/default.nix 305920 304653
 pkgs/development/python-modules/av/allow-skipping-network-tests.patch 317557 317556
+pkgs/development/python-modules/av/default.nix 317557 317556
 pkgs/by-name/gr/grist-core/package.nix 322633 305019
 pkgs/development/python-modules/friendly-traceback/default.nix 322633 305019
 pkgs/applications/editors/vim/plugins/nvim-treesitter/generated.nix 322354 320324
@@ -5170,8 +5059,6 @@ pkgs/development/python-modules/ansitable/default.nix 321907 321912
 pkgs/development/python-modules/bdsim/default.nix 321912 321910
 pkgs/development/python-modules/pgraph-python/default.nix 321912 321909
 pkgs/development/python-modules/spatialmath-python/default.nix 321912 321908
-pkgs/development/tools/build-managers/gnumake/default.nix 314920 314716
-pkgs/tools/text/gawk/default.nix 314920 314720
 pkgs/misc/drivers/spacenavd/default.nix 319119 263120
 pkgs/os-specific/darwin/apple-source-releases/xnu/0001-Implement-missing-availability-platform.patch 273016 273017
 pkgs/os-specific/darwin/apple-source-releases/xnu/10.13.6.nix 273016 273017
@@ -5184,13 +5071,11 @@ pkgs/tools/nix/nixos-option/nixos-option.cc 313497 315654
 pkgs/tools/nix/nixos-option/nixos-option.nix 313497 315654
 pkgs/tools/nix/nixos-option/nixos-option.sh 313497 315654
 pkgs/build-support/fetchhg/default.nix 300286 49862
-pkgs/build-support/testers/test/default.nix 299542 306307
 nixos/modules/services/x11/display-managers/gdm.nix 286587 282317
 pkgs/desktops/gnustep/gui/default.nix 318884 316137
 nixos/modules/services/networking/xrdp.nix 300418 315101
 pkgs/development/r-modules/default.nix 320479 300536
 nixos/modules/system/boot/loader/grub/grub.nix 317730 317026
-pkgs/applications/editors/jetbrains/bin/linux.nix 306712 294515
 pkgs/build-support/setup-hooks/make-binary-wrapper/make-binary-wrapper.sh 320138 314937
 nixos/modules/services/hardware/nvidia-container-toolkit/default.nix 317199 313225
 pkgs/development/python-modules/skops/default.nix 317010 307515
@@ -5210,28 +5095,26 @@ pkgs/os-specific/darwin/darwin-stubs/10.13.6.nix 273017 273006
 pkgs/by-name/ma/matrix-zulip-bridge/package.nix 285705 285702
 pkgs/development/python-modules/zulip-emoji-mapping/default.nix 285705 285702
 nixos/modules/virtualisation/amazon-image.nix 313933 290346
-nixos/modules/config/nix-channel.nix 327683 323613 273170
-pkgs/by-name/kr/krr/package.nix 327659 327517 325223
-pkgs/by-name/ne/nexusmods-app/package.nix 327651 321405 318647
-pkgs/development/compilers/dotnet/vmr.nix 327651 307880 325926
-pkgs/development/python-modules/av/default.nix 327626 317557 317556
-pkgs/by-name/kc/kclvm_cli/package.nix 327587 327390 324842
-doc/build-helpers/images/dockertools.section.md 327579 327336 308822
 nixos/modules/system/boot/stage-2-init.sh 327552 320643 236758
 nixos/modules/system/boot/systemd.nix 327552 307068 311394
+pkgs/development/interpreters/ruby/default.nix 326357 314920 326891
+pkgs/development/libraries/ncurses/default.nix 326357 285347 307484
+pkgs/development/libraries/openssl/default.nix 326357 314920 313539
+pkgs/development/python-modules/flask-cors/default.nix 326357 325090 316437
+nixos/modules/installer/tools/tools.nix 327740 270703 316999
+nixos/modules/config/nix-channel.nix 327683 323613 273170
+pkgs/by-name/ne/nexusmods-app/package.nix 327651 321405 318647
+pkgs/development/compilers/dotnet/vmr.nix 327651 307880 325926
+pkgs/by-name/kc/kclvm_cli/package.nix 327587 327390 324842
+doc/build-helpers/images/dockertools.section.md 327579 327336 308822
 pkgs/by-name/lo/local-ai/package.nix 327517 306172 318614
 pkgs/applications/editors/emacs/elisp-packages/manual-packages.nix 327507 327302 326981
-pkgs/by-name/ol/ollama/package.nix 327505 326939 324659
 .envrc 327493 325793 310201
 pkgs/development/compilers/llvm/common/compiler-rt/default.nix 327038 297144 321586
-pkgs/development/compilers/llvm/common/clang/default.nix 326819 324429 316785
 pkgs/development/libraries/glibc/default.nix 326819 229758 248547
 .github/workflows/check-nix-format.yml 326407 324367 321405
-pkgs/development/interpreters/ruby/default.nix 326357 326891 314920
-pkgs/development/libraries/ncurses/default.nix 326357 285347 307484
-pkgs/development/libraries/openssl/default.nix 326357 313539 314920
-pkgs/development/python-modules/flask-cors/default.nix 326357 325090 316437
-pkgs/development/web/deno/default.nix 326003 326705 326243
+nixos/modules/system/activation/activation-script.nix 323613 264523 311394
+pkgs/build-support/testers/test/default.nix 323613 299542 306307
 nixos/modules/programs/firefox.nix 320274 260204 321254
 doc/default.nix 311459 326765 322004
 pkgs/build-support/bintools-wrapper/default.nix 307880 323161 252310
@@ -5250,12 +5133,11 @@ pkgs/by-name/si/siyuan/package.nix 313638 323617 313442
 nixos/modules/config/nix.nix 313539 326020 318635
 pkgs/build-support/cc-wrapper/default.nix 313539 318034 323611
 pkgs/development/python-modules/htmltools/default.nix 326910 321316 316678
-pkgs/development/compilers/llvm/common/default.nix 326240 326644 297144
 nixos/modules/services/misc/zoneminder.nix 324923 326315 318740
-nixos/modules/services/web-servers/fcgiwrap.nix 324923 326315 326298
 nixos/modules/services/desktops/geoclue2.nix 326882 325430 262625
 pkgs/misc/tmux-plugins/default.nix 326758 262607 296174
 doc/stdenv/meta.chapter.md 325357 324687 324058
+pkgs/by-name/br/bruno/package.nix 326554 313442 319759
 pkgs/build-support/rust/hooks/cargo-check-hook.sh 326365 314888 312505
 pkgs/build-support/cc-wrapper/cc-wrapper.sh 318034 316700 310195
 lib/sources.nix 262987 316668 49862
@@ -5285,10 +5167,8 @@ pkgs/build-support/fetchsourcehut/default.nix 300286 316668 49862
 pkgs/build-support/fetchsvn/default.nix 300286 316668 49862
 pkgs/applications/science/math/gap/default.nix 319946 319944 319942
 pkgs/applications/science/robotics/inav-configurator/default.nix 320056 320055 320052
-pkgs/by-name/br/bruno/package.nix 327669 326554 313442 319759
 pkgs/development/web/nodejs/nodejs.nix 327653 326357 220204 317109
 pkgs/build-support/dotnet/nuget-to-nix/nuget-to-nix.sh 327651 327475 326668 325053
-pkgs/applications/editors/vscode/extensions/default.nix 327595 327488 327276 326702
 nixos/modules/system/boot/systemd/initrd.nix 327506 307068 311394 307528
 doc/stdenv/stdenv.chapter.md 326819 324429 260002 314888
 pkgs/development/interpreters/python/mk-python-derivation.nix 324124 272678 272177 327264
@@ -5307,22 +5187,22 @@ nixos/modules/system/boot/loader/systemd-boot/systemd-boot-builder.py 324911 325
 nixos/modules/services/networking/ssh/sshd.nix 309025 311394 319595 81490
 nixos/modules/services/x11/xserver.nix 297434 313105 303243 316347
 nixos/modules/services/web-apps/nextcloud.nix 278704 317397 245155 314664
-pkgs/development/haskell-modules/configuration-common.nix 327556 327333 327219 324944 273757
-pkgs/stdenv/darwin/default.nix 326819 307880 279197 325926 317119
-pkgs/stdenv/generic/make-derivation.nix 326819 313539 324429 323405 314888
+pkgs/development/haskell-modules/configuration-common.nix 327219 327556 327333 324944 273757
 pkgs/by-name/me/meson/package.nix 326357 326187 318034 321994 313977
 pkgs/development/haskell-modules/generic-builder.nix 326357 273757 296645 321255 320148
 pkgs/development/libraries/ffmpeg/generic.nix 326357 326249 312432 322724 306307
+pkgs/stdenv/darwin/default.nix 326819 307880 279197 325926 317119
+pkgs/stdenv/generic/make-derivation.nix 326819 313539 324429 323405 314888
+pkgs/servers/sql/postgresql/generic.nix 314920 325926 294504 322025 318383
 nixos/modules/services/backup/restic.nix 314668 296691 307962 319807 319824
 lib/types.nix 326765 322004 262570 261571 256353
-pkgs/servers/sql/postgresql/generic.nix 325926 294504 322025 314920 318383
 lib/systems/default.nix 313539 262987 303849 324071 324058
 pkgs/test/default.nix 313539 292324 320138 303361 267792
 pkgs/stdenv/generic/setup.sh 301634 318614 298838 314888 303361
 pkgs/build-support/fetchgit/default.nix 294329 303307 300286 316668 49862
 pkgs/development/node-packages/main-programs.nix 323278 323705 323493 309100 317333
 nixos/modules/system/boot/loader/systemd-boot/systemd-boot.nix 324911 323962 325347 201202 319422
-lib/tests/modules.sh 324917 324798 256353 254212 230588
+lib/tests/modules.sh 326430 324917 324798 256353 254212 230588
 pkgs/top-level/stage.nix 326819 324429 318034 303849 324058 317651
 lib/licenses.nix 326677 306971 262987 325384 307683 242480
 lib/strings.nix 262987 187945 261571 323843 315411 313144
@@ -5334,7 +5214,7 @@ nixos/doc/manual/release-notes/rl-2405.section.md 316975 327154 324426 245155 29
 pkgs/build-support/docker/default.nix 327579 314288 308603 294849 327336 324789 308822 122608
 pkgs/applications/editors/vim/plugins/overrides.nix 318892 312311 327171 323500 323476 323474 302442 322969 278871
 pkgs/applications/editors/vim/plugins/generated.nix 319576 321472 307352 266892 278871 295901 313743 313738 313731
-pkgs/top-level/linux-kernels.nix 307132 324688 246268 297598 302959 316708 317498 282675 300682
+pkgs/top-level/linux-kernels.nix 312314 307132 324688 246268 297598 302959 316708 317498 282675 300682
 pkgs/development/node-packages/node-packages.json 327171 323500 323476 323474 323295 323278 323705 323493 323304 323301 309100
 pkgs/os-specific/darwin/apple-source-releases/macos-10.13.6.nix 273016 273012 273017 273015 273014 273013 273011 273009 273006 273003 272999
 pkgs/os-specific/darwin/apple-source-releases/default.nix 307880 273016 273012 273017 273015 273014 273013 273011 273009 273006 273003 272999
@@ -5342,10 +5222,10 @@ pkgs/development/node-packages/aliases.nix 327171 323500 323476 323474 323295 32
 pkgs/development/node-packages/node-packages.nix 327171 323500 323476 323474 323295 326268 323278 323705 323493 323304 323301 309100
 lib/default.nix 327114 325357 262987 187945 323549 324917 295337 230588 149990 316668 49862 315411
 pkgs/applications/editors/vim/plugins/vim-plugin-names 319576 321472 307352 277615 267414 266892 266661 265398 278871 295901 313743 313738 313731
-pkgs/top-level/aliases.nix 327646 327582 327512 326894 324693 316466 327303 327302 327297 327296 327287 327183 326966 325926 324127 323718 318892 298757 327011 325294 319609 318525 324562 324301 312403 290014 320361 295587 320879 320363 320360 320264
-nixos/tests/all-tests.nix 327498 327184 326372 324831 313671 311927 219942 327293 326939 326238 324789 324127 318892 312011 288443 308647 323231 322815 318815 317817 287565 290913 325541 324894 319348 317475 313189 324648 320060 323802 325238 315095 314440 297434 273492 271427 263571 203433 318997 244172 323320 279011 317496 274052 322173 322095 305538 314192 305019 241373 257234 317026 316347 306615 313713 304645 301307 296972 293953 290529 310484
-nixos/doc/manual/release-notes/rl-2411.section.md 327683 327184 326894 326819 326553 326398 326372 324124 323196 321098 316466 313671 311927 296691 279789 327099 326385 326238 324127 288443 324923 323617 324429 323231 317817 299309 292324 287565 312866 323278 318727 302681 290008 324911 324894 319348 317475 316526 314097 312861 324648 320060 307601 325347 309025 307132 324615 320273 319535 314440 299046 324058 297434 244172 301253 245155 308720 279011 313420 305538 307293 318740 317162 317858
-nixos/modules/module-list.nix 327498 327184 326894 326553 326372 323196 321098 316466 311927 279789 219942 194957 327287 326385 326238 324127 318892 316975 310474 288443 308647 323231 322815 318815 317817 287565 277531 325541 323278 290008 324894 319348 317475 316526 314097 324648 320060 307601 306533 264900 325124 323802 307132 316824 319535 324779 314440 297434 287923 273492 271427 269375 263571 259217 258957 257837 181145 126987 299599 244172 323093 303320 268378 216889 308720 279011 274052 297871 305538 309573 320917 316708 307293 318600 305019 317611 318204 317162 244549 245511 296697 294469 316347 259092 316723 306615 315077 314888 313713 311637 310308 304645 301307 296972 294489 294366 293953 293520 291353 290729 290529 288418 285705 283285 282675 296607 109643 300682
-pkgs/top-level/python-packages.nix 327509 327444 327437 326398 324018 320189 317131 316936 311927 293135 255937 327446 327352 326966 326840 326242 325813 323927 320185 318695 307469 327185 326978 326910 326839 308647 276662 326696 326690 326686 326672 326655 325971 324462 311463 305426 326521 326504 326255 326237 325917 316237 312866 298393 326279 326236 325902 325901 325541 322593 318727 316536 324894 312861 312381 325891 325617 325516 320783 311589 301782 317618 316688 319585 322015 320172 277566 277506 277125 273333 273104 270215 268955 268117 267893 263410 263140 260878 259150 250290 240422 237313 236290 214863 199746 191068 156885 152335 125202 324293 322887 287857 278003 323382 249329 322633 322590 321911 321907 321725 321304 304626 297719 295564 293002 289823 288952 277386 321912 321910 321909 321908 303328 321316 320980 319786 317014 320599 310701 277351 319350 315113 316848 305019 301273 319013 317010 318339 318810 318763 318279 316678 312424 307515 281689 316110 315986 261311 252573 315982 317377 315845 316753 315968 153255 316948 310308 285705 313087 285702 315400 310975 296880 299322 313895 281134 299346 313031 312348 299966 312367
-maintainers/maintainer-list.nix 327697 327694 327678 327675 327647 327498 326954 326623 326386 326272 325566 324452 323696 323397 321113 321098 320214 317131 219942 327445 327424 326945 326932 326795 326373 326367 326242 325911 323927 310759 310552 310474 288443 327012 326999 326326 304470 285941 325971 325630 323231 305426 299309 287565 326527 326331 326102 319501 319249 318847 316431 316237 267064 326393 326305 326213 326131 320346 319628 316536 303085 290008 326147 326060 324701 324637 319348 316526 296424 325089 324648 324374 320463 304103 325347 320783 319163 325309 324615 309327 308515 324814 323585 323070 321321 313854 313409 324730 321599 320806 317805 322015 321054 277630 275405 274553 273296 273295 273238 269086 269005 268959 268796 268117 265991 264799 263958 259832 256454 246268 240422 238757 235013 224848 216222 152335 322735 320626 318292 322957 304476 303320 268378 322835 298173 323477 323382 319931 308854 319591 283978 321846 296199 316404 313761 297598 274052 307584 321304 297719 312588 321125 309573 309096 302409 319786 307293 310701 319350 319598 320065 301273 319741 319157 316080 298013 318810 315813 303669 318204 315274 300714 244549 315727 295120 316496 306767 294469 278570 271493 306615 300662 294489 282675 316266 288898 281803 296607 312629 296880 313261 314821 314740 304108 314298 308073 281134 313706 305014 305150 312706 299966
-pkgs/top-level/all-packages.nix 327694 327686 327651 327647 327646 327642 327641 327639 327582 327560 327509 327441 327430 327219 327019 326917 326894 326398 326003 324831 324693 324018 323866 316466 311459 311314 307880 327467 327376 327302 327297 327296 327287 327278 327228 327218 327183 326966 326481 326367 326238 326199 325926 325784 324436 324127 323718 321845 318892 313539 312432 307068 302759 298757 294314 327006 326924 326692 319221 319218 319214 319176 296770 295107 326845 326844 326794 326633 325294 324432 299309 292324 287565 270176 326577 326462 325917 325517 324076 318850 318034 267064 326273 326266 326236 325901 324787 321056 320650 318285 299624 293498 286590 285519 326174 324701 318772 316526 312381 309612 260566 324788 314998 310929 325124 323705 305391 205657 325328 325162 325113 324982 325029 324944 320273 122608 324874 323867 319609 313760 324682 324666 324562 324035 323857 277781 276280 276142 275405 273471 272958 272318 271752 271676 270215 269086 268959 267928 267080 265418 265097 264511 263958 263522 263261 259832 259599 258646 257388 257247 257021 256882 256454 256065 254250 252920 251984 251499 247779 245000 242480 240994 240771 239290 238757 238392 236516 235013 229810 227911 226518 224848 221238 216222 215585 210393 203433 203123 200047 193979 190039 189724 189295 185063 181145 179845 159393 151390 145896 324418 323899 322280 323306 321858 320408 314538 304476 268378 318594 304265 222581 317397 322422 320617 312403 251863 318552 279011 318537 311382 300812 290014 307984 322173 322095 322061 320361 320074 233115 306263 263120 321190 321125 312161 306292 299274 295587 320396 319867 320599 319558 315872 320363 320360 320264 310809 257927 320086 320065 320056 320055 320052 310811 304009 287354 257234 319420 314248 319121 318607 256115 318623 315274 317463 316110 304404 296701 245511 316668 217229 49862 304061 313763 316401 316361 315077 316266 314845 288898 281803 270763 315920 312629 315257 314882 308667 275806
+pkgs/top-level/aliases.nix 327646 327582 327512 326894 324693 316466 327303 327302 327297 327296 327287 326966 325926 324127 323718 318892 298757 327011 325294 319609 318525 324562 324301 312403 290014 320361 295587 320879 320363 320360 320264
+nixos/tests/all-tests.nix 326372 327498 327184 324831 323613 320060 313671 311927 304624 288443 219942 327293 326238 324789 324127 318892 312011 308647 323231 322815 318815 317817 287565 290913 325541 324894 319348 317475 313189 324648 323802 325238 315095 314440 297434 273492 271427 263571 203433 318997 244172 323320 279011 317496 274052 322173 322095 305538 314192 305019 241373 257234 317026 316347 306615 313713 304645 301307 296972 293953 290529 310484
+nixos/doc/manual/release-notes/rl-2411.section.md 326372 327683 327184 326894 326819 326553 324124 323196 321098 320060 316466 313671 312314 311927 304624 296691 288443 279789 327099 326385 326238 324127 324923 323617 324429 323231 317817 299309 292324 287565 312866 323278 318727 302681 290008 324911 324894 319348 317475 316526 314097 312861 324648 307601 325347 309025 307132 324615 320273 319535 314440 299046 324058 297434 244172 301253 245155 308720 279011 313420 305538 307293 318740 317162 317858
+nixos/modules/module-list.nix 326372 327498 327184 326894 326553 323196 321098 320060 316466 311927 304624 288443 279789 219942 194957 327287 326385 326238 324127 318892 316975 310474 308647 323231 322815 318815 317817 287565 277531 325541 323278 290008 324894 319348 317475 316526 314097 324648 307601 306533 264900 325124 323802 307132 316824 319535 324779 314440 297434 287923 273492 271427 269375 263571 259217 258957 257837 181145 126987 299599 244172 323093 303320 268378 216889 308720 279011 274052 297871 305538 309573 320917 316708 307293 318600 305019 317611 318204 317162 244549 245511 296697 294469 316347 259092 316723 306615 315077 314888 313713 311637 310308 304645 301307 296972 294489 294366 293953 293520 291353 290729 290529 288418 285705 283285 282675 296607 109643 300682
+pkgs/top-level/python-packages.nix 327762 327446 327437 327509 327444 326696 324462 324018 320189 317131 316936 311927 293135 255937 327352 326966 326840 326242 325813 323927 320185 318695 307469 327185 326978 326910 308647 276662 326690 326686 326672 326655 325971 311463 305426 326521 326504 326255 326237 325917 316237 312866 298393 326279 326236 325902 325901 325541 322593 318727 316536 324894 312861 312381 325891 325617 325516 320783 311589 301782 317618 316688 319585 322015 320172 277566 277506 277125 273333 273104 270215 268955 268117 267893 263410 263140 260878 250290 240422 237313 236290 214863 199746 191068 156885 152335 125202 324293 322887 287857 278003 323382 249329 322633 322590 321911 321907 321725 321304 304626 297719 295564 293002 289823 288952 277386 321912 321910 321909 321908 303328 321316 320980 319786 317014 320599 310701 277351 319350 315113 316848 305019 301273 319013 317010 318339 318810 318763 318279 316678 312424 307515 281689 316110 315986 261311 252573 315982 317377 315845 316753 315968 153255 316948 310308 285705 313087 285702 315400 310975 296880 299322 313895 281134 299346 313031 312348 299966
+maintainers/maintainer-list.nix 308854 327694 327647 327498 327445 327424 326954 326623 326386 326272 325566 324452 323696 323397 321113 321098 320214 317131 288443 219942 326945 326932 326795 326373 326367 326242 325911 323927 310759 310552 310474 326999 326326 304470 285941 325971 325630 323231 305426 299309 287565 326527 326331 326102 319501 319249 318847 316431 316237 267064 326393 326305 326213 326131 320346 319628 316536 303085 290008 326147 326060 324701 324637 319348 316526 296424 325089 324648 324374 320463 304103 325347 320783 319163 325309 324615 309327 308515 324814 323585 323070 321321 313854 313409 324730 321599 320806 317805 322015 321054 277630 275405 274553 273296 273295 273238 269086 269005 268959 268796 268117 265991 264799 263958 259832 256454 246268 240422 238757 235013 224848 216222 152335 322735 320626 318292 322957 304476 303320 268378 322835 298173 323477 323382 319931 319591 283978 321846 296199 316404 313761 297598 274052 307584 321304 297719 312588 321125 309573 309096 302409 319786 307293 310701 319350 319598 320065 301273 319741 319157 316080 298013 318810 315813 303669 318204 315274 300714 244549 315727 295120 316496 306767 294469 278570 271493 306615 300662 294489 282675 316266 288898 281803 296607 312629 296880 313261 314821 314740 304108 314298 308073 281134 313706 305014 305150 312706 299966
+pkgs/top-level/all-packages.nix 327219 327686 327651 327647 327646 327642 327582 327560 327509 327441 327019 326917 326894 326844 326003 324831 324693 324018 323866 316466 311459 311314 307880 327467 327376 327302 327297 327296 327287 327278 327228 327218 326966 326481 326367 326238 326199 325926 325784 324436 324127 323718 321845 318892 313539 312432 307068 302759 298757 294314 327006 326924 326692 319221 319218 319214 319176 296770 295107 326845 326794 326633 325294 299309 292324 287565 270176 326577 326462 325917 325517 324076 318850 318034 267064 326273 326266 326236 325901 324787 321056 320650 318285 299624 293498 286590 285519 326174 324701 318772 316526 312381 309612 260566 324788 314998 310929 325124 323705 305391 205657 325328 325162 325113 324982 325029 324944 320273 122608 324874 323867 319609 313760 324682 324666 324562 324035 323857 277781 276280 276142 275405 273471 272958 272318 271752 271676 270215 269086 268959 267928 267080 265418 265097 264511 263958 263522 263261 259832 259599 258646 257388 257247 257021 256882 256454 256065 254250 252920 251984 251499 247779 245000 242480 240994 240771 239290 238757 238392 236516 235013 229810 227911 226518 224848 221238 216222 215585 210393 203433 203123 200047 193979 190039 189724 189295 185063 181145 179845 159393 151390 145896 324418 323899 322280 323306 321858 320408 314538 304476 268378 318594 304265 222581 317397 322422 320617 312403 251863 318552 279011 318537 311382 300812 290014 307984 322173 322095 322061 320361 320074 233115 306263 263120 321190 321125 312161 306292 299274 295587 320396 319867 320599 319558 315872 320363 320360 320264 310809 257927 320086 320065 320056 320055 320052 310811 304009 287354 257234 319420 314248 319121 318607 256115 318623 315274 317463 316110 304404 296701 245511 316668 217229 49862 304061 313763 316401 316361 315077 316266 314845 288898 281803 270763 315920 312629 315257 314882 308667 275806

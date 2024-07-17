@@ -1,12 +1,9 @@
 {
   system ? builtins.currentSystem,
-  baseRev ? "7ffbecde9aa26364ac79010154bf78bb77529fd2",
+  baseRev ? "72e7fd797e15eaf3f13d3c1d4e80a1e3dfb0ecdf",
 }:
 rec {
-  nixpkgs = fetchTarball {
-    url = "https://github.com/tweag/nixpkgs/archive/${baseRev}.tar.gz";
-    sha256 = "11b7nvmz4qfh6dk0p6cs11qsinpa0xcj99h8m9xd9rbrghf3pxh9";
-  };
+  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/${baseRev}.tar.gz";
 
   pkgs = import nixpkgs {
     inherit system;
