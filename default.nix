@@ -108,12 +108,12 @@ let
 
     This can be verified using
 
-        nix-build https://gist.github.com/infinisil/4b7a1a1e5db681d04446e73e39048aec/archive/$Format:%H$.tar.gz
-        result/bin/check-formatting $NIXPKGS_PATH
+        nix-build https://gist.github.com/infinisil/4b7a1a1e5db681d04446e73e39048aec/archive/$Format:%H$.tar.gz -A applyFormatting
+        result/bin/apply-formatting $NIXPKGS_PATH
   '';
 
   applyFormatting = pkgs.writeShellApplication {
-    name = "check-formatting";
+    name = "apply-formatting";
     excludeShellChecks = [ "SC2016" ];
     text = ''
       nixpkgs=$1
