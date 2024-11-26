@@ -19,8 +19,8 @@ let
   };
 
   nixfmtSrc = fetchTarball {
-    url = "https://github.com/NixOS/nixfmt/archive/99829a0b149eab4d82764fb0b5d4b6f3ea9a480d.tar.gz";
-    sha256 = "0lnl9vlbyrfplmq3hpmpjlmhjdwwbgk900wgi25ib27v0mlgpnxp";
+    url = "https://github.com/NixOS/nixfmt/archive/b19ea26a7de2e4f46176990ebbe90528e5d79af1.tar.gz";
+    sha256 = "0j8gv0cpjp2yxp5il8diq1lhw5jzra5zz6xp8rl3fss3v49f5kyz";
   };
   nixfmt = (import nixfmtSrc { inherit system; }).packages.nixfmt;
 
