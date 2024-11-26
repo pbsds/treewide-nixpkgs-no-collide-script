@@ -24,24 +24,7 @@ let
   };
   nixfmt = (import nixfmtSrc { inherit system; }).packages.nixfmt;
 
-  nix = pkgs.nixVersions.latest.overrideAttrs (old: {
-    patches = old.patches or [] ++ [
-      # https://github.com/NixOS/nix/pull/11120
-      (pkgs.fetchpatch {
-        url = "https://github.com/NixOS/nix/commit/9fae50ed4be6c7f8bd16ece9626709d78bb4b01c.patch";
-        hash = "sha256-2Z9UxT3m/m3acpRiqjGHd3bKjUz78/6IU8susrk59OU=";
-      })
-      (pkgs.fetchpatch {
-        url = "https://github.com/NixOS/nix/commit/23c44d98664b81f06259fc785a31dfcf6d7c1a9f.patch";
-        hash = "sha256-BMMM0SPzrPmsnmCaezuqjx4Yif5IyV96CPsAzGnBvvY=";
-      })
-      # https://github.com/NixOS/nix/pull/11123
-      (pkgs.fetchpatch {
-        url = "https://github.com/NixOS/nix/commit/94975d4625b464609a2e5cd7e4862375518bf4ec.patch";
-        hash = "sha256-2QE204IqKk0x0htD9nuBOCqxnGVAdeBaTthcV+lR8ok=";
-      })
-    ];
-  });
+  nix = pkgs.nixVersions.latest;
 
   prsByFilePath = ./prs-by-file;
 
