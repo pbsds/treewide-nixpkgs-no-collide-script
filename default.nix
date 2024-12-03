@@ -18,11 +18,7 @@ let
     overlays = [];
   };
 
-  nixfmtSrc = fetchTarball {
-    url = "https://github.com/NixOS/nixfmt/archive/b19ea26a7de2e4f46176990ebbe90528e5d79af1.tar.gz";
-    sha256 = "0j8gv0cpjp2yxp5il8diq1lhw5jzra5zz6xp8rl3fss3v49f5kyz";
-  };
-  nixfmt = (import nixfmtSrc { inherit system; }).packages.nixfmt;
+  nixfmt = pkgs.nixfmt-rfc-style;
 
   nix = pkgs.nixVersions.latest;
 
