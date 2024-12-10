@@ -1,10 +1,10 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash --pure -p zsh jq github-cli
+#!nix-shell -i bash --pure -p jq github-cli
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' exit
 set -euo pipefail
 
-initialChunkSize=50
+initialChunkSize=40
 days=60
 
 numbers=()
