@@ -29,7 +29,7 @@ printf "%s\n" "${numbers[@]}" | \
       . "\($item.path)" += [ $item.number ]
     ) |
     to_entries |
-    sort_by(.value | length) |
+    sort_by((.value | length), .key) |
     .[] |
-    "\(.key) \(.value | join(" "))"
+    "\(.key) \(.value | sort | join(" "))"
   ' -r > "$(dirname "${BASH_SOURCE[0]}")/prs-by-file"
