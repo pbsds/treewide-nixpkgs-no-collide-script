@@ -78,7 +78,7 @@ let
       export NIX_STATE_DIR=$(mktemp -d)
       nix-store --init
 
-      parallel --willcite --bar -n 500 -P "$NIX_BUILD_CORES" -a "${files}/files-to-format" ${if check then checkedNixfmt else "nixfmt"} {}
+      parallel --willcite --bar -n ${toString (if check then 1 else 500)} -P "$NIX_BUILD_CORES" -a "${files}/files-to-format" ${if check then checkedNixfmt else "nixfmt"} {}
     '';
 
   message = ''
