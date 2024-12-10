@@ -317,7 +317,6 @@ nixos/modules/services/networking/mullvad-vpn.nix 341992
 nixos/modules/services/networking/murmur.nix 363816
 nixos/modules/services/networking/ncdns.nix 314933
 nixos/modules/services/networking/ndppd.nix 355605
-nixos/modules/services/networking/netbird.nix 363949
 nixos/modules/services/networking/netbird/dashboard.nix 354032
 nixos/modules/services/networking/netbird/management.nix 354032
 nixos/modules/services/networking/netbird/proxy.nix 354032
@@ -485,6 +484,7 @@ nixos/modules/system/boot/loader/generic-extlinux-compatible/default.nix 178191
 nixos/modules/system/boot/loader/generic-extlinux-compatible/extlinux-conf-builder.nix 178191
 nixos/modules/system/boot/loader/generic-extlinux-compatible/extlinux-conf-builder.sh 178191
 nixos/modules/system/boot/loader/systemd-boot/systemd-boot.nix 332239
+nixos/modules/system/boot/plymouth.nix 355601
 nixos/modules/system/boot/stage-1.nix 278122
 nixos/modules/system/boot/stage-2-init.sh 320643
 nixos/modules/system/boot/systemd/tmpfiles.nix 363939
@@ -844,6 +844,7 @@ pkgs/applications/networking/browsers/firefox/common.nix 354270
 pkgs/applications/networking/browsers/firefox/mozbz-1935621-attachment-9442305.patch 354270
 pkgs/applications/networking/browsers/firefox/wrapper.nix 303562
 pkgs/applications/networking/browsers/ladybird/default.nix 361319
+pkgs/applications/networking/browsers/lagrange/default.nix 363997
 pkgs/applications/networking/browsers/surf/default.nix 354270
 pkgs/applications/networking/browsers/vivaldi/default.nix 291033
 pkgs/applications/networking/cloudflared/default.nix 363503
@@ -855,7 +856,8 @@ pkgs/applications/networking/cluster/helm/plugins/helm-dt.nix 328979
 pkgs/applications/networking/cluster/k0s/1_30.nix 258846
 pkgs/applications/networking/cluster/k0s/default.nix 258846
 pkgs/applications/networking/cluster/k0s/update-script.bash 258846
-pkgs/applications/networking/cluster/kluctl/default.nix 328146
+pkgs/applications/networking/cluster/k3s/1_30/images-versions.json 363993
+pkgs/applications/networking/cluster/k3s/1_30/versions.nix 363993
 pkgs/applications/networking/cluster/kuma/default.nix 354270
 pkgs/applications/networking/cluster/nomad-device-nvidia/default.nix 304108
 pkgs/applications/networking/cluster/roxctl/default.nix 354270
@@ -1327,7 +1329,6 @@ pkgs/by-name/bo/bottom/package.nix 360568
 pkgs/by-name/bo/boundary-bin/package.nix 353748
 pkgs/by-name/bo/boundary-bin/update.sh 353748
 pkgs/by-name/bo/boundary/package.nix 353748
-pkgs/by-name/bp/bpftrace/package.nix 328438
 pkgs/by-name/br/brave/package.nix 363729
 pkgs/by-name/br/breezex-cursor/package.nix 356086
 pkgs/by-name/br/brei/package.nix 357554
@@ -2626,6 +2627,7 @@ pkgs/by-name/pa/pay-respects/package.nix 357425
 pkgs/by-name/pc/pcsc-safenet/package.nix 355186
 pkgs/by-name/pd/pdal/package.nix 361010
 pkgs/by-name/pd/pdf-parser/package.nix 362916
+pkgs/by-name/pd/pdfium-binaries/package.nix 363996
 pkgs/by-name/pd/pds/package.nix 350645
 pkgs/by-name/pd/pdsadmin/package.nix 350645
 pkgs/by-name/pd/pdsadmin/pdsadmin-offline.patch 350645
@@ -2910,6 +2912,7 @@ pkgs/by-name/sd/SDL1/package.nix 274836
 pkgs/by-name/sd/sdl3/package.nix 326699
 pkgs/by-name/sd/sdl_gamecontrollerdb/package.nix 348358
 pkgs/by-name/se/seagoat/package.nix 325545
+pkgs/by-name/se/sealcurses/package.nix 363997
 pkgs/by-name/se/segger-jlink/source.nix 345776
 pkgs/by-name/se/segger-systemview/package.nix 214195
 pkgs/by-name/se/selenium-manager/package.nix 356836
@@ -3328,7 +3331,6 @@ pkgs/by-name/wi/wiremock/package.nix 363841
 pkgs/by-name/wi/wizarr/package.nix 357939
 pkgs/by-name/wl/wlink/package.nix 363634
 pkgs/by-name/wl/wlock/package.nix 347893
-pkgs/by-name/wl/wlr-layout-ui/package.nix 323157
 pkgs/by-name/wo/wondershaper/package.nix 289389
 pkgs/by-name/wo/wootility/package.nix 357836
 pkgs/by-name/wo/wooting-udev-rules/package.nix 357836
@@ -3411,6 +3413,10 @@ pkgs/by-name/ze/zed-editor/0002-disable-livekit-darwin.patch 356757
 pkgs/by-name/ze/zed-editor/package.nix 356757
 pkgs/by-name/ze/zelda64recomp/0001-disable-cmake-downloading-gamecontrollerdb.txt.patch 313013
 pkgs/by-name/ze/zelda64recomp/package.nix 313013
+pkgs/by-name/ze/zen-browser-unwrapped/package.nix 363992
+pkgs/by-name/ze/zen-browser-unwrapped/surfer-dont-check-update.patch 363992
+pkgs/by-name/ze/zen-browser-unwrapped/update.sh 363992
+pkgs/by-name/ze/zen-browser/package.nix 363992
 pkgs/by-name/ze/zenoh-c/package.nix 356460
 pkgs/by-name/ze/zenoh-c/patches/cmake-absolute-install-path.patch 356460
 pkgs/by-name/ze/zephyr-sdk/package.nix 294092
@@ -3968,6 +3974,8 @@ pkgs/development/python-modules/consul2/default.nix 191068
 pkgs/development/python-modules/contourpy/default.nix 328218
 pkgs/development/python-modules/coreapi/default.nix 350172
 pkgs/development/python-modules/courlan/default.nix 362910
+pkgs/development/python-modules/craft-archives/default.nix 363994
+pkgs/development/python-modules/craft-parts/default.nix 363994
 pkgs/development/python-modules/crewai-tools/default.nix 359718
 pkgs/development/python-modules/crewai/default.nix 359718
 pkgs/development/python-modules/crochet/default.nix 357919
@@ -4159,6 +4167,7 @@ pkgs/development/python-modules/minecraft-resource-pack/default.nix 356035
 pkgs/development/python-modules/miniaudio/default.nix 308660
 pkgs/development/python-modules/misaka/default.nix 308660
 pkgs/development/python-modules/mistral-common/default.nix 359609
+pkgs/development/python-modules/mizani/default.nix 363988
 pkgs/development/python-modules/mkdocs-drawio-exporter/default.nix 363328
 pkgs/development/python-modules/mkdocs-git-authors-plugin/default.nix 362702
 pkgs/development/python-modules/mkdocs-git-revision-date-localized-plugin/default.nix 360035
@@ -4477,6 +4486,7 @@ pkgs/development/python-modules/tensordict/default.nix 350282
 pkgs/development/python-modules/tensorflow-probability/default.nix 362195
 pkgs/development/python-modules/tensorflow/default.nix 362195
 pkgs/development/python-modules/test-results-parser/default.nix 358490
+pkgs/development/python-modules/testcontainers/default.nix 363989
 pkgs/development/python-modules/text2digits/default.nix 361155
 pkgs/development/python-modules/textblob/default.nix 358687
 pkgs/development/python-modules/tidalapi/default.nix 355241
@@ -4506,6 +4516,7 @@ pkgs/development/python-modules/truststore/default.nix 360840
 pkgs/development/python-modules/trytond/default.nix 361806
 pkgs/development/python-modules/ttkbootstrap/default.nix 353883
 pkgs/development/python-modules/twisted/default.nix 331793
+pkgs/development/python-modules/txtai/default.nix 363991
 pkgs/development/python-modules/types-dateutil/default.nix 361711
 pkgs/development/python-modules/types-python-dateutil/default.nix 357812
 pkgs/development/python-modules/types-redis/default.nix 361179
@@ -5207,7 +5218,6 @@ nixos/modules/services/web-servers/apache-httpd/default.nix 127065 362296
 nixos/modules/services/web-servers/minio.nix 288183 340441
 nixos/modules/services/web-servers/traefik.nix 314933 363074
 nixos/modules/system/boot/networkd.nix 342307 359724
-nixos/modules/system/boot/plymouth.nix 304045 355601
 nixos/modules/tasks/auto-upgrade.nix 352569 354443
 nixos/modules/tasks/filesystems.nix 301915 354270
 nixos/modules/virtualisation/amazon-image.nix 290346 311633
@@ -5501,9 +5511,109 @@ pkgs/top-level/emscripten-packages.nix 195653 284792
 pkgs/top-level/gnuradio-packages.nix 345249 356976
 pkgs/top-level/kodi-packages.nix 326043 359610
 pkgs/top-level/release-staging.nix 43618 352403
+default.nix 363995 363999 364000
 doc/build-helpers/testers.chapter.md 344321 348025 351679
 doc/doc-support/lib-function-docs.nix 341067 362453 362546
+doc/doc-support/lib-function-locations.nix 363995 363999 364000
 doc/manpage-urls.json 350079 355678 363388
+lib/ascii-table.nix 363995 363999 364000
+lib/asserts.nix 363995 363999 364000
+lib/cli.nix 363995 363999 364000
+lib/debug.nix 363995 363999 364000
+lib/derivations.nix 363995 363999 364000
+lib/fetchers.nix 363995 363999 364000
+lib/fileset/default.nix 363995 363999 364000
+lib/fileset/internal.nix 363995 363999 364000
+lib/fileset/mock-splitRoot.nix 363995 363999 364000
+lib/flake-version-info.nix 363995 363999 364000
+lib/flake.nix 363995 363999 364000
+lib/gvariant.nix 363995 363999 364000
+lib/kernel.nix 363995 363999 364000
+lib/path/default.nix 363995 363999 364000
+lib/path/tests/default.nix 363995 363999 364000
+lib/path/tests/prop.nix 363995 363999 364000
+lib/path/tests/unit.nix 363995 363999 364000
+lib/source-types.nix 363995 363999 364000
+lib/sources.nix 363995 363999 364000
+lib/systems/platforms.nix 363995 363999 364000
+lib/tests/check-eval.nix 363995 363999 364000
+lib/tests/maintainer-module.nix 363995 363999 364000
+lib/tests/maintainers.nix 363995 363999 364000
+lib/tests/modules/adhoc-freeformType-survives-type-merge.nix 363995 363999 364000
+lib/tests/modules/alias-with-priority-can-override.nix 363995 363999 364000
+lib/tests/modules/alias-with-priority.nix 363995 363999 364000
+lib/tests/modules/attrsOf-conditional-check.nix 363995 363999 364000
+lib/tests/modules/attrsOf-lazy-check.nix 363995 363999 364000
+lib/tests/modules/boolByOr.nix 363995 363999 364000
+lib/tests/modules/class-check.nix 363995 363999 364000
+lib/tests/modules/declare-attrsOf.nix 363995 363999 364000
+lib/tests/modules/declare-attrsOfSub-any-enable.nix 363995 363999 364000
+lib/tests/modules/declare-bare-submodule.nix 363995 363999 364000
+lib/tests/modules/declare-either.nix 363995 363999 364000
+lib/tests/modules/declare-lazyAttrsOf.nix 363995 363999 364000
+lib/tests/modules/declare-mkPackageOption.nix 363995 363999 364000
+lib/tests/modules/declare-oneOf.nix 363995 363999 364000
+lib/tests/modules/declare-set.nix 363995 363999 364000
+lib/tests/modules/declare-submodule-via-evalModules.nix 363995 363999 364000
+lib/tests/modules/declare-submoduleWith-modules.nix 363995 363999 364000
+lib/tests/modules/declare-submoduleWith-noshorthand.nix 363995 363999 364000
+lib/tests/modules/declare-submoduleWith-path.nix 363995 363999 364000
+lib/tests/modules/declare-submoduleWith-shorthand.nix 363995 363999 364000
+lib/tests/modules/declare-submoduleWith-special.nix 363995 363999 364000
+lib/tests/modules/declare-variants.nix 363995 363999 364000
+lib/tests/modules/default.nix 363995 363999 364000
+lib/tests/modules/deferred-module-error.nix 363995 363999 364000
+lib/tests/modules/deferred-module.nix 363995 363999 364000
+lib/tests/modules/define-attrsOfSub-bar.nix 363995 363999 364000
+lib/tests/modules/define-attrsOfSub-foo.nix 363995 363999 364000
+lib/tests/modules/define-freeform-keywords-shorthand.nix 363995 363999 364000
+lib/tests/modules/define-option-dependently-nested.nix 363995 363999 364000
+lib/tests/modules/define-option-dependently.nix 363995 363999 364000
+lib/tests/modules/define-settingsDict-a-is-b.nix 363995 363999 364000
+lib/tests/modules/define-value-list.nix 363995 363999 364000
+lib/tests/modules/define-value-string-properties.nix 363995 363999 364000
+lib/tests/modules/define-variant.nix 363995 363999 364000
+lib/tests/modules/disable-enable-modules.nix 363995 363999 364000
+lib/tests/modules/disable-module-bad-key.nix 363995 363999 364000
+lib/tests/modules/disable-module-with-key.nix 363995 363999 364000
+lib/tests/modules/disable-module-with-toString-key.nix 363995 363999 364000
+lib/tests/modules/doRename-basic.nix 363995 363999 364000
+lib/tests/modules/doRename-condition-enable.nix 363995 363999 364000
+lib/tests/modules/doRename-condition-migrated.nix 363995 363999 364000
+lib/tests/modules/doRename-condition-no-enable.nix 363995 363999 364000
+lib/tests/modules/doRename-condition.nix 363995 363999 364000
+lib/tests/modules/doRename-warnings.nix 363995 363999 364000
+lib/tests/modules/docs.nix 363995 363999 364000
+lib/tests/modules/emptyValues.nix 363995 363999 364000
+lib/tests/modules/error-mkOption-in-submodule-config.nix 363995 363999 364000
+lib/tests/modules/extendModules-168767-imports.nix 363995 363999 364000
+lib/tests/modules/freeform-attrsOf.nix 363995 363999 364000
+lib/tests/modules/freeform-lazyAttrsOf.nix 363995 363999 364000
+lib/tests/modules/freeform-nested.nix 363995 363999 364000
+lib/tests/modules/freeform-str-dep-unstr.nix 363995 363999 364000
+lib/tests/modules/freeform-submodules.nix 363995 363999 364000
+lib/tests/modules/freeform-unstr-dep-str.nix 363995 363999 364000
+lib/tests/modules/functionTo/list-order.nix 363995 363999 364000
+lib/tests/modules/functionTo/merging-attrs.nix 363995 363999 364000
+lib/tests/modules/functionTo/merging-list.nix 363995 363999 364000
+lib/tests/modules/functionTo/submodule-options.nix 363995 363999 364000
+lib/tests/modules/functionTo/trivial.nix 363995 363999 364000
+lib/tests/modules/functionTo/wrong-type.nix 363995 363999 364000
+lib/tests/modules/gvariant.nix 363995 363999 364000
+lib/tests/modules/import-custom-arg.nix 363995 363999 364000
+lib/tests/modules/import-from-store.nix 363995 363999 364000
+lib/tests/modules/merge-module-with-key.nix 363995 363999 364000
+lib/tests/modules/module-argument-default.nix 363995 363999 364000
+lib/tests/modules/module-class-is-darwin.nix 363995 363999 364000
+lib/tests/modules/module-class-is-nixos.nix 363995 363999 364000
+lib/tests/modules/optionTypeFile.nix 363995 363999 364000
+lib/tests/modules/optionTypeMerging.nix 363995 363999 364000
+lib/tests/modules/options-type-error-configuration.nix 363995 363999 364000
+lib/tests/modules/options-type-error-typical-nested.nix 363995 363999 364000
+lib/tests/modules/options-type-error-typical.nix 363995 363999 364000
+lib/tests/modules/raw.nix 363995 363999 364000
+lib/tests/modules/shorthand-meta.nix 363995 363999 364000
+lib/tests/modules/specialArgs-lib.nix 363995 363999 364000
 nixos/doc/manual/redirects.json 347275 356261 361571
 nixos/doc/manual/release-notes/rl-2405.section.md 273532 292290 332478
 nixos/modules/installer/cd-dvd/installation-cd-base.nix 233236 355893 359345
