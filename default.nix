@@ -84,19 +84,21 @@ let
   message = ''
     treewide: format all inactive Nix files
 
-    Inactive means that there are no open PRs with activity in the
-    last month that touch those files.
-    A bunch later, we can do another pass to get the rest.
+    After final improvements to the official formatter implementation,
+    this commit now performs the first treewide reformat of Nix files using it.
+    This is part of the implementation of RFC 166.
 
-    Doing it this way makes ensures that we don't cause any conflicts for
-    recently active PRs that would be ready to merge.
-    Only once those PRs get updated, CI will kick in and require the files
-    to be formatted.
+    Only "inactive" files are reformatted, meaning only files that
+    aren't being touched by any PR with activity in the past 2 months.
+    This is to avoid conflicts for PRs that might soon be merged.
+    Later we can do a full treewide reformat to get the rest,
+    which should not cause as many conflicts.
 
-    Furthermore, this makes sure that we can merge this PR without having
-    to constantly rebase it!
+    A CI check has already been running for some time to ensure that new and
+    already-formatted files are formatted, so the files being reformatted here
+    should also stay formatted.
 
-    This can be verified using
+    This commit was automatically created and can be verified using
 
         nix-build https://github.com/infinisil/treewide-nixpkgs-reformat-script/archive/$Format:%H$.tar.gz \
           --argstr baseRev ${baseRev}
