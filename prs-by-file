@@ -52,22 +52,62 @@ lib/tests/attrsets.nix 359668
 lib/tests/modules/merge-equal-options.nix 256475
 lib/tests/modules/option-meta-required.nix 341199
 lib/tests/modules/option-meta.nix 341199
+lib/tests/modules/submoduleFiles.nix 364000
+lib/tests/modules/test-mergeAttrDefinitionsWithPrio.nix 364000
+lib/tests/modules/types-anything/attrs-coercible.nix 364000
+lib/tests/modules/types-anything/equal-atoms.nix 364000
+lib/tests/modules/types-anything/functions.nix 364000
+lib/tests/modules/types-anything/lists.nix 364000
+lib/tests/modules/types-anything/mk-mods.nix 364000
+lib/tests/modules/types-anything/nested-attrs.nix 364000
+lib/tests/modules/types-attrTag-wrong-decl.nix 364000
+lib/tests/modules/types-attrTag.nix 364000
+lib/tests/modules/types-unique.nix 364000
 lib/tests/modules/types.nix 256353
+lib/tests/nix-for-tests.nix 364000
+lib/tests/packages-from-directory/a.nix 364000
+lib/tests/packages-from-directory/b.nix 364000
+lib/tests/packages-from-directory/c/package.nix 364000
+lib/tests/packages-from-directory/my-namespace/d.nix 364000
+lib/tests/packages-from-directory/my-namespace/e.nix 364000
+lib/tests/packages-from-directory/my-namespace/f/package.nix 364000
+lib/tests/packages-from-directory/my-namespace/my-sub-namespace/g.nix 364000
+lib/tests/packages-from-directory/my-namespace/my-sub-namespace/h.nix 364000
+lib/tests/teams.nix 364000
 lib/tests/test-to-plist-escaped-expected.plist 356502
 lib/tests/test-to-plist-unescaped-expected.plist 356502
+lib/tests/test-with-nix.nix 364000
 lib/trivial.nix 354270
+lib/versions.nix 364000
 maintainers/README.md 305237
+maintainers/scripts/all-tarballs.nix 364000
+maintainers/scripts/build.nix 364000
 maintainers/scripts/check-cherry-picks.sh 305628
+maintainers/scripts/check-hydra-by-maintainer.nix 364000
+maintainers/scripts/check-maintainers-sorted.nix 364000
+maintainers/scripts/convert-to-import-cargo-lock/default.nix 364000
 maintainers/scripts/copy-tarballs.pl 361700
+maintainers/scripts/eval-release.nix 364000
+maintainers/scripts/find-tarballs.nix 364000
 maintainers/scripts/format-rebase/default.nix 363759
 maintainers/scripts/format-rebase/format-head.sh 363759
 maintainers/scripts/format-rebase/mock-format.sh 363759
 maintainers/scripts/format-rebase/run.sh 363759
 maintainers/scripts/format-rebase/test.sh 363759
+maintainers/scripts/haskell/dependencies.nix 364000
+maintainers/scripts/haskell/maintained-broken-pkgs.nix 364000
+maintainers/scripts/haskell/maintainer-handles.nix 364000
+maintainers/scripts/haskell/test-configurations.nix 364000
+maintainers/scripts/haskell/transitive-broken-packages.nix 364000
 maintainers/scripts/haskell/update-stackage.sh 363650
 maintainers/scripts/luarocks-packages.csv 308073
+maintainers/scripts/nix-generate-from-cpan.nix 364000
+maintainers/scripts/nixpkgs-lint.nix 364000
 maintainers/scripts/update-dotnet-lockfiles.nix 362278
+maintainers/scripts/update-octave-shell.nix 364000
+maintainers/scripts/update.nix 364000
 nixos/README.md 334509
+nixos/default.nix 364000
 nixos/doc/manual/configuration/configuration.md 264433
 nixos/doc/manual/configuration/fhs.chapter.md 264433
 nixos/doc/manual/configuration/luks-file-systems.section.md 324753
@@ -86,27 +126,87 @@ nixos/doc/manual/installation/installation.md 347275
 nixos/doc/manual/installation/upgrading.chapter.md 330293
 nixos/doc/manual/release-notes/rl-2205.section.md 351093
 nixos/lib/ctags.nix 252091
+nixos/lib/default.nix 364000
+nixos/lib/eval-cacheable-options.nix 364000
+nixos/lib/eval-config-minimal.nix 364000
 nixos/lib/eval-config.nix 349549
+nixos/lib/from-env.nix 364000
 nixos/lib/make-btrfs-fs.nix 361051
+nixos/lib/make-channel.nix 364000
+nixos/lib/make-ext4-fs.nix 364000
+nixos/lib/make-iso9660-image.nix 364000
+nixos/lib/make-multi-disk-zfs-image.nix 364000
+nixos/lib/make-options-doc/default.nix 364000
+nixos/lib/make-single-disk-zfs-image.nix 364000
+nixos/lib/make-system-tarball.nix 364000
 nixos/lib/make-system-tarball.sh 357053
+nixos/lib/qemu-common.nix 364000
 nixos/lib/systemd-lib.nix 359724
+nixos/lib/systemd-network-units.nix 364000
+nixos/lib/systemd-types.nix 364000
 nixos/lib/systemd-unit-options.nix 359724
+nixos/lib/test-driver/nixos-test-driver-docstrings.nix 364000
 nixos/lib/test-driver/test_driver/__init__.py 281331
 nixos/lib/test-driver/test_driver/driver.py 281331
 nixos/lib/test-driver/test_driver/logger.py 354006
 nixos/lib/test-driver/test_driver/machine.py 263718
+nixos/lib/testing-python.nix 364000
+nixos/lib/testing/default.nix 364000
 nixos/lib/testing/driver.nix 281331
+nixos/lib/testing/interactive.nix 364000
+nixos/lib/testing/legacy.nix 364000
+nixos/lib/testing/meta.nix 364000
+nixos/lib/testing/network.nix 364000
+nixos/lib/testing/nixos-test-base.nix 364000
+nixos/lib/testing/nodes.nix 364000
+nixos/lib/testing/pkgs.nix 364000
+nixos/lib/testing/run.nix 364000
+nixos/lib/testing/testScript.nix 364000
+nixos/lib/utils.nix 364000
+nixos/maintainers/option-usages.nix 364000
+nixos/maintainers/scripts/azure-new/examples/basic/image.nix 364000
+nixos/maintainers/scripts/azure-new/examples/basic/system.nix 364000
+nixos/maintainers/scripts/cloudstack/cloudstack-image.nix 364000
 nixos/maintainers/scripts/ec2/README.md 347275
 nixos/maintainers/scripts/ec2/amazon-image.nix 359345
+nixos/maintainers/scripts/lxd/lxd-container-image-inner.nix 364000
+nixos/maintainers/scripts/lxd/lxd-container-image.nix 364000
+nixos/maintainers/scripts/lxd/lxd-virtual-machine-image-inner.nix 364000
+nixos/maintainers/scripts/lxd/lxd-virtual-machine-image.nix 364000
 nixos/maintainers/scripts/openstack/openstack-image-zfs.nix 359345
 nixos/maintainers/scripts/openstack/openstack-image.nix 359345
 nixos/modules/config/console.nix 363533
+nixos/modules/config/debug-info.nix 364000
+nixos/modules/config/fanout.nix 364000
+nixos/modules/config/fonts/fontconfig.nix 364000
+nixos/modules/config/fonts/fontdir.nix 364000
+nixos/modules/config/fonts/ghostscript.nix 364000
+nixos/modules/config/fonts/packages.nix 364000
+nixos/modules/config/gtk/gtk-icon-cache.nix 364000
 nixos/modules/config/i18n.nix 356477
+nixos/modules/config/iproute2.nix 364000
+nixos/modules/config/ldap.nix 364000
+nixos/modules/config/ldso.nix 364000
+nixos/modules/config/locale.nix 364000
+nixos/modules/config/malloc.nix 364000
+nixos/modules/config/mysql.nix 364000
 nixos/modules/config/networking.nix 362132
 nixos/modules/config/nix-channel.nix 336545
+nixos/modules/config/nix-flakes.nix 364000
+nixos/modules/config/nix-remote-build.nix 364000
 nixos/modules/config/nix.nix 336545
+nixos/modules/config/nsswitch.nix 364000
+nixos/modules/config/power-management.nix 364000
+nixos/modules/config/pulseaudio.nix 364000
+nixos/modules/config/qt.nix 364000
+nixos/modules/config/resolvconf.nix 364000
 nixos/modules/config/shells-environment.nix 354186
+nixos/modules/config/stub-ld.nix 364000
+nixos/modules/config/sysctl.nix 364000
 nixos/modules/config/system-environment.nix 354186
+nixos/modules/config/system-path.nix 364000
+nixos/modules/config/terminfo.nix 364000
+nixos/modules/config/unix-odbc-drivers.nix 364000
 nixos/modules/config/update-users-groups.pl 359104
 nixos/modules/config/xdg/mime.nix 340800
 nixos/modules/config/xdg/portals/termfilechooser.nix 277531
@@ -741,6 +841,7 @@ pkgs/applications/editors/rstudio/ignore-etc-os-release.patch 355089
 pkgs/applications/editors/rstudio/r-location.patch 362637
 pkgs/applications/editors/rstudio/update-nan-and-node-abi.patch 362637
 pkgs/applications/editors/standardnotes/src.json 296421
+pkgs/applications/editors/vim/plugins/avante-nvim/default.nix 364001
 pkgs/applications/editors/vim/plugins/nvim-treesitter/generated.nix 322354
 pkgs/applications/editors/vim/plugins/patches/aw-watcher-vim/program_paths.patch 354270
 pkgs/applications/editors/vim/plugins/vim-clap/default.nix 337407
@@ -2627,7 +2728,6 @@ pkgs/by-name/pa/pay-respects/package.nix 357425
 pkgs/by-name/pc/pcsc-safenet/package.nix 355186
 pkgs/by-name/pd/pdal/package.nix 361010
 pkgs/by-name/pd/pdf-parser/package.nix 362916
-pkgs/by-name/pd/pdfium-binaries/package.nix 363996
 pkgs/by-name/pd/pds/package.nix 350645
 pkgs/by-name/pd/pdsadmin/package.nix 350645
 pkgs/by-name/pd/pdsadmin/pdsadmin-offline.patch 350645
@@ -5151,6 +5251,8 @@ savegames/Quicksave.save 356578
 .git-blame-ignore-revs 362463 362517
 .github/workflows/eval.yml 357990 362471
 CONTRIBUTING.md 285193 361539
+default.nix 363995 363999
+doc/doc-support/lib-function-locations.nix 363995 363999
 doc/hooks/versionCheckHook.section.md 344321 348025
 doc/languages-frameworks/dotnet.section.md 362182 362278
 doc/languages-frameworks/go.section.md 359641 359744
@@ -5160,9 +5262,107 @@ doc/stdenv/cross-compilation.chapter.md 127115 361521
 doc/stdenv/meta.chapter.md 301947 348192
 doc/tests/manpage-urls.nix 341067 362546
 flake.nix 345459 349453
+lib/ascii-table.nix 363995 363999
+lib/asserts.nix 363995 363999
+lib/cli.nix 363995 363999
+lib/debug.nix 363995 363999
+lib/derivations.nix 363995 363999
+lib/fetchers.nix 363995 363999
+lib/fileset/default.nix 363995 363999
+lib/fileset/internal.nix 363995 363999
+lib/fileset/mock-splitRoot.nix 363995 363999
+lib/flake-version-info.nix 363995 363999
+lib/flake.nix 363995 363999
+lib/gvariant.nix 363995 363999
+lib/kernel.nix 363995 363999
 lib/meta.nix 348192 348238
+lib/path/default.nix 363995 363999
+lib/path/tests/default.nix 363995 363999
+lib/path/tests/prop.nix 363995 363999
+lib/path/tests/unit.nix 363995 363999
+lib/source-types.nix 363995 363999
+lib/sources.nix 363995 363999
 lib/systems/architectures.nix 348237 348267
 lib/systems/doubles.nix 353050 353052
+lib/systems/platforms.nix 363995 363999
+lib/tests/check-eval.nix 363995 363999
+lib/tests/maintainer-module.nix 363995 363999
+lib/tests/maintainers.nix 363995 363999
+lib/tests/modules/adhoc-freeformType-survives-type-merge.nix 363995 363999
+lib/tests/modules/alias-with-priority-can-override.nix 363995 363999
+lib/tests/modules/alias-with-priority.nix 363995 363999
+lib/tests/modules/attrsOf-conditional-check.nix 363995 363999
+lib/tests/modules/attrsOf-lazy-check.nix 363995 363999
+lib/tests/modules/boolByOr.nix 363995 363999
+lib/tests/modules/class-check.nix 363995 363999
+lib/tests/modules/declare-attrsOf.nix 363995 363999
+lib/tests/modules/declare-attrsOfSub-any-enable.nix 363995 363999
+lib/tests/modules/declare-bare-submodule.nix 363995 363999
+lib/tests/modules/declare-either.nix 363995 363999
+lib/tests/modules/declare-lazyAttrsOf.nix 363995 363999
+lib/tests/modules/declare-mkPackageOption.nix 363995 363999
+lib/tests/modules/declare-oneOf.nix 363995 363999
+lib/tests/modules/declare-set.nix 363995 363999
+lib/tests/modules/declare-submodule-via-evalModules.nix 363995 363999
+lib/tests/modules/declare-submoduleWith-modules.nix 363995 363999
+lib/tests/modules/declare-submoduleWith-noshorthand.nix 363995 363999
+lib/tests/modules/declare-submoduleWith-path.nix 363995 363999
+lib/tests/modules/declare-submoduleWith-shorthand.nix 363995 363999
+lib/tests/modules/declare-submoduleWith-special.nix 363995 363999
+lib/tests/modules/declare-variants.nix 363995 363999
+lib/tests/modules/default.nix 363995 363999
+lib/tests/modules/deferred-module-error.nix 363995 363999
+lib/tests/modules/deferred-module.nix 363995 363999
+lib/tests/modules/define-attrsOfSub-bar.nix 363995 363999
+lib/tests/modules/define-attrsOfSub-foo.nix 363995 363999
+lib/tests/modules/define-freeform-keywords-shorthand.nix 363995 363999
+lib/tests/modules/define-option-dependently-nested.nix 363995 363999
+lib/tests/modules/define-option-dependently.nix 363995 363999
+lib/tests/modules/define-settingsDict-a-is-b.nix 363995 363999
+lib/tests/modules/define-value-list.nix 363995 363999
+lib/tests/modules/define-value-string-properties.nix 363995 363999
+lib/tests/modules/define-variant.nix 363995 363999
+lib/tests/modules/disable-enable-modules.nix 363995 363999
+lib/tests/modules/disable-module-bad-key.nix 363995 363999
+lib/tests/modules/disable-module-with-key.nix 363995 363999
+lib/tests/modules/disable-module-with-toString-key.nix 363995 363999
+lib/tests/modules/doRename-basic.nix 363995 363999
+lib/tests/modules/doRename-condition-enable.nix 363995 363999
+lib/tests/modules/doRename-condition-migrated.nix 363995 363999
+lib/tests/modules/doRename-condition-no-enable.nix 363995 363999
+lib/tests/modules/doRename-condition.nix 363995 363999
+lib/tests/modules/doRename-warnings.nix 363995 363999
+lib/tests/modules/docs.nix 363995 363999
+lib/tests/modules/emptyValues.nix 363995 363999
+lib/tests/modules/error-mkOption-in-submodule-config.nix 363995 363999
+lib/tests/modules/extendModules-168767-imports.nix 363995 363999
+lib/tests/modules/freeform-attrsOf.nix 363995 363999
+lib/tests/modules/freeform-lazyAttrsOf.nix 363995 363999
+lib/tests/modules/freeform-nested.nix 363995 363999
+lib/tests/modules/freeform-str-dep-unstr.nix 363995 363999
+lib/tests/modules/freeform-submodules.nix 363995 363999
+lib/tests/modules/freeform-unstr-dep-str.nix 363995 363999
+lib/tests/modules/functionTo/list-order.nix 363995 363999
+lib/tests/modules/functionTo/merging-attrs.nix 363995 363999
+lib/tests/modules/functionTo/merging-list.nix 363995 363999
+lib/tests/modules/functionTo/submodule-options.nix 363995 363999
+lib/tests/modules/functionTo/trivial.nix 363995 363999
+lib/tests/modules/functionTo/wrong-type.nix 363995 363999
+lib/tests/modules/gvariant.nix 363995 363999
+lib/tests/modules/import-custom-arg.nix 363995 363999
+lib/tests/modules/import-from-store.nix 363995 363999
+lib/tests/modules/merge-module-with-key.nix 363995 363999
+lib/tests/modules/module-argument-default.nix 363995 363999
+lib/tests/modules/module-class-is-darwin.nix 363995 363999
+lib/tests/modules/module-class-is-nixos.nix 363995 363999
+lib/tests/modules/optionTypeFile.nix 363995 363999
+lib/tests/modules/optionTypeMerging.nix 363995 363999
+lib/tests/modules/options-type-error-configuration.nix 363995 363999
+lib/tests/modules/options-type-error-typical-nested.nix 363995 363999
+lib/tests/modules/options-type-error-typical.nix 363995 363999
+lib/tests/modules/raw.nix 363995 363999
+lib/tests/modules/shorthand-meta.nix 363995 363999
+lib/tests/modules/specialArgs-lib.nix 363995 363999
 lib/tests/release.nix 341067 362546
 lib/tests/systems.nix 353050 353052
 maintainers/team-list.nix 331011 362938
@@ -5511,109 +5711,9 @@ pkgs/top-level/emscripten-packages.nix 195653 284792
 pkgs/top-level/gnuradio-packages.nix 345249 356976
 pkgs/top-level/kodi-packages.nix 326043 359610
 pkgs/top-level/release-staging.nix 43618 352403
-default.nix 363995 363999 364000
 doc/build-helpers/testers.chapter.md 344321 348025 351679
 doc/doc-support/lib-function-docs.nix 341067 362453 362546
-doc/doc-support/lib-function-locations.nix 363995 363999 364000
 doc/manpage-urls.json 350079 355678 363388
-lib/ascii-table.nix 363995 363999 364000
-lib/asserts.nix 363995 363999 364000
-lib/cli.nix 363995 363999 364000
-lib/debug.nix 363995 363999 364000
-lib/derivations.nix 363995 363999 364000
-lib/fetchers.nix 363995 363999 364000
-lib/fileset/default.nix 363995 363999 364000
-lib/fileset/internal.nix 363995 363999 364000
-lib/fileset/mock-splitRoot.nix 363995 363999 364000
-lib/flake-version-info.nix 363995 363999 364000
-lib/flake.nix 363995 363999 364000
-lib/gvariant.nix 363995 363999 364000
-lib/kernel.nix 363995 363999 364000
-lib/path/default.nix 363995 363999 364000
-lib/path/tests/default.nix 363995 363999 364000
-lib/path/tests/prop.nix 363995 363999 364000
-lib/path/tests/unit.nix 363995 363999 364000
-lib/source-types.nix 363995 363999 364000
-lib/sources.nix 363995 363999 364000
-lib/systems/platforms.nix 363995 363999 364000
-lib/tests/check-eval.nix 363995 363999 364000
-lib/tests/maintainer-module.nix 363995 363999 364000
-lib/tests/maintainers.nix 363995 363999 364000
-lib/tests/modules/adhoc-freeformType-survives-type-merge.nix 363995 363999 364000
-lib/tests/modules/alias-with-priority-can-override.nix 363995 363999 364000
-lib/tests/modules/alias-with-priority.nix 363995 363999 364000
-lib/tests/modules/attrsOf-conditional-check.nix 363995 363999 364000
-lib/tests/modules/attrsOf-lazy-check.nix 363995 363999 364000
-lib/tests/modules/boolByOr.nix 363995 363999 364000
-lib/tests/modules/class-check.nix 363995 363999 364000
-lib/tests/modules/declare-attrsOf.nix 363995 363999 364000
-lib/tests/modules/declare-attrsOfSub-any-enable.nix 363995 363999 364000
-lib/tests/modules/declare-bare-submodule.nix 363995 363999 364000
-lib/tests/modules/declare-either.nix 363995 363999 364000
-lib/tests/modules/declare-lazyAttrsOf.nix 363995 363999 364000
-lib/tests/modules/declare-mkPackageOption.nix 363995 363999 364000
-lib/tests/modules/declare-oneOf.nix 363995 363999 364000
-lib/tests/modules/declare-set.nix 363995 363999 364000
-lib/tests/modules/declare-submodule-via-evalModules.nix 363995 363999 364000
-lib/tests/modules/declare-submoduleWith-modules.nix 363995 363999 364000
-lib/tests/modules/declare-submoduleWith-noshorthand.nix 363995 363999 364000
-lib/tests/modules/declare-submoduleWith-path.nix 363995 363999 364000
-lib/tests/modules/declare-submoduleWith-shorthand.nix 363995 363999 364000
-lib/tests/modules/declare-submoduleWith-special.nix 363995 363999 364000
-lib/tests/modules/declare-variants.nix 363995 363999 364000
-lib/tests/modules/default.nix 363995 363999 364000
-lib/tests/modules/deferred-module-error.nix 363995 363999 364000
-lib/tests/modules/deferred-module.nix 363995 363999 364000
-lib/tests/modules/define-attrsOfSub-bar.nix 363995 363999 364000
-lib/tests/modules/define-attrsOfSub-foo.nix 363995 363999 364000
-lib/tests/modules/define-freeform-keywords-shorthand.nix 363995 363999 364000
-lib/tests/modules/define-option-dependently-nested.nix 363995 363999 364000
-lib/tests/modules/define-option-dependently.nix 363995 363999 364000
-lib/tests/modules/define-settingsDict-a-is-b.nix 363995 363999 364000
-lib/tests/modules/define-value-list.nix 363995 363999 364000
-lib/tests/modules/define-value-string-properties.nix 363995 363999 364000
-lib/tests/modules/define-variant.nix 363995 363999 364000
-lib/tests/modules/disable-enable-modules.nix 363995 363999 364000
-lib/tests/modules/disable-module-bad-key.nix 363995 363999 364000
-lib/tests/modules/disable-module-with-key.nix 363995 363999 364000
-lib/tests/modules/disable-module-with-toString-key.nix 363995 363999 364000
-lib/tests/modules/doRename-basic.nix 363995 363999 364000
-lib/tests/modules/doRename-condition-enable.nix 363995 363999 364000
-lib/tests/modules/doRename-condition-migrated.nix 363995 363999 364000
-lib/tests/modules/doRename-condition-no-enable.nix 363995 363999 364000
-lib/tests/modules/doRename-condition.nix 363995 363999 364000
-lib/tests/modules/doRename-warnings.nix 363995 363999 364000
-lib/tests/modules/docs.nix 363995 363999 364000
-lib/tests/modules/emptyValues.nix 363995 363999 364000
-lib/tests/modules/error-mkOption-in-submodule-config.nix 363995 363999 364000
-lib/tests/modules/extendModules-168767-imports.nix 363995 363999 364000
-lib/tests/modules/freeform-attrsOf.nix 363995 363999 364000
-lib/tests/modules/freeform-lazyAttrsOf.nix 363995 363999 364000
-lib/tests/modules/freeform-nested.nix 363995 363999 364000
-lib/tests/modules/freeform-str-dep-unstr.nix 363995 363999 364000
-lib/tests/modules/freeform-submodules.nix 363995 363999 364000
-lib/tests/modules/freeform-unstr-dep-str.nix 363995 363999 364000
-lib/tests/modules/functionTo/list-order.nix 363995 363999 364000
-lib/tests/modules/functionTo/merging-attrs.nix 363995 363999 364000
-lib/tests/modules/functionTo/merging-list.nix 363995 363999 364000
-lib/tests/modules/functionTo/submodule-options.nix 363995 363999 364000
-lib/tests/modules/functionTo/trivial.nix 363995 363999 364000
-lib/tests/modules/functionTo/wrong-type.nix 363995 363999 364000
-lib/tests/modules/gvariant.nix 363995 363999 364000
-lib/tests/modules/import-custom-arg.nix 363995 363999 364000
-lib/tests/modules/import-from-store.nix 363995 363999 364000
-lib/tests/modules/merge-module-with-key.nix 363995 363999 364000
-lib/tests/modules/module-argument-default.nix 363995 363999 364000
-lib/tests/modules/module-class-is-darwin.nix 363995 363999 364000
-lib/tests/modules/module-class-is-nixos.nix 363995 363999 364000
-lib/tests/modules/optionTypeFile.nix 363995 363999 364000
-lib/tests/modules/optionTypeMerging.nix 363995 363999 364000
-lib/tests/modules/options-type-error-configuration.nix 363995 363999 364000
-lib/tests/modules/options-type-error-typical-nested.nix 363995 363999 364000
-lib/tests/modules/options-type-error-typical.nix 363995 363999 364000
-lib/tests/modules/raw.nix 363995 363999 364000
-lib/tests/modules/shorthand-meta.nix 363995 363999 364000
-lib/tests/modules/specialArgs-lib.nix 363995 363999 364000
 nixos/doc/manual/redirects.json 347275 356261 361571
 nixos/doc/manual/release-notes/rl-2405.section.md 273532 292290 332478
 nixos/modules/installer/cd-dvd/installation-cd-base.nix 233236 355893 359345
@@ -5631,8 +5731,6 @@ nixos/modules/tasks/filesystems/zfs.nix 312193 352391 362131
 nixos/modules/virtualisation/nixos-containers.nix 353366 359352 362210
 pkgs/applications/editors/rstudio/default.nix 355089 357034 362637
 pkgs/applications/editors/rstudio/use-system-node.patch 355089 357034 362637
-pkgs/applications/editors/vim/plugins/generated.nix 307352 341240 354270
-pkgs/applications/editors/vim/plugins/overrides.nix 352222 354270 358587
 pkgs/applications/editors/vscode/extensions/default.nix 354214 355941 363464
 pkgs/applications/science/electronics/kicad/versions.nix 280181 285247 335314
 pkgs/applications/version-management/git/default.nix 314258 336034 359506
@@ -5684,6 +5782,8 @@ nixos/modules/services/networking/syncthing.nix 290485 321872 353770 361257
 nixos/modules/services/web-apps/akkoma.nix 314664 345913 352706 353164
 nixos/modules/system/boot/stage-1-init.sh 118573 125711 290389 358035
 nixos/modules/virtualisation/libvirtd.nix 119353 228625 346904 356532
+pkgs/applications/editors/vim/plugins/generated.nix 307352 341240 354270 364001
+pkgs/applications/editors/vim/plugins/overrides.nix 352222 354270 358587 364001
 pkgs/applications/science/robotics/inav-configurator/default.nix 320052 320054 320055 320056
 pkgs/build-support/bintools-wrapper/default.nix 344665 354137 359387 359391
 pkgs/build-support/docker/default.nix 283721 294849 314288 357053
@@ -5724,9 +5824,9 @@ pkgs/stdenv/generic/check-meta.nix 301947 335110 339597 340081 357674 359191
 lib/default.nix 187945 234651 304026 341199 342330 354270 362599
 nixos/modules/config/users-groups.nix 279431 310484 357944 357962 358646 359104 363209
 nixos/modules/system/boot/luksroot.nix 201908 213104 281880 281895 298592 306351 359882
-pkgs/applications/editors/vim/plugins/vim-plugin-names 265398 277615 286482 297549 307352 331164 341240
 pkgs/development/libraries/librealsense/default.nix 348173 351679 362356 362357 362358 362360 362361
 pkgs/top-level/python-aliases.nix 334535 349611 350172 350661 356312 359514 363656
+pkgs/applications/editors/vim/plugins/vim-plugin-names 265398 277615 286482 297549 307352 331164 341240 364001
 pkgs/top-level/perl-packages.nix 199860 286549 333265 349112 352432 355311 356527 358672 363182
 nixos/modules/services/web-servers/nginx/default.nix 164100 340170 341414 345913 346776 350018 350302 354270 356799 362296 362733
 pkgs/top-level/aliases.nix 287852 312449 347630 353906 355064 355231 356976 357705 359557 360893 361667 362825 362956
