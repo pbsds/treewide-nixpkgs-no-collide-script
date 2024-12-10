@@ -126,9 +126,10 @@ pkgs.writeShellApplication {
 
       rsync -r ${formatted}/ "$tmp/formatted"
       git -C "$tmp/formatted" commit -a -m ${pkgs.lib.escapeShellArg message}
-      formattedRev=$(git -C "$tmp/formatted" rev-parse HEAD)
-      echo -e "\n# treewide: Nix format pass 1\n$formattedRev" >> "$tmp/formatted/.git-blame-ignore-revs"
-      git -C "$tmp/formatted" commit -a -m ".git-blame-ignore-revs: Add treewide Nix format"
+      # We don't want this on master/staging/staging-next to avoid merge problems
+      # formattedRev=$(git -C "$tmp/formatted" rev-parse HEAD)
+      # echo -e "\n# treewide: Nix format pass 1\n$formattedRev" >> "$tmp/formatted/.git-blame-ignore-revs"
+      # git -C "$tmp/formatted" commit -a -m ".git-blame-ignore-revs: Add treewide Nix format"
       finalRev=$(git -C "$tmp/formatted" rev-parse HEAD)
       git -C "$nixpkgs" diff HEAD.."$finalRev" || true
       echo "Final revision: $finalRev (you can use this in e.g. \`git reset --hard\`)"
