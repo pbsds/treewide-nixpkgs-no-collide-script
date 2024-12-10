@@ -17,7 +17,7 @@ for day in $(seq "$(( days - 1 ))" -1 0); do
   date=$(date --date="$day days ago" -I -u)
   echo "Fetching PRs from $date" >&2
   result=$(gh pr list -R NixOS/nixpkgs --limit 1000 --search "updated:$date -label:\"2.status: merge conflict\"" --json number |
-    jq '.[].number | select(. != 322537 and . != 327796)')
+    jq '.[].number | select(. != 322537 and . != 327796 and . != 363995 and . != 363999 and . != 364000)')
   readarray -t -O"${#numbers[@]}" numbers <<< "$result"
 done
 echo "Got ${#numbers[@]} PRs" >&2
