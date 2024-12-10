@@ -52,62 +52,22 @@ lib/tests/attrsets.nix 359668
 lib/tests/modules/merge-equal-options.nix 256475
 lib/tests/modules/option-meta-required.nix 341199
 lib/tests/modules/option-meta.nix 341199
-lib/tests/modules/submoduleFiles.nix 364000
-lib/tests/modules/test-mergeAttrDefinitionsWithPrio.nix 364000
-lib/tests/modules/types-anything/attrs-coercible.nix 364000
-lib/tests/modules/types-anything/equal-atoms.nix 364000
-lib/tests/modules/types-anything/functions.nix 364000
-lib/tests/modules/types-anything/lists.nix 364000
-lib/tests/modules/types-anything/mk-mods.nix 364000
-lib/tests/modules/types-anything/nested-attrs.nix 364000
-lib/tests/modules/types-attrTag-wrong-decl.nix 364000
-lib/tests/modules/types-attrTag.nix 364000
-lib/tests/modules/types-unique.nix 364000
 lib/tests/modules/types.nix 256353
-lib/tests/nix-for-tests.nix 364000
-lib/tests/packages-from-directory/a.nix 364000
-lib/tests/packages-from-directory/b.nix 364000
-lib/tests/packages-from-directory/c/package.nix 364000
-lib/tests/packages-from-directory/my-namespace/d.nix 364000
-lib/tests/packages-from-directory/my-namespace/e.nix 364000
-lib/tests/packages-from-directory/my-namespace/f/package.nix 364000
-lib/tests/packages-from-directory/my-namespace/my-sub-namespace/g.nix 364000
-lib/tests/packages-from-directory/my-namespace/my-sub-namespace/h.nix 364000
-lib/tests/teams.nix 364000
 lib/tests/test-to-plist-escaped-expected.plist 356502
 lib/tests/test-to-plist-unescaped-expected.plist 356502
-lib/tests/test-with-nix.nix 364000
 lib/trivial.nix 354270
-lib/versions.nix 364000
 maintainers/README.md 305237
-maintainers/scripts/all-tarballs.nix 364000
-maintainers/scripts/build.nix 364000
 maintainers/scripts/check-cherry-picks.sh 305628
-maintainers/scripts/check-hydra-by-maintainer.nix 364000
-maintainers/scripts/check-maintainers-sorted.nix 364000
-maintainers/scripts/convert-to-import-cargo-lock/default.nix 364000
 maintainers/scripts/copy-tarballs.pl 361700
-maintainers/scripts/eval-release.nix 364000
-maintainers/scripts/find-tarballs.nix 364000
 maintainers/scripts/format-rebase/default.nix 363759
 maintainers/scripts/format-rebase/format-head.sh 363759
 maintainers/scripts/format-rebase/mock-format.sh 363759
 maintainers/scripts/format-rebase/run.sh 363759
 maintainers/scripts/format-rebase/test.sh 363759
-maintainers/scripts/haskell/dependencies.nix 364000
-maintainers/scripts/haskell/maintained-broken-pkgs.nix 364000
-maintainers/scripts/haskell/maintainer-handles.nix 364000
-maintainers/scripts/haskell/test-configurations.nix 364000
-maintainers/scripts/haskell/transitive-broken-packages.nix 364000
 maintainers/scripts/haskell/update-stackage.sh 363650
 maintainers/scripts/luarocks-packages.csv 308073
-maintainers/scripts/nix-generate-from-cpan.nix 364000
-maintainers/scripts/nixpkgs-lint.nix 364000
 maintainers/scripts/update-dotnet-lockfiles.nix 362278
-maintainers/scripts/update-octave-shell.nix 364000
-maintainers/scripts/update.nix 364000
 nixos/README.md 334509
-nixos/default.nix 364000
 nixos/doc/manual/configuration/configuration.md 264433
 nixos/doc/manual/configuration/fhs.chapter.md 264433
 nixos/doc/manual/configuration/luks-file-systems.section.md 324753
@@ -126,87 +86,27 @@ nixos/doc/manual/installation/installation.md 347275
 nixos/doc/manual/installation/upgrading.chapter.md 330293
 nixos/doc/manual/release-notes/rl-2205.section.md 351093
 nixos/lib/ctags.nix 252091
-nixos/lib/default.nix 364000
-nixos/lib/eval-cacheable-options.nix 364000
-nixos/lib/eval-config-minimal.nix 364000
 nixos/lib/eval-config.nix 349549
-nixos/lib/from-env.nix 364000
 nixos/lib/make-btrfs-fs.nix 361051
-nixos/lib/make-channel.nix 364000
-nixos/lib/make-ext4-fs.nix 364000
-nixos/lib/make-iso9660-image.nix 364000
-nixos/lib/make-multi-disk-zfs-image.nix 364000
-nixos/lib/make-options-doc/default.nix 364000
-nixos/lib/make-single-disk-zfs-image.nix 364000
-nixos/lib/make-system-tarball.nix 364000
 nixos/lib/make-system-tarball.sh 357053
-nixos/lib/qemu-common.nix 364000
 nixos/lib/systemd-lib.nix 359724
-nixos/lib/systemd-network-units.nix 364000
-nixos/lib/systemd-types.nix 364000
 nixos/lib/systemd-unit-options.nix 359724
-nixos/lib/test-driver/nixos-test-driver-docstrings.nix 364000
 nixos/lib/test-driver/test_driver/__init__.py 281331
 nixos/lib/test-driver/test_driver/driver.py 281331
 nixos/lib/test-driver/test_driver/logger.py 354006
 nixos/lib/test-driver/test_driver/machine.py 263718
-nixos/lib/testing-python.nix 364000
-nixos/lib/testing/default.nix 364000
 nixos/lib/testing/driver.nix 281331
-nixos/lib/testing/interactive.nix 364000
-nixos/lib/testing/legacy.nix 364000
-nixos/lib/testing/meta.nix 364000
-nixos/lib/testing/network.nix 364000
-nixos/lib/testing/nixos-test-base.nix 364000
-nixos/lib/testing/nodes.nix 364000
-nixos/lib/testing/pkgs.nix 364000
-nixos/lib/testing/run.nix 364000
-nixos/lib/testing/testScript.nix 364000
-nixos/lib/utils.nix 364000
-nixos/maintainers/option-usages.nix 364000
-nixos/maintainers/scripts/azure-new/examples/basic/image.nix 364000
-nixos/maintainers/scripts/azure-new/examples/basic/system.nix 364000
-nixos/maintainers/scripts/cloudstack/cloudstack-image.nix 364000
 nixos/maintainers/scripts/ec2/README.md 347275
 nixos/maintainers/scripts/ec2/amazon-image.nix 359345
-nixos/maintainers/scripts/lxd/lxd-container-image-inner.nix 364000
-nixos/maintainers/scripts/lxd/lxd-container-image.nix 364000
-nixos/maintainers/scripts/lxd/lxd-virtual-machine-image-inner.nix 364000
-nixos/maintainers/scripts/lxd/lxd-virtual-machine-image.nix 364000
 nixos/maintainers/scripts/openstack/openstack-image-zfs.nix 359345
 nixos/maintainers/scripts/openstack/openstack-image.nix 359345
 nixos/modules/config/console.nix 363533
-nixos/modules/config/debug-info.nix 364000
-nixos/modules/config/fanout.nix 364000
-nixos/modules/config/fonts/fontconfig.nix 364000
-nixos/modules/config/fonts/fontdir.nix 364000
-nixos/modules/config/fonts/ghostscript.nix 364000
-nixos/modules/config/fonts/packages.nix 364000
-nixos/modules/config/gtk/gtk-icon-cache.nix 364000
 nixos/modules/config/i18n.nix 356477
-nixos/modules/config/iproute2.nix 364000
-nixos/modules/config/ldap.nix 364000
-nixos/modules/config/ldso.nix 364000
-nixos/modules/config/locale.nix 364000
-nixos/modules/config/malloc.nix 364000
-nixos/modules/config/mysql.nix 364000
 nixos/modules/config/networking.nix 362132
 nixos/modules/config/nix-channel.nix 336545
-nixos/modules/config/nix-flakes.nix 364000
-nixos/modules/config/nix-remote-build.nix 364000
 nixos/modules/config/nix.nix 336545
-nixos/modules/config/nsswitch.nix 364000
-nixos/modules/config/power-management.nix 364000
-nixos/modules/config/pulseaudio.nix 364000
-nixos/modules/config/qt.nix 364000
-nixos/modules/config/resolvconf.nix 364000
 nixos/modules/config/shells-environment.nix 354186
-nixos/modules/config/stub-ld.nix 364000
-nixos/modules/config/sysctl.nix 364000
 nixos/modules/config/system-environment.nix 354186
-nixos/modules/config/system-path.nix 364000
-nixos/modules/config/terminfo.nix 364000
-nixos/modules/config/unix-odbc-drivers.nix 364000
 nixos/modules/config/update-users-groups.pl 359104
 nixos/modules/config/xdg/mime.nix 340800
 nixos/modules/config/xdg/portals/termfilechooser.nix 277531
@@ -700,7 +600,6 @@ nixos/tests/redwax-revoke-crl.nix 82657
 nixos/tests/redwax-revoke-ocsp.nix 82657
 nixos/tests/redwax-sign.nix 82657
 nixos/tests/redwax-timeserver.nix 82657
-nixos/tests/renovate.nix 361090
 nixos/tests/rtkit.nix 299696
 nixos/tests/rustls-libssl.nix 363932
 nixos/tests/sdl3.nix 326699
@@ -841,7 +740,6 @@ pkgs/applications/editors/rstudio/ignore-etc-os-release.patch 355089
 pkgs/applications/editors/rstudio/r-location.patch 362637
 pkgs/applications/editors/rstudio/update-nan-and-node-abi.patch 362637
 pkgs/applications/editors/standardnotes/src.json 296421
-pkgs/applications/editors/vim/plugins/avante-nvim/default.nix 364001
 pkgs/applications/editors/vim/plugins/nvim-treesitter/generated.nix 322354
 pkgs/applications/editors/vim/plugins/patches/aw-watcher-vim/program_paths.patch 354270
 pkgs/applications/editors/vim/plugins/vim-clap/default.nix 337407
@@ -856,6 +754,7 @@ pkgs/applications/editors/vscode/extensions/mongodb.mongodb-vscode/default.nix 3
 pkgs/applications/editors/vscode/extensions/ms-dotnettools.csdevkit/default.nix 363156
 pkgs/applications/editors/vscode/extensions/ms-dotnettools.csdevkit/lockfile.json 363156
 pkgs/applications/editors/vscode/extensions/ms-dotnettools.csdevkit/update.sh 363156
+pkgs/applications/editors/vscode/extensions/ms-dotnettools.csharp/default.nix 363156
 pkgs/applications/editors/vscode/extensions/ms-dotnettools.csharp/lockfile.json 363156
 pkgs/applications/editors/vscode/extensions/ms-dotnettools.csharp/update.sh 363156
 pkgs/applications/editors/vscode/extensions/sourcery.sourcery/default.nix 363283
@@ -941,8 +840,11 @@ pkgs/applications/networking/browsers/firedragon/update.nix 332242
 pkgs/applications/networking/browsers/firedragon/version.json 332242
 pkgs/applications/networking/browsers/firefox-bin/beta_sources.nix 363877
 pkgs/applications/networking/browsers/firefox-bin/default.nix 318937
+pkgs/applications/networking/browsers/firefox-bin/release_sources.nix 363974
 pkgs/applications/networking/browsers/firefox/common.nix 354270
 pkgs/applications/networking/browsers/firefox/mozbz-1935621-attachment-9442305.patch 354270
+pkgs/applications/networking/browsers/firefox/packages/firefox-esr-128.nix 363974
+pkgs/applications/networking/browsers/firefox/packages/firefox.nix 363974
 pkgs/applications/networking/browsers/firefox/wrapper.nix 303562
 pkgs/applications/networking/browsers/ladybird/default.nix 361319
 pkgs/applications/networking/browsers/lagrange/default.nix 363997
@@ -978,7 +880,6 @@ pkgs/applications/networking/instant-messengers/element/element-web.nix 357511
 pkgs/applications/networking/instant-messengers/qtox/default.nix 363456
 pkgs/applications/networking/instant-messengers/slack/default.nix 354270
 pkgs/applications/networking/instant-messengers/telegram/telegram-desktop/default.nix 357973
-pkgs/applications/networking/mailreaders/tutanota-desktop/default.nix 355287
 pkgs/applications/networking/mullvad/mullvad.nix 352747
 pkgs/applications/networking/mumble/default.nix 363376
 pkgs/applications/networking/nextcloud-client/default.nix 359432
@@ -1062,6 +963,7 @@ pkgs/applications/video/jellyfin-media-player/default.nix 363612
 pkgs/applications/video/jellyfin-media-player/fix-web-path.patch 363612
 pkgs/applications/video/kaffeine/default.nix 361099
 pkgs/applications/video/kodi/addons/python-twitch/default.nix 359610
+pkgs/applications/video/kodi/addons/radioparadise/default.nix 364003
 pkgs/applications/video/kodi/addons/screensaver-asteroids/default.nix 326043
 pkgs/applications/video/kodi/addons/twitch/default.nix 359610
 pkgs/applications/video/kodi/addons/visualization-projectm/default.nix 355064
@@ -1831,6 +1733,7 @@ pkgs/by-name/fl/flet-client-flutter/package.nix 363472
 pkgs/by-name/fl/flet-client-flutter/pubspec.lock.json 363472
 pkgs/by-name/fl/flirt/package.nix 363134
 pkgs/by-name/fl/flood-for-transmission/package.nix 356559
+pkgs/by-name/fl/flood/package.nix 364010
 pkgs/by-name/fl/fluidd/package.nix 360618
 pkgs/by-name/fl/flytectl/package.nix 318292
 pkgs/by-name/fl/flyway/package.nix 362335
@@ -2139,7 +2042,6 @@ pkgs/by-name/je/jetbrains-runner/package.nix 348382
 pkgs/by-name/je/jetbrains-toolbox/package.nix 361800
 pkgs/by-name/jf/jffi/package.nix 357162
 pkgs/by-name/jf/jfsw/package.nix 348192
-pkgs/by-name/ji/jikken/package.nix 363957
 pkgs/by-name/ji/jinja-lsp/package.nix 341074
 pkgs/by-name/jj/jj-fzf/package.nix 353879
 pkgs/by-name/jj/jj/package.nix 359641
@@ -2380,7 +2282,6 @@ pkgs/by-name/lu/ludusavi/package.nix 358080
 pkgs/by-name/lu/luigi/package.nix 363474
 pkgs/by-name/lu/luit/package.nix 351492
 pkgs/by-name/lu/luna-base/package.nix 360984
-pkgs/by-name/lu/lunarvim/package.nix 363809
 pkgs/by-name/lw/lwk/Cargo.lock 292522
 pkgs/by-name/lw/lwk/package.nix 292522
 pkgs/by-name/lx/lxd-ui/package.nix 358853
@@ -2413,6 +2314,7 @@ pkgs/by-name/ma/masterpdfeditor/package.nix 312664
 pkgs/by-name/ma/matchbox-server/package.nix 359641
 pkgs/by-name/ma/materialious-desktop/package.nix 362445
 pkgs/by-name/ma/matio/package.nix 357235
+pkgs/by-name/ma/mattermost/package.nix 364002
 pkgs/by-name/ma/maunium-stickerpicker/package.nix 293520
 pkgs/by-name/ma/mautrix-gmessages/package.nix 362958
 pkgs/by-name/ma/maven/build-maven-package.nix 359573
@@ -3098,7 +3000,7 @@ pkgs/by-name/so/softmaker-freeoffice/package.nix 357933
 pkgs/by-name/so/softmaker-office-nx/package.nix 357933
 pkgs/by-name/so/softmaker-office/package.nix 357933
 pkgs/by-name/so/sogo/package.nix 276395
-pkgs/by-name/so/sonarr/deps.nix 363981
+pkgs/by-name/so/sonarr/package.nix 363008
 pkgs/by-name/so/sope/package.nix 276395
 pkgs/by-name/so/soundsource/package.nix 363347
 pkgs/by-name/so/sourcegit/deps.nix 303865
@@ -3504,6 +3406,7 @@ pkgs/by-name/yc/ycmd/package.nix 352222
 pkgs/by-name/yo/yopass-ng/package.nix 352574
 pkgs/by-name/yo/youplot/Gemfile.lock 360762
 pkgs/by-name/yo/youplot/gemset.nix 360762
+pkgs/by-name/yo/yourkit-java/package.nix 364007
 pkgs/by-name/yu/yuki-iptv/package.nix 351691
 pkgs/by-name/z6/z64decompress/package.nix 313013
 pkgs/by-name/za/zabbix-agent2-plugin-postgresql/package.nix 362063
@@ -3523,8 +3426,6 @@ pkgs/by-name/ze/zephyr-sdk/package.nix 294092
 pkgs/by-name/ze/zephyr-sdk/src.json 294092
 pkgs/by-name/ze/zephyr-sdk/update.nix 294092
 pkgs/by-name/ze/zerene-stacker/package.nix 361094
-pkgs/by-name/zf/zf/deps.nix 349644
-pkgs/by-name/zf/zf/package.nix 349644
 pkgs/by-name/zh/zhixi/package.nix 258760
 pkgs/by-name/zi/zinit/package.nix 358234
 pkgs/by-name/zo/zoekt/package.nix 363818
@@ -3539,6 +3440,7 @@ pkgs/by-name/zu/zulip/package.nix 362394
 pkgs/by-name/zw/zwave-js-server/package.nix 360527
 pkgs/by-name/zw/zwave-js-ui/package.nix 336623
 pkgs/by-name/zx/zx/package.nix 359863
+pkgs/by-name/zx/zxtune/package.nix 364008
 pkgs/common-updater/scripts/list-directory-versions 347619
 pkgs/common-updater/scripts/update-source-version 358569
 pkgs/data/fonts/iosevka/bin.nix 360735
@@ -3656,6 +3558,7 @@ pkgs/development/compilers/dart/package-source-builders/metadata_god/default.nix
 pkgs/development/compilers/dart/package-source-builders/metadata_god/metadata_god.patch 360306
 pkgs/development/compilers/dotnet/8/default.nix 363008
 pkgs/development/compilers/dotnet/9/default.nix 363008
+pkgs/development/compilers/dotnet/build-dotnet.nix 363439
 pkgs/development/compilers/dotnet/default.nix 363008
 pkgs/development/compilers/dotnet/wrapper.nix 363439
 pkgs/development/compilers/elm/default.nix 351767
@@ -3959,7 +3862,7 @@ pkgs/development/ocaml-modules/extlib/1.7.7.nix 294917
 pkgs/development/ocaml-modules/hxd/default.nix 361854
 pkgs/development/ocaml-modules/lacaml/default.nix 360636
 pkgs/development/ocaml-modules/lwt/default.nix 361430
-pkgs/development/ocaml-modules/mirage-crypto/rng-eio.nix 362377
+pkgs/development/ocaml-modules/mirage-crypto/rng-eio.nix 364012
 pkgs/development/ocaml-modules/ocsigen-toolkit/default.nix 348379
 pkgs/development/ocaml-modules/ocsipersist/default.nix 355738
 pkgs/development/ocaml-modules/ocsipersist/lib.nix 355738
@@ -4437,7 +4340,6 @@ pkgs/development/python-modules/pyside6-qtads/find-nix-deps.patch 360310
 pkgs/development/python-modules/pysnmp/default.nix 348125
 pkgs/development/python-modules/pysnmpcrypto/default.nix 348125
 pkgs/development/python-modules/pysrs/default.nix 208610
-pkgs/development/python-modules/pysvn/default.nix 363066
 pkgs/development/python-modules/pytapo/default.nix 361333
 pkgs/development/python-modules/pytensor/default.nix 361595
 pkgs/development/python-modules/pytest-alembic/default.nix 340339
@@ -4931,6 +4833,7 @@ pkgs/os-specific/linux/corefreq/default.nix 361630
 pkgs/os-specific/linux/cryptodev/default.nix 359871
 pkgs/os-specific/linux/efa/nv-peermem-cmakefixups.patch 360375
 pkgs/os-specific/linux/efa/nv-peermem.nix 360375
+pkgs/os-specific/linux/firmware/linux-firmware/default.nix 364011
 pkgs/os-specific/linux/firmware/raspberrypi/default.nix 362763
 pkgs/os-specific/linux/fwts/default.nix 362231
 pkgs/os-specific/linux/hid-fanatecff/default.nix 300682
@@ -5029,7 +4932,6 @@ pkgs/servers/monitoring/prometheus/cloudflare-exporter.nix 336944
 pkgs/servers/monitoring/prometheus/fronius-exporter.nix 227865
 pkgs/servers/monitoring/prometheus/junos-czerwonk-exporter.nix 363338
 pkgs/servers/monitoring/zabbix/versions.nix 361882
-pkgs/servers/mqtt/mosquitto/default.nix 350650
 pkgs/servers/mx-puppet-discord/default.nix 362151
 pkgs/servers/nextcloud/default.nix 363941
 pkgs/servers/nextcloud/packages/28.json 363941
@@ -5251,8 +5153,6 @@ savegames/Quicksave.save 356578
 .git-blame-ignore-revs 362463 362517
 .github/workflows/eval.yml 357990 362471
 CONTRIBUTING.md 285193 361539
-default.nix 363995 363999
-doc/doc-support/lib-function-locations.nix 363995 363999
 doc/hooks/versionCheckHook.section.md 344321 348025
 doc/languages-frameworks/dotnet.section.md 362182 362278
 doc/languages-frameworks/go.section.md 359641 359744
@@ -5262,107 +5162,9 @@ doc/stdenv/cross-compilation.chapter.md 127115 361521
 doc/stdenv/meta.chapter.md 301947 348192
 doc/tests/manpage-urls.nix 341067 362546
 flake.nix 345459 349453
-lib/ascii-table.nix 363995 363999
-lib/asserts.nix 363995 363999
-lib/cli.nix 363995 363999
-lib/debug.nix 363995 363999
-lib/derivations.nix 363995 363999
-lib/fetchers.nix 363995 363999
-lib/fileset/default.nix 363995 363999
-lib/fileset/internal.nix 363995 363999
-lib/fileset/mock-splitRoot.nix 363995 363999
-lib/flake-version-info.nix 363995 363999
-lib/flake.nix 363995 363999
-lib/gvariant.nix 363995 363999
-lib/kernel.nix 363995 363999
 lib/meta.nix 348192 348238
-lib/path/default.nix 363995 363999
-lib/path/tests/default.nix 363995 363999
-lib/path/tests/prop.nix 363995 363999
-lib/path/tests/unit.nix 363995 363999
-lib/source-types.nix 363995 363999
-lib/sources.nix 363995 363999
 lib/systems/architectures.nix 348237 348267
 lib/systems/doubles.nix 353050 353052
-lib/systems/platforms.nix 363995 363999
-lib/tests/check-eval.nix 363995 363999
-lib/tests/maintainer-module.nix 363995 363999
-lib/tests/maintainers.nix 363995 363999
-lib/tests/modules/adhoc-freeformType-survives-type-merge.nix 363995 363999
-lib/tests/modules/alias-with-priority-can-override.nix 363995 363999
-lib/tests/modules/alias-with-priority.nix 363995 363999
-lib/tests/modules/attrsOf-conditional-check.nix 363995 363999
-lib/tests/modules/attrsOf-lazy-check.nix 363995 363999
-lib/tests/modules/boolByOr.nix 363995 363999
-lib/tests/modules/class-check.nix 363995 363999
-lib/tests/modules/declare-attrsOf.nix 363995 363999
-lib/tests/modules/declare-attrsOfSub-any-enable.nix 363995 363999
-lib/tests/modules/declare-bare-submodule.nix 363995 363999
-lib/tests/modules/declare-either.nix 363995 363999
-lib/tests/modules/declare-lazyAttrsOf.nix 363995 363999
-lib/tests/modules/declare-mkPackageOption.nix 363995 363999
-lib/tests/modules/declare-oneOf.nix 363995 363999
-lib/tests/modules/declare-set.nix 363995 363999
-lib/tests/modules/declare-submodule-via-evalModules.nix 363995 363999
-lib/tests/modules/declare-submoduleWith-modules.nix 363995 363999
-lib/tests/modules/declare-submoduleWith-noshorthand.nix 363995 363999
-lib/tests/modules/declare-submoduleWith-path.nix 363995 363999
-lib/tests/modules/declare-submoduleWith-shorthand.nix 363995 363999
-lib/tests/modules/declare-submoduleWith-special.nix 363995 363999
-lib/tests/modules/declare-variants.nix 363995 363999
-lib/tests/modules/default.nix 363995 363999
-lib/tests/modules/deferred-module-error.nix 363995 363999
-lib/tests/modules/deferred-module.nix 363995 363999
-lib/tests/modules/define-attrsOfSub-bar.nix 363995 363999
-lib/tests/modules/define-attrsOfSub-foo.nix 363995 363999
-lib/tests/modules/define-freeform-keywords-shorthand.nix 363995 363999
-lib/tests/modules/define-option-dependently-nested.nix 363995 363999
-lib/tests/modules/define-option-dependently.nix 363995 363999
-lib/tests/modules/define-settingsDict-a-is-b.nix 363995 363999
-lib/tests/modules/define-value-list.nix 363995 363999
-lib/tests/modules/define-value-string-properties.nix 363995 363999
-lib/tests/modules/define-variant.nix 363995 363999
-lib/tests/modules/disable-enable-modules.nix 363995 363999
-lib/tests/modules/disable-module-bad-key.nix 363995 363999
-lib/tests/modules/disable-module-with-key.nix 363995 363999
-lib/tests/modules/disable-module-with-toString-key.nix 363995 363999
-lib/tests/modules/doRename-basic.nix 363995 363999
-lib/tests/modules/doRename-condition-enable.nix 363995 363999
-lib/tests/modules/doRename-condition-migrated.nix 363995 363999
-lib/tests/modules/doRename-condition-no-enable.nix 363995 363999
-lib/tests/modules/doRename-condition.nix 363995 363999
-lib/tests/modules/doRename-warnings.nix 363995 363999
-lib/tests/modules/docs.nix 363995 363999
-lib/tests/modules/emptyValues.nix 363995 363999
-lib/tests/modules/error-mkOption-in-submodule-config.nix 363995 363999
-lib/tests/modules/extendModules-168767-imports.nix 363995 363999
-lib/tests/modules/freeform-attrsOf.nix 363995 363999
-lib/tests/modules/freeform-lazyAttrsOf.nix 363995 363999
-lib/tests/modules/freeform-nested.nix 363995 363999
-lib/tests/modules/freeform-str-dep-unstr.nix 363995 363999
-lib/tests/modules/freeform-submodules.nix 363995 363999
-lib/tests/modules/freeform-unstr-dep-str.nix 363995 363999
-lib/tests/modules/functionTo/list-order.nix 363995 363999
-lib/tests/modules/functionTo/merging-attrs.nix 363995 363999
-lib/tests/modules/functionTo/merging-list.nix 363995 363999
-lib/tests/modules/functionTo/submodule-options.nix 363995 363999
-lib/tests/modules/functionTo/trivial.nix 363995 363999
-lib/tests/modules/functionTo/wrong-type.nix 363995 363999
-lib/tests/modules/gvariant.nix 363995 363999
-lib/tests/modules/import-custom-arg.nix 363995 363999
-lib/tests/modules/import-from-store.nix 363995 363999
-lib/tests/modules/merge-module-with-key.nix 363995 363999
-lib/tests/modules/module-argument-default.nix 363995 363999
-lib/tests/modules/module-class-is-darwin.nix 363995 363999
-lib/tests/modules/module-class-is-nixos.nix 363995 363999
-lib/tests/modules/optionTypeFile.nix 363995 363999
-lib/tests/modules/optionTypeMerging.nix 363995 363999
-lib/tests/modules/options-type-error-configuration.nix 363995 363999
-lib/tests/modules/options-type-error-typical-nested.nix 363995 363999
-lib/tests/modules/options-type-error-typical.nix 363995 363999
-lib/tests/modules/raw.nix 363995 363999
-lib/tests/modules/shorthand-meta.nix 363995 363999
-lib/tests/modules/specialArgs-lib.nix 363995 363999
 lib/tests/release.nix 341067 362546
 lib/tests/systems.nix 353050 353052
 maintainers/team-list.nix 331011 362938
@@ -5436,16 +5238,12 @@ pkgs/applications/editors/rstudio/dont-assume-pandoc-in-quarto.patch 357034 3626
 pkgs/applications/editors/rstudio/dont-yarn-install.patch 357034 362637
 pkgs/applications/editors/rstudio/pandoc-nix-path.patch 357034 362637
 pkgs/applications/editors/rstudio/use-system-quarto.patch 357034 362637
-pkgs/applications/editors/vscode/extensions/ms-dotnettools.csharp/default.nix 363156 363723
 pkgs/applications/graphics/ImageMagick/default.nix 353842 357109
 pkgs/applications/graphics/f3d/default.nix 363906 363914
 pkgs/applications/graphics/hydrus/default.nix 354270 363524
 pkgs/applications/graphics/inkscape/extensions.nix 193431 358993
 pkgs/applications/kde/k3b.nix 351083 351093
 pkgs/applications/misc/avalonia-ilspy/default.nix 362278 363008
-pkgs/applications/networking/browsers/firefox-bin/release_sources.nix 363974 363975
-pkgs/applications/networking/browsers/firefox/packages/firefox-esr-128.nix 363974 363975
-pkgs/applications/networking/browsers/firefox/packages/firefox.nix 363974 363975
 pkgs/applications/networking/cluster/helm/plugins/helm-unittest.nix 354270 363700
 pkgs/applications/networking/cluster/k3s/builder.nix 341067 362546
 pkgs/applications/networking/cluster/kops/default.nix 349947 354270
@@ -5558,7 +5356,6 @@ pkgs/by-name/sa/saleae-logic/package.nix 341067 362546
 pkgs/by-name/si/sioyek/package.nix 348045 358123
 pkgs/by-name/sk/skeema/package.nix 359641 361282
 pkgs/by-name/sk/skia/package.nix 361299 361319
-pkgs/by-name/so/sonarr/package.nix 363008 363981
 pkgs/by-name/sp/spade/Cargo.lock 357296 360110
 pkgs/by-name/sp/spade/package.nix 357296 360110
 pkgs/by-name/ta/taskwarrior3/package.nix 356198 359893
@@ -5609,7 +5406,7 @@ pkgs/development/mobile/androidenv/compose-android-packages.nix 348405 360151
 pkgs/development/mobile/androidenv/examples/shell.nix 348405 360151
 pkgs/development/mobile/androidenv/repo.json 348405 360151
 pkgs/development/ocaml-modules/elpi/default.nix 361446 362379
-pkgs/development/ocaml-modules/mdx/default.nix 358285 363210
+pkgs/development/ocaml-modules/mdx/default.nix 358285 364005
 pkgs/development/ocaml-modules/ocplib-simplex/default.nix 361854 362572
 pkgs/development/python-modules/aioswitcher/default.nix 357191 357783
 pkgs/development/python-modules/cupy/default.nix 359609 359647
@@ -5731,6 +5528,8 @@ nixos/modules/tasks/filesystems/zfs.nix 312193 352391 362131
 nixos/modules/virtualisation/nixos-containers.nix 353366 359352 362210
 pkgs/applications/editors/rstudio/default.nix 355089 357034 362637
 pkgs/applications/editors/rstudio/use-system-node.patch 355089 357034 362637
+pkgs/applications/editors/vim/plugins/generated.nix 307352 341240 354270
+pkgs/applications/editors/vim/plugins/overrides.nix 352222 354270 358587
 pkgs/applications/editors/vscode/extensions/default.nix 354214 355941 363464
 pkgs/applications/science/electronics/kicad/versions.nix 280181 285247 335314
 pkgs/applications/version-management/git/default.nix 314258 336034 359506
@@ -5764,7 +5563,7 @@ pkgs/shells/nushell/plugins/default.nix 343036 353224 363512
 pkgs/tools/misc/diffoscope/default.nix 358769 359089 362567
 pkgs/tools/package-management/nix/common.nix 329979 363831 363834
 pkgs/top-level/impure.nix 249165 341067 345459
-pkgs/top-level/ocaml-packages.nix 355738 358915 362377
+pkgs/top-level/ocaml-packages.nix 355738 358915 364012
 pkgs/top-level/qt5-packages.nix 351093 355116 361809
 pkgs/top-level/release.nix 126934 185696 201331
 pkgs/top-level/splice.nix 341067 360602 362499
@@ -5782,8 +5581,6 @@ nixos/modules/services/networking/syncthing.nix 290485 321872 353770 361257
 nixos/modules/services/web-apps/akkoma.nix 314664 345913 352706 353164
 nixos/modules/system/boot/stage-1-init.sh 118573 125711 290389 358035
 nixos/modules/virtualisation/libvirtd.nix 119353 228625 346904 356532
-pkgs/applications/editors/vim/plugins/generated.nix 307352 341240 354270 364001
-pkgs/applications/editors/vim/plugins/overrides.nix 352222 354270 358587 364001
 pkgs/applications/science/robotics/inav-configurator/default.nix 320052 320054 320055 320056
 pkgs/build-support/bintools-wrapper/default.nix 344665 354137 359387 359391
 pkgs/build-support/docker/default.nix 283721 294849 314288 357053
@@ -5824,17 +5621,17 @@ pkgs/stdenv/generic/check-meta.nix 301947 335110 339597 340081 357674 359191
 lib/default.nix 187945 234651 304026 341199 342330 354270 362599
 nixos/modules/config/users-groups.nix 279431 310484 357944 357962 358646 359104 363209
 nixos/modules/system/boot/luksroot.nix 201908 213104 281880 281895 298592 306351 359882
+pkgs/applications/editors/vim/plugins/vim-plugin-names 265398 277615 286482 297549 307352 331164 341240
 pkgs/development/libraries/librealsense/default.nix 348173 351679 362356 362357 362358 362360 362361
 pkgs/top-level/python-aliases.nix 334535 349611 350172 350661 356312 359514 363656
-pkgs/applications/editors/vim/plugins/vim-plugin-names 265398 277615 286482 297549 307352 331164 341240 364001
 pkgs/top-level/perl-packages.nix 199860 286549 333265 349112 352432 355311 356527 358672 363182
 nixos/modules/services/web-servers/nginx/default.nix 164100 340170 341414 345913 346776 350018 350302 354270 356799 362296 362733
 pkgs/top-level/aliases.nix 287852 312449 347630 353906 355064 355231 356976 357705 359557 360893 361667 362825 362956
 pkgs/top-level/linux-kernels.nix 186733 210615 219196 246268 280523 282675 293610 300682 349513 351062 352070 358811 363367
 nixos/doc/manual/release-notes/rl-2411.section.md 216245 234651 244172 281331 320054 323231 327052 331580 337345 338177 341414 341963 343051 347353 347825 348290 348325 348655 350172 350730 351630 352391 355076 355231
-nixos/doc/manual/release-notes/rl-2505.section.md 249806 287593 287852 327743 336623 347275 347797 349644 350079 350097 350645 351647 351933 353651 354270 355484 356796 357162 357574 357581 358586 359365 359641 359744 360025 360934 361090 361191 361461 361506 361515 361571 362101 362296 362559 362907 363005 363415 363649 363656 363742 363748 363755 363913 363943
+nixos/doc/manual/release-notes/rl-2505.section.md 249806 287593 287852 327743 336623 347275 347797 350079 350097 350645 351647 351933 353651 354270 355484 356796 357162 357503 357574 357581 358586 359365 359641 359744 360025 360934 361090 361191 361461 361506 361515 361571 362101 362296 362559 362907 363005 363415 363649 363656 363742 363748 363755 363913 363943
 nixos/tests/all-tests.nix 69660 176950 244172 266880 273532 274052 279974 281331 284258 287593 296972 299696 310484 313189 317026 318997 323231 326699 329496 332242 332699 336623 340570 341963 347353 347797 347825 348055 348643 348655 350065 350507 350645 350730 351678 351699 351933 353048 353346 353616 353651 354270 356592 356796 357574 357762 357939 358646 359104 359653 361515 361808 362101 362772 362907 363922 363932
 nixos/modules/module-list.nix 69660 97152 121958 163862 194034 194957 216245 230696 244172 249806 259236 262427 266880 269375 273532 274052 277531 278704 282675 284258 285660 287593 290729 292290 293520 294366 296697 296972 297619 300682 307293 316723 320917 323231 328890 329496 332699 334482 335801 335846 336623 336849 337697 338177 339533 341199 341963 343051 344905 345207 345505 347353 347797 347825 348055 348290 348301 348325 348655 350065 350079 350161 350645 350730 351630 351647 351678 351933 353346 353616 353651 354270 355025 355076 355484 355928 357437 357574 357581 357939 358647 361515 361571 361808 362101 362630 362907 363388 363748 363943
 pkgs/top-level/all-packages.nix 69660 113317 161369 189724 222870 227865 238392 239290 239436 242047 245100 248245 251499 256115 257388 258846 265418 267919 276395 287852 290445 292302 296181 310809 310811 315920 316401 318772 319218 319420 320052 320054 320055 320056 320086 322061 322280 323306 323382 324701 325917 327052 328478 331011 331147 332078 332242 333301 333545 333652 337995 339556 339597 341067 343393 345298 345647 347923 348786 350177 351093 351647 351706 353355 353526 353985 354032 354137 354934 355026 355053 355064 355161 355231 355381 355475 355629 355669 356055 356527 356831 356864 356934 356976 357034 357220 357259 357323 357648 357687 357834 357933 358112 358115 358215 358303 358321 358769 358783 358811 358877 358988 359027 359160 359187 359514 359557 359737 359747 360320 360531 360568 360771 360844 360893 360920 360922 360935 361090 361211 361319 361667 361809 361859 361939 362151 362268 362414 362464 362499 362637 362689 362772 362841 362956 362994 363008 363303 363459 363538 363626 363661 363679 363754 363755 363938
-pkgs/top-level/python-packages.nix 125202 152335 184072 191068 192081 192151 197920 206829 208610 208611 208683 222053 231866 236290 244121 244733 244735 245371 248245 261311 263140 273333 277386 277506 280956 281222 283736 288952 289823 289864 291176 295564 295568 296615 296880 297719 300097 300145 301782 302963 303324 303328 304957 306832 310975 311171 311463 312348 312367 312884 313031 315113 315400 317131 317377 317618 319013 319786 320783 321909 321910 322015 322590 323382 324581 325917 326521 327800 327955 329575 329919 329928 330193 331006 331147 331151 331833 332292 332301 332802 333273 334150 334535 334644 335221 335445 335519 335566 335822 335869 336227 339556 340062 340163 340230 340256 340339 340589 340717 341429 341587 341906 342110 344322 344615 344616 345438 345554 347186 347510 347511 347629 349547 349611 349847 350091 350172 350458 350661 351799 352098 352308 352534 352710 352776 353086 353139 353633 353720 353750 353823 353883 354122 354279 354391 355381 355506 355629 355869 356035 356174 356312 356473 356705 356778 357067 357208 357313 357535 357554 357578 357592 357596 357705 357919 357939 358029 358063 358490 358631 358993 359437 359494 359500 359514 359609 359651 359718 359892 360048 360243 360310 360514 360643 360835 361155 361486 361795 362243 362292 362442 362909 362956 363017 363066 363130 363371 363656 363679 363689 363750 363754 363829 363930 363944
+pkgs/top-level/python-packages.nix 125202 152335 184072 191068 192081 192151 197920 206829 208610 208611 208683 222053 231866 236290 244121 244733 244735 245371 248245 261311 263140 273333 277386 277506 280956 281222 283736 288952 289823 289864 291176 295564 295568 296615 296880 297719 300097 300145 301782 302963 303324 303328 304957 306832 310975 311171 311463 312348 312367 312884 313031 315113 315400 317131 317377 317618 319013 319786 320783 321909 321910 322015 322590 323382 324581 325917 326521 327800 327955 329575 329919 329928 330193 331006 331147 331151 331833 332292 332301 332802 333273 334150 334535 334644 335221 335445 335519 335566 335822 335869 336227 339556 340062 340163 340230 340256 340339 340589 340717 341429 341587 341906 342110 344322 344615 344616 345438 345554 347186 347510 347511 347629 349547 349611 349847 350091 350172 350458 350661 351799 352098 352308 352534 352710 352776 353086 353139 353633 353720 353750 353823 353883 354122 354279 354391 355381 355506 355629 355869 356035 356174 356312 356473 356705 356778 357067 357208 357313 357535 357554 357578 357592 357596 357705 357919 357939 358029 358063 358490 358631 358993 359437 359494 359500 359514 359609 359651 359718 359892 360048 360243 360310 360514 360643 360835 361155 361486 361795 362243 362292 362442 362909 362956 363017 363130 363371 363656 363679 363689 363750 363754 363829 363930 363944
 maintainers/maintainer-list.nix 113317 152335 184768 197920 210615 222053 230696 238757 246268 250029 264799 265991 273238 274052 274553 274558 278114 278142 280265 281087 282675 283978 285660 287219 287593 290445 291890 292183 292522 292579 293368 293885 295211 296188 296880 297096 297719 298188 299761 300097 300231 300714 301593 302040 302409 302495 303324 303669 304108 306767 307293 308073 309096 309327 312884 314821 316080 316266 317131 318292 319163 319249 319598 319786 320783 320806 321054 322015 322957 323070 323231 323382 324701 326887 327009 327800 327904 328979 329021 329129 329209 329919 331006 331290 331491 332047 332078 332098 332235 332802 333636 334482 335188 335455 335519 335566 335799 335919 335968 336384 336681 337022 337116 337151 337451 337490 338373 338610 338660 339283 339289 339533 339706 339981 340365 341074 341252 341587 342110 342187 344225 344553 344615 344616 344896 344922 345350 345711 345996 346285 346573 346731 346943 347186 348055 348161 348290 348301 348325 348331 348353 348382 348384 348387 348613 348655 348785 348822 349227 349623 350640 350710 350713 351062 351647 352070 352205 352222 352329 352502 352558 352960 353527 353633 354270 354366 355025 355116 355262 355458 355484 355725 356071 356098 356174 356232 356622 356628 356757 356778 356873 357021 357035 357431 357608 357634 357935 357946 358321 359016 359102 359437 359586 359673 359813 359837 360018 360043 360047 360548 360718 360835 360984 361183 361380 361907 362297 362472 362907 362909 362940 363017 363124 363429 363469 363512 363539 363556 363701 363716 363767 363853
