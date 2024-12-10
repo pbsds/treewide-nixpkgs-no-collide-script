@@ -188,6 +188,7 @@ nixos/modules/services/cluster/kubernetes/apiserver.nix 321339
 nixos/modules/services/cluster/kubernetes/proxy.nix 325372
 nixos/modules/services/computing/slurm/slurm.nix 357053
 nixos/modules/services/continuous-integration/buildkite-agents.nix 314664
+nixos/modules/services/continuous-integration/hydra/default.nix 363980
 nixos/modules/services/continuous-integration/jenkins/credentials.nix 121958
 nixos/modules/services/databases/couchdb.nix 358006
 nixos/modules/services/databases/ferretdb.nix 288493
@@ -212,6 +213,7 @@ nixos/modules/services/finance/taler/common.nix 332699
 nixos/modules/services/finance/taler/exchange.nix 332699
 nixos/modules/services/finance/taler/merchant.nix 332699
 nixos/modules/services/finance/taler/module.nix 332699
+nixos/modules/services/games/archisteamfarm.nix 314664
 nixos/modules/services/games/factorio.nix 352267
 nixos/modules/services/games/minecraft-server.nix 356797
 nixos/modules/services/hardware/amdgpu-kernel-module.nix 321663
@@ -783,8 +785,9 @@ pkgs/applications/graphics/unigine-tropics/default.nix 347542
 pkgs/applications/kde/default.nix 351093
 pkgs/applications/maui/bonsai.nix 203479
 pkgs/applications/maui/default.nix 203479
+pkgs/applications/misc/ArchiSteamFarm/default.nix 362278
 pkgs/applications/misc/ArchiSteamFarm/deps.json 362278
-pkgs/applications/misc/ArchiSteamFarm/web-ui/default.nix 361305
+pkgs/applications/misc/ArchiSteamFarm/deps.nix 362278
 pkgs/applications/misc/adobe-reader/builder.sh 357053
 pkgs/applications/misc/avalonia-ilspy/deps.json 362278
 pkgs/applications/misc/avalonia-ilspy/deps.nix 362278
@@ -1646,7 +1649,6 @@ pkgs/by-name/en/endlessh-go/package.nix 359641
 pkgs/by-name/en/enigma/package.nix 348192
 pkgs/by-name/en/enpass/data.json 360804
 pkgs/by-name/en/entangled/package.nix 357554
-pkgs/by-name/en/ente-auth/package.nix 357503
 pkgs/by-name/en/ente-auth/pubspec.lock.json 357503
 pkgs/by-name/en/ente-auth/simple-icons.json 357503
 pkgs/by-name/en/ente-cli/package.nix 359641
@@ -1959,6 +1961,7 @@ pkgs/by-name/hu/hunspell/wrapper.nix 319218
 pkgs/by-name/hw/hwatch/package.nix 363334
 pkgs/by-name/hy/hydra-check/package.nix 359514
 pkgs/by-name/hy/hydra-menu/package.nix 320916
+pkgs/by-name/hy/hydra/package.nix 363987
 pkgs/by-name/hy/hydralauncher/package.nix 347781
 pkgs/by-name/hy/hypertimer/package.nix 363006
 pkgs/by-name/hy/hyprevents/package.nix 278114
@@ -2010,6 +2013,7 @@ pkgs/by-name/io/ios-safari-remote-debug/package.nix 326885
 pkgs/by-name/ip/ipbus-uhal/avoid-bin-bash.patch 357608
 pkgs/by-name/ip/ipbus-uhal/package.nix 357608
 pkgs/by-name/ip/ipmitool/package.nix 361541
+pkgs/by-name/ip/ipxe/package.nix 355673
 pkgs/by-name/ir/iro/package.nix 354947
 pkgs/by-name/ir/iroh/package.nix 363105
 pkgs/by-name/ir/irrd/package.nix 357879
@@ -2210,6 +2214,7 @@ pkgs/by-name/li/libvdpau/package.nix 355297
 pkgs/by-name/li/libvdpau/tracing.patch 355297
 pkgs/by-name/li/libvisio/package.nix 351035
 pkgs/by-name/li/libvlcpp/package.nix 348562
+pkgs/by-name/li/libvmi/package.nix 355702
 pkgs/by-name/li/libwacom/package.nix 362076
 pkgs/by-name/li/libxmlxx5/package.nix 363469
 pkgs/by-name/li/libzeep/package.nix 328849
@@ -2551,7 +2556,6 @@ pkgs/by-name/op/openbao/package.nix 354366
 pkgs/by-name/op/opencascade-occt/package.nix 360467
 pkgs/by-name/op/opencl-clhpp/package.nix 354458
 pkgs/by-name/op/opencl-headers/package.nix 355433
-pkgs/by-name/op/opencomposite/package.nix 363978
 pkgs/by-name/op/opendeck/package.nix 358223
 pkgs/by-name/op/openfga/package.nix 363285
 pkgs/by-name/op/openfortivpn-webview-qt/package.nix 283560
@@ -2991,7 +2995,7 @@ pkgs/by-name/so/softmaker-freeoffice/package.nix 357933
 pkgs/by-name/so/softmaker-office-nx/package.nix 357933
 pkgs/by-name/so/softmaker-office/package.nix 357933
 pkgs/by-name/so/sogo/package.nix 276395
-pkgs/by-name/so/sonarr/package.nix 363008
+pkgs/by-name/so/sonarr/deps.nix 363981
 pkgs/by-name/so/sope/package.nix 276395
 pkgs/by-name/so/soundsource/package.nix 363347
 pkgs/by-name/so/sourcegit/deps.nix 303865
@@ -3010,6 +3014,7 @@ pkgs/by-name/sp/sportstracker/package.nix 300075
 pkgs/by-name/sp/sportstracker/remove-pom-jfx.patch 300075
 pkgs/by-name/sp/spotdl/package.nix 361322
 pkgs/by-name/sp/spotify-backup/package.nix 293368
+pkgs/by-name/sp/spotify-cli-linux/package.nix 363986
 pkgs/by-name/sp/spotlight-downloader/package.nix 351095
 pkgs/by-name/sp/spytrap-adb/package.nix 362940
 pkgs/by-name/sq/sql-migrate/package.nix 292579
@@ -3870,6 +3875,7 @@ pkgs/development/python-modules/afdko/no-pypi-build-tools.patch 363578
 pkgs/development/python-modules/afdko/use-dynamic-system-antlr4-runtime.patch 363578
 pkgs/development/python-modules/agentops/default.nix 359718
 pkgs/development/python-modules/aio-georss-client/default.nix 349376
+pkgs/development/python-modules/aioacaia/default.nix 363982
 pkgs/development/python-modules/aioairctrl/default.nix 359651
 pkgs/development/python-modules/aiocache/default.nix 357879
 pkgs/development/python-modules/aiohttp-retry/default.nix 362726
@@ -4385,7 +4391,6 @@ pkgs/development/python-modules/redis-om/default.nix 357879
 pkgs/development/python-modules/redshift-connector/default.nix 357757
 pkgs/development/python-modules/reflink/default.nix 308660
 pkgs/development/python-modules/reno/default.nix 363679
-pkgs/development/python-modules/reolink-aio/default.nix 363787
 pkgs/development/python-modules/reportlab/default.nix 362354
 pkgs/development/python-modules/requirements-detector/default.nix 362401
 pkgs/development/python-modules/rerun-sdk/default.nix 358093
@@ -4421,6 +4426,7 @@ pkgs/development/python-modules/serles-acme/default.nix 283736
 pkgs/development/python-modules/serles-acme/remove-bin.patch 283736
 pkgs/development/python-modules/service-identity/default.nix 351711
 pkgs/development/python-modules/shelljob/default.nix 363017
+pkgs/development/python-modules/sigstore-rekor-types/default.nix 363983
 pkgs/development/python-modules/simplemma/default.nix 362492
 pkgs/development/python-modules/simplicial/default.nix 297719
 pkgs/development/python-modules/simplification/default.nix 329928
@@ -5164,7 +5170,6 @@ nixos/modules/security/apparmor.nix 354270 356796
 nixos/modules/services/audio/navidrome.nix 290901 356919
 nixos/modules/services/backup/borgbackup.nix 332319 358734
 nixos/modules/services/databases/redis.nix 255509 363903
-nixos/modules/services/games/archisteamfarm.nix 314664 361305
 nixos/modules/services/hardware/pcscd.nix 194957 340570
 nixos/modules/services/misc/ananicy.nix 314664 360947
 nixos/modules/services/misc/gitlab.nix 350433 351496
@@ -5227,8 +5232,6 @@ pkgs/applications/graphics/f3d/default.nix 363906 363914
 pkgs/applications/graphics/hydrus/default.nix 354270 363524
 pkgs/applications/graphics/inkscape/extensions.nix 193431 358993
 pkgs/applications/kde/k3b.nix 351083 351093
-pkgs/applications/misc/ArchiSteamFarm/default.nix 361305 362278
-pkgs/applications/misc/ArchiSteamFarm/deps.nix 361305 362278
 pkgs/applications/misc/avalonia-ilspy/default.nix 362278 363008
 pkgs/applications/networking/browsers/firefox-bin/release_sources.nix 363974 363975
 pkgs/applications/networking/browsers/firefox/packages/firefox-esr-128.nix 363974 363975
@@ -5295,6 +5298,7 @@ pkgs/by-name/de/deno/hooks/setup-hook.sh 358223 358252
 pkgs/by-name/de/deno/package.nix 358223 358252
 pkgs/by-name/dr/dra-cla/package.nix 358687 362130
 pkgs/by-name/dr/draupnir/package.nix 274052 342893
+pkgs/by-name/en/ente-auth/package.nix 357503 363985
 pkgs/by-name/fi/firewalld/package.nix 360476 360482
 pkgs/by-name/fo/formula/package.nix 362278 363008
 pkgs/by-name/fr/freecad/package.nix 330190 360531
@@ -5309,7 +5313,6 @@ pkgs/by-name/gr/graphqurl/package.nix 336950 361205
 pkgs/by-name/ht/httptoolkit-server/package.nix 352532 357405
 pkgs/by-name/im/imgpkg/package.nix 359641 363559
 pkgs/by-name/in/inputmodule-control/package.nix 307293 357581
-pkgs/by-name/ip/ipxe/package.nix 355673 363976
 pkgs/by-name/ja/jadx/deps.json 356109 362140
 pkgs/by-name/ja/jaq/package.nix 359594 363868
 pkgs/by-name/jr/jrl-cmakemodules/package.nix 357705 362956
@@ -5318,7 +5321,6 @@ pkgs/by-name/kb/kbld/package.nix 359641 363778
 pkgs/by-name/li/libcap/package.nix 352292 361353
 pkgs/by-name/li/libloot/package.nix 271028 342877
 pkgs/by-name/li/libmamba/package.nix 352030 359244
-pkgs/by-name/li/libvmi/package.nix 355702 363436
 pkgs/by-name/li/linkwarden/package.nix 297619 347353
 pkgs/by-name/lu/lumafly/package.nix 360640 363008
 pkgs/by-name/ma/material-maker/package.nix 315483 331491
@@ -5346,6 +5348,7 @@ pkgs/by-name/sa/saleae-logic/package.nix 341067 362546
 pkgs/by-name/si/sioyek/package.nix 348045 358123
 pkgs/by-name/sk/skeema/package.nix 359641 361282
 pkgs/by-name/sk/skia/package.nix 361299 361319
+pkgs/by-name/so/sonarr/package.nix 363008 363981
 pkgs/by-name/sp/spade/Cargo.lock 357296 360110
 pkgs/by-name/sp/spade/package.nix 357296 360110
 pkgs/by-name/ta/taskwarrior3/package.nix 356198 359893
@@ -5429,6 +5432,7 @@ pkgs/development/python-modules/pymupdf/default.nix 334596 352845
 pkgs/development/python-modules/python-tado/default.nix 353258 353809
 pkgs/development/python-modules/pytrafikverket/default.nix 358177 358350
 pkgs/development/python-modules/rectangle-packer/default.nix 324581 355506
+pkgs/development/python-modules/reolink-aio/default.nix 363787 363984
 pkgs/development/python-modules/rns/default.nix 363947 363954
 pkgs/development/python-modules/rpds-py/default.nix 363289 363935
 pkgs/development/python-modules/rq/default.nix 351985 357879
