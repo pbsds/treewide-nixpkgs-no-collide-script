@@ -21,14 +21,15 @@
 
       packages = forAllSystems (
         { pkgs, lib, ... }:
-         {
-          default = pkgs.writeShellScriptBin "" { } ''
+        {
+          default = pkgs.writeShellScriptBin "fetch.sh" ''
             export PATH="${
               lib.makeBinPath (
                 with pkgs;
                 [
                   gh
                   jq
+                  gum
                 ]
               )
             }''${$PATH:+:}$PATH"
@@ -44,6 +45,7 @@
             packages = with pkgs; [
               gh
               jq
+              gum
             ];
           };
         }
