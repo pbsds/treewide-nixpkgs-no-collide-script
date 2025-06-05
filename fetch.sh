@@ -1,62 +1,65 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-tmp=$(mktemp -d)
-trap 'rm -rf "$tmp"' exit
+# requires gh jq
 
-numbers=( "$@" )
+fetchPage() {
+  local cursor="${1:-null}" # must be json, usually a quoted base64 string
 
-fetchChunk() {
-  local start=$1
-  local end=$2
-  local chunkSize
-  local result
+  echo >&2 "fetchPage {cursor: $cursor}"
 
-  #echo "Trying to fetch files for PRs $(( start + 1 )) to $end out of ${#numbers[@]}" >&2
-
-  chunkSize=$(( end - start ))
-
-  {
-    echo 'fragment Paths on PullRequest {
-      number
-      files(first: 100) {
-        nodes {
-          path
+  # https://docs.github.com/en/graphql/reference/objects#repository
+  # https://docs.github.com/en/graphql/reference/objects#pullrequest
+  # todo: somehow filter out merge conflicts using the labels
+  graphql_query='
+    query {
+      repository(owner: "NixOS", name: "nixpkgs") {
+        pullRequests(last: 50, states: OPEN, before: '"$cursor"') {
+          nodes {
+            number
+            isDraft
+            files(first: 100) {
+              nodes {
+                path
+              }
+            }
+          }
+          pageInfo {
+            startCursor
+            hasPreviousPage
+          }
         }
       }
-    }
+    }'
 
-    query {
-      repository(owner: "NixOS", name: "nixpkgs") {'
+  gh api graphql --raw-field query="$graphql_query"
+}
 
-    for number in "${numbers[@]:start:"$chunkSize"}"; do
-      echo "n$number: pullRequest(number: $number) { ...Paths }"
-    done
 
-    echo '} }'
-  } > "$tmp/query.graphql"
+declare output_file="$1"
+declare cursor="${2:-}"
 
-  if result=$(gh api graphql -f query="$(<"$tmp"/query.graphql)"); then
-    jq -c '.data.repository.[] | { number: .number, path: .files.nodes[].path }' <<< "$result"
+touch "$output_file"
+[[ -w "$output_file" ]]
+
+while true; do
+  declare resp
+  if resp="$(fetchPage "$cursor")"; then
+
+    jq <<<"$resp" '.data.repository.pullRequests.nodes[] | select(.isDraft|not) | { number: .number, path: .files.nodes[].path }' -c >>"$output_file"
+
+    # if [[ "$(jq <<<"$resp" '.data.repository.pullRequests.pageInfo.hasNextPage')" = "true" ]]; then
+    if [[ "$(jq <<<"$resp" '.data.repository.pullRequests.pageInfo.hasPreviousPage')" = "true" ]]; then
+      # cursor=$(jq <<<"$resp" '.data.repository.pullRequests.pageInfo.endCursor')
+      cursor=$(jq <<<"$resp" '.data.repository.pullRequests.pageInfo.startCursor')
+    else
+      break
+    fi
   else
-    return 1
+    break
   fi
-}
 
-fetchRange() {
-  local start=$1
-  local end=$2
-  local mid=$(( (start + end ) / 2 ))
+  sleep 0.2
+done
 
-  if ! fetchChunk "$start" "$end"; then
-    echo "Fetching failed, trying again split in two" >&2
-    fetchRange "$start" "$mid"
-    fetchRange "$mid" "$end"
-  fi
-}
-
-start=0
-end=${#numbers[@]}
-
-fetchRange 0 "${#numbers[@]}"
+echo "last cursor: $cursor"

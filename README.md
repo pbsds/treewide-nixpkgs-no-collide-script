@@ -1,1 +1,1 @@
-Script created for https://github.com/NixOS/nixpkgs/pull/322537
+Forked from https://github.com/infinisil/treewide-nixpkgs-reformat-script and touched up for general use.
